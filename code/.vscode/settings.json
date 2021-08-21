@@ -1,0 +1,9 @@
+{
+    "idf.gitPath": "C:\\Users\\alexl\\projects\\programing\\esp32_experiments\\idf\\tools\\tools\\idf-git\\cmd\\git.exe",
+    "idf.portWin": "COM3",
+    "idf.adapterTargetName": "esp32",
+    "idf.openOcdConfigs": [
+        "interface/ftdi/esp32_devkitj_v1.cfg",
+        "target/esp32.cfg"
+    ]
+}
