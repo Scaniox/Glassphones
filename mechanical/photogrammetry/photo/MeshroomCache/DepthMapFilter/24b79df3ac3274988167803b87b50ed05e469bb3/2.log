@@ -1,0 +1,23 @@
+Program called with the following parameters:
+ * computeNormalMaps = 0
+ * depthMapsFolder = "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/MeshroomCache/DepthMap/02fd681ff2a072b878f8303e52b0faceaa19335a"
+ * input = "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/MeshroomCache/StructureFromMotion/d71c1582ed01c90abd0e8f21b0806b4d62578cae/sfm.abc"
+ * maxViewAngle = 70
+ * minNumOfConsistentCams = 3
+ * minNumOfConsistentCamsWithLowSimilarity = 4
+ * minViewAngle = 2
+ * nNearestCams = 10
+ * output = "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/MeshroomCache/DepthMapFilter/24b79df3ac3274988167803b87b50ed05e469bb3"
+ * pixSizeBall = 0
+ * pixSizeBallWithLowSimilarity = 0
+ * rangeSize = 10
+ * rangeStart = 20
+ * verboseLevel = "info"
+
+[18:18:59.411161][info] Found 1 image dimension(s): 
+[18:18:59.412162][info] 	- [3264x1836]
+[18:18:59.486229][info] Overall maximum dimension: [3264x1836]
+[18:18:59.486229][info] Filter depth maps.
+[18:18:59.486229][info] Precomputing groups.
+[18:19:11.041914][info] Filtering depth maps.
+[18:19:11.659475][info] Task done in (s): 12.288000

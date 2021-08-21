@@ -1,0 +1,174 @@
+<html><head>
+<link rel="stylesheet" type="text/css" href="http://jsxgraph.uni-bayreuth.de/distrib/jsxgraph.css" />
+<link rel="stylesheet" type="text/css" href="http://imagine.enpc.fr/~moulonp/style.css" /><script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.93/jsxgraphcore.js"></script>
+<title>[log] Sequential SfM reconstruction</title>
+</head>
+<h1>[log] Sequential SfM reconstruction</h1>
+<hr>Dataset info:Views count: 64<br><h3>Essential Matrix.</h3>
+
+<b>Robust Essential matrix:</b><br>-> View I:<br>id: 1155971086<br>image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175654(0).jpg<br>-> View J:<br>id: 1545789569<br>image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175658(0).jpg<br><br>- Threshold: 13.2173<br>- Resection status: OK<br>- # points used for robust Essential matrix estimation: 742<br>- # points validated by robust estimation: 735<br>- % points validated: 0.990566<br><h3>Initial triangulation - Residual of the robust estimation.<br>Thresholded at: 13.2173</h3>
+<h3>Histogram of residuals</h3>
+
+<div id="InitialPairTriangulationKeptInfo" class="jxgbox" style="width:600px; height:300px;"></div>
+<script type="text/javascript">
+var board = JXG.JSXGraph.initBoard('InitialPairTriangulationKeptInfo', {boundingbox: [-10, 10, 10, -10], axis:true,showCopyright:false});
+board.suspendUpdate();
+var data0= [0.00000,0.11111,0.22222,0.33333,0.44444,0.55556,0.66667,0.77778,0.88889,1.00000,];
+var data1= [0.00000,0.00000,0.00000,0.00000,0.00000,0.00000,0.00000,0.00000,0.00000,0.00000,];
+board.createElement('chart', [ data0,data1], {chartStyle:'line,point',labels:[ data0,data1]});
+var p2 = board.create('point',[13.21726,0.00000], {fixed:true});
+var p3 = board.create('point',[13.21726,0.00000], {fixed:true});
+var li = board.create('line',[p2,p3], {strokeColor:'00ff00',strokeWidth:2});
+board.unsuspendUpdate();
+board.setBoundingBox([-0.20000,0.00000,1.20000,0.00000]);
+</script>
+<hr><h4>Robust resection of view 1112659761: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175657(0).jpg<br>- Threshold (error max): 8.32009<br>- Resection status: OK<br>- # points used for Resection: 513<br>- # points validated by robust estimation: 504<br>- % points validated: 0.982456<br><h4>Robust resection of view 1125987063: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175656(0).jpg<br>- Threshold (error max): 24.2009<br>- Resection status: OK<br>- # points used for Resection: 862<br>- # points validated by robust estimation: 839<br>- % points validated: 0.973318<br><h4>Robust resection of view 1242056663: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175659.jpg<br>- Threshold (error max): 7.22258<br>- Resection status: OK<br>- # points used for Resection: 1368<br>- # points validated by robust estimation: 1319<br>- % points validated: 0.964181<br><h4>Robust resection of view 308587086: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175713(0).jpg<br>- Threshold (error max): 18.1946<br>- Resection status: OK<br>- # points used for Resection: 1561<br>- # points validated by robust estimation: 1518<br>- % points validated: 0.972454<br><h4>Robust resection of view 102646541: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175714(0).jpg<br>- Threshold (error max): 11.3516<br>- Resection status: OK<br>- # points used for Resection: 1269<br>- # points validated by robust estimation: 1156<br>- % points validated: 0.910954<br><h4>Robust resection of view 1985245786: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175701(0).jpg<br>- Threshold (error max): 16.4348<br>- Resection status: OK<br>- # points used for Resection: 1566<br>- # points validated by robust estimation: 1391<br>- % points validated: 0.88825<br><h4>Robust resection of view 286981042: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175712(0).jpg<br>- Threshold (error max): 20.0699<br>- Resection status: OK<br>- # points used for Resection: 2016<br>- # points validated by robust estimation: 1893<br>- % points validated: 0.938988<br><h4>Robust resection of view 31802105: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175711(0).jpg<br>- Threshold (error max): 18.6041<br>- Resection status: OK<br>- # points used for Resection: 2006<br>- # points validated by robust estimation: 1865<br>- % points validated: 0.929711<br><h4>Robust resection of view 1425255407: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175700(0).jpg<br>- Threshold (error max): 22.0881<br>- Resection status: OK<br>- # points used for Resection: 2079<br>- # points validated by robust estimation: 1910<br>- % points validated: 0.918711<br><h4>Robust resection of view 1063653319: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175710(0).jpg<br>- Threshold (error max): 12.8212<br>- Resection status: OK<br>- # points used for Resection: 1909<br>- # points validated by robust estimation: 1743<br>- % points validated: 0.913043<br><h4>Robust resection of view 2128018622: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175709(0).jpg<br>- Threshold (error max): 12.2233<br>- Resection status: OK<br>- # points used for Resection: 2043<br>- # points validated by robust estimation: 1875<br>- % points validated: 0.917768<br><h4>Robust resection of view 1249290596: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175623(0).jpg<br>- Threshold (error max): 28.9732<br>- Resection status: OK<br>- # points used for Resection: 1230<br>- # points validated by robust estimation: 1120<br>- % points validated: 0.910569<br><h4>Robust resection of view 1040065685: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175702(0).jpg<br>- Threshold (error max): 34.388<br>- Resection status: OK<br>- # points used for Resection: 857<br>- # points validated by robust estimation: 756<br>- % points validated: 0.882147<br><h4>Robust resection of view 2050995335: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175703(0).jpg<br>- Threshold (error max): 16.9506<br>- Resection status: OK<br>- # points used for Resection: 1167<br>- # points validated by robust estimation: 1048<br>- % points validated: 0.898029<br><h4>Robust resection of view 1850375413: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175624(0).jpg<br>- Threshold (error max): 13.429<br>- Resection status: OK<br>- # points used for Resection: 1688<br>- # points validated by robust estimation: 1446<br>- % points validated: 0.856635<br><h4>Robust resection of view 351163884: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175625(0).jpg<br>- Threshold (error max): 13.4234<br>- Resection status: OK<br>- # points used for Resection: 2032<br>- # points validated by robust estimation: 1897<br>- % points validated: 0.933563<br><h4>Robust resection of view 1907434793: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175626(0).jpg<br>- Threshold (error max): 13.9736<br>- Resection status: OK<br>- # points used for Resection: 1238<br>- # points validated by robust estimation: 1027<br>- % points validated: 0.829564<br><h4>Robust resection of view 1511173744: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175653(0).jpg<br>- Threshold (error max): 22.4202<br>- Resection status: OK<br>- # points used for Resection: 1681<br>- # points validated by robust estimation: 1535<br>- % points validated: 0.913147<br><h4>Robust resection of view 1116963897: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175655(0).jpg<br>- Threshold (error max): 19.8577<br>- Resection status: OK<br>- # points used for Resection: 2013<br>- # points validated by robust estimation: 1889<br>- % points validated: 0.9384<br><h4>Robust resection of view 1560870966: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175652(0).jpg<br>- Threshold (error max): 12.9164<br>- Resection status: OK<br>- # points used for Resection: 1917<br>- # points validated by robust estimation: 1669<br>- % points validated: 0.870631<br><h4>Robust resection of view 1998942535: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175620(0).jpg<br>- Threshold (error max): 17.2127<br>- Resection status: OK<br>- # points used for Resection: 2109<br>- # points validated by robust estimation: 1877<br>- % points validated: 0.889995<br><h4>Robust resection of view 2026061171: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175619(0).jpg<br>- Threshold (error max): 22.017<br>- Resection status: OK<br>- # points used for Resection: 1874<br>- # points validated by robust estimation: 1734<br>- % points validated: 0.925294<br><h4>Robust resection of view 1338687873: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175651(0).jpg<br>- Threshold (error max): 11.447<br>- Resection status: OK<br>- # points used for Resection: 1979<br>- # points validated by robust estimation: 1834<br>- % points validated: 0.926731<br><h4>Robust resection of view 1360762196: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175621(0).jpg<br>- Threshold (error max): 15.2375<br>- Resection status: OK<br>- # points used for Resection: 1546<br>- # points validated by robust estimation: 1325<br>- % points validated: 0.85705<br><h4>Robust resection of view 1199171366: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175622(0).jpg<br>- Threshold (error max): 12.4672<br>- Resection status: OK<br>- # points used for Resection: 1657<br>- # points validated by robust estimation: 1423<br>- % points validated: 0.858781<br><h4>Robust resection of view 942170023: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175616(0).jpg<br>- Threshold (error max): 24.5383<br>- Resection status: OK<br>- # points used for Resection: 1667<br>- # points validated by robust estimation: 1483<br>- % points validated: 0.889622<br><h4>Robust resection of view 271225539: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175611.jpg<br>- Threshold (error max): 8.98122<br>- Resection status: OK<br>- # points used for Resection: 1532<br>- # points validated by robust estimation: 1276<br>- % points validated: 0.832898<br><h4>Robust resection of view 790973902: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175612.jpg<br>- Threshold (error max): 12.8634<br>- Resection status: OK<br>- # points used for Resection: 1810<br>- # points validated by robust estimation: 1596<br>- % points validated: 0.881768<br><h4>Robust resection of view 1303281967: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175633(0).jpg<br>- Threshold (error max): 18.3737<br>- Resection status: FAILED<br>- # points used for Resection: 76<br>- # points validated by robust estimation: 7<br>- % points validated: 0.0921053<br><h4>Robust resection of view 1665705109: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175636(0).jpg<br>- Threshold (error max): 217.494<br>- Resection status: OK<br>- # points used for Resection: 98<br>- # points validated by robust estimation: 22<br>- % points validated: 0.22449<br><h4>Robust resection of view 1750505822: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175647.jpg<br>- Threshold (error max): 446.267<br>- Resection status: OK<br>- # points used for Resection: 101<br>- # points validated by robust estimation: 43<br>- % points validated: 0.425743<br><h4>Robust resection of view 1237259653: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175646.jpg<br>- Threshold (error max): 386.921<br>- Resection status: OK<br>- # points used for Resection: 103<br>- # points validated by robust estimation: 36<br>- % points validated: 0.349515<br><h4>Robust resection of view 1113613468: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175649(0).jpg<br>- Threshold (error max): 25.4554<br>- Resection status: OK<br>- # points used for Resection: 268<br>- # points validated by robust estimation: 234<br>- % points validated: 0.873134<br><h4>Robust resection of view 1917293364: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175705(0).jpg<br>- Threshold (error max): 27.6525<br>- Resection status: OK<br>- # points used for Resection: 706<br>- # points validated by robust estimation: 618<br>- % points validated: 0.875354<br><h4>Robust resection of view 1493258122: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175706(0).jpg<br>- Threshold (error max): 26.4822<br>- Resection status: OK<br>- # points used for Resection: 826<br>- # points validated by robust estimation: 724<br>- % points validated: 0.876513<br><h4>Robust resection of view 498073649: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175628.jpg<br>- Threshold (error max): 20.0025<br>- Resection status: OK<br>- # points used for Resection: 780<br>- # points validated by robust estimation: 636<br>- % points validated: 0.815385<br><h4>Robust resection of view 1484280532: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175707(0).jpg<br>- Threshold (error max): 24.6514<br>- Resection status: OK<br>- # points used for Resection: 806<br>- # points validated by robust estimation: 678<br>- % points validated: 0.841191<br><h4>Robust resection of view 177900454: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175650(0).jpg<br>- Threshold (error max): 14.0425<br>- Resection status: OK<br>- # points used for Resection: 1034<br>- # points validated by robust estimation: 907<br>- % points validated: 0.877176<br><h4>Robust resection of view 1338512535: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175615(0).jpg<br>- Threshold (error max): 18.2225<br>- Resection status: OK<br>- # points used for Resection: 1206<br>- # points validated by robust estimation: 1028<br>- % points validated: 0.852405<br><h4>Robust resection of view 532412952: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175617(0).jpg<br>- Threshold (error max): 14.7227<br>- Resection status: OK<br>- # points used for Resection: 1316<br>- # points validated by robust estimation: 1160<br>- % points validated: 0.881459<br><h4>Robust resection of view 1913901017: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175627(0).jpg<br>- Threshold (error max): 14.2716<br>- Resection status: OK<br>- # points used for Resection: 1416<br>- # points validated by robust estimation: 1179<br>- % points validated: 0.832627<br><h4>Robust resection of view 152253168: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175716(0).jpg<br>- Threshold (error max): 13.8554<br>- Resection status: OK<br>- # points used for Resection: 1603<br>- # points validated by robust estimation: 1453<br>- % points validated: 0.906425<br><h4>Robust resection of view 1664004248: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175618(0).jpg<br>- Threshold (error max): 10.5446<br>- Resection status: OK<br>- # points used for Resection: 1791<br>- # points validated by robust estimation: 1622<br>- % points validated: 0.905639<br><h4>Robust resection of view 1295243340: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175614(0).jpg<br>- Threshold (error max): 12.5303<br>- Resection status: OK<br>- # points used for Resection: 1897<br>- # points validated by robust estimation: 1723<br>- % points validated: 0.908276<br><h4>Robust resection of view 2115999314: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175708.jpg<br>- Threshold (error max): 23.9291<br>- Resection status: OK<br>- # points used for Resection: 1551<br>- # points validated by robust estimation: 1377<br>- % points validated: 0.887814<br><h4>Robust resection of view 1646101874: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175715.jpg<br>- Threshold (error max): 16.9861<br>- Resection status: OK<br>- # points used for Resection: 1165<br>- # points validated by robust estimation: 1060<br>- % points validated: 0.909871<br><h4>Robust resection of view 566440934: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175613(0).jpg<br>- Threshold (error max): 7.83618<br>- Resection status: OK<br>- # points used for Resection: 2190<br>- # points validated by robust estimation: 1958<br>- % points validated: 0.894064<br><h4>Robust resection of view 1895546283: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175634(0).jpg<br>- Threshold (error max): 537.415<br>- Resection status: OK<br>- # points used for Resection: 74<br>- # points validated by robust estimation: 46<br>- % points validated: 0.621622<br><h4>Robust resection of view 369281628: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175640(0).jpg<br>- Threshold (error max): 300.705<br>- Resection status: OK<br>- # points used for Resection: 85<br>- # points validated by robust estimation: 28<br>- % points validated: 0.329412<br><h4>Robust resection of view 1615523591: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175637(0).jpg<br>- Threshold (error max): 365.133<br>- Resection status: OK<br>- # points used for Resection: 105<br>- # points validated by robust estimation: 40<br>- % points validated: 0.380952<br><h4>Robust resection of view 1564385305: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175645(0).jpg<br>- Threshold (error max): 263.623<br>- Resection status: OK<br>- # points used for Resection: 102<br>- # points validated by robust estimation: 25<br>- % points validated: 0.245098<br><h4>Robust resection of view 1975487486: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175644(0).jpg<br>- Threshold (error max): 324.82<br>- Resection status: OK<br>- # points used for Resection: 71<br>- # points validated by robust estimation: 23<br>- % points validated: 0.323944<br><h4>Robust resection of view 1175344788: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175632(0).jpg<br>- Threshold (error max): 433.529<br>- Resection status: OK<br>- # points used for Resection: 82<br>- # points validated by robust estimation: 38<br>- % points validated: 0.463415<br><h4>Robust resection of view 1526957505: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175631(0).jpg<br>- Threshold (error max): 8.04832<br>- Resection status: FAILED<br>- # points used for Resection: 64<br>- # points validated by robust estimation: 6<br>- % points validated: 0.09375<br><h4>Robust resection of view 397217338: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175635(0).jpg<br>- Threshold (error max): 534.818<br>- Resection status: OK<br>- # points used for Resection: 55<br>- # points validated by robust estimation: 31<br>- % points validated: 0.563636<br><h4>Robust resection of view 1850568858: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175638(0).jpg<br>- Threshold (error max): 344.175<br>- Resection status: OK<br>- # points used for Resection: 59<br>- # points validated by robust estimation: 22<br>- % points validated: 0.372881<br><h4>Robust resection of view 1103321913: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175630(0).jpg<br>- Threshold (error max): 431.586<br>- Resection status: FAILED<br>- # points used for Resection: 38<br>- # points validated by robust estimation: 19<br>- % points validated: 0.5<br><h4>Robust resection of view 339865800: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175641(0).jpg<br>- Threshold (error max): 186.265<br>- Resection status: FAILED<br>- # points used for Resection: 48<br>- # points validated by robust estimation: 12<br>- % points validated: 0.25<br><h4>Robust resection of view 256971151: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175642(0).jpg<br>- Threshold (error max): 238.636<br>- Resection status: FAILED<br>- # points used for Resection: 48<br>- # points validated by robust estimation: 20<br>- % points validated: 0.416667<br><h4>Robust resection of view 355071552: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175639(0).jpg<br>- Threshold (error max): 419.069<br>- Resection status: FAILED<br>- # points used for Resection: 41<br>- # points validated by robust estimation: 19<br>- % points validated: 0.463415<br><h4>Robust resection of view 22727727: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175629.jpg<br>- Threshold (error max): 399.472<br>- Resection status: FAILED<br>- # points used for Resection: 33<br>- # points validated by robust estimation: 16<br>- % points validated: 0.484848<br><h4>Robust resection of view 61783007: <br></h4>
+
+- Image path: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175643(0).jpg<br>- Threshold (error max): 112.485<br>- Resection status: FAILED<br>- # points used for Resection: 32<br>- # points validated by robust estimation: 9<br>- % points validated: 0.28125<br><hr><h3>Structure from Motion process finished.</h3>
+Structure from Motion statistics:<br>- # input images: 64<br>- # camera calibrated: 45<br>- # poses: 45
+<br>- # landmarks: 35560<br>- elapsed time: 98.719<br>- residual RMSE: 1.1752<h2>Histogram of reprojection-residuals</h2>
+
+<div id="3DtoImageResiduals" class="jxgbox" style="width:600px; height:300px;"></div>
+<script type="text/javascript">
+var board = JXG.JSXGraph.initBoard('3DtoImageResiduals', {boundingbox: [-10, 10, 10, -10], axis:true,showCopyright:false});
+board.suspendUpdate();
+var data0= [0.00000,0.57143,1.14286,1.71429,2.28571,2.85714,3.42857,4.00000,];
+var data1= [93064.00000,56445.00000,36161.00000,21712.00000,12751.00000,6828.00000,3206.00000,975.00000,];
+board.createElement('chart', [ data0,data1], {chartStyle:'line,point',labels:[ data0,data1]});
+board.unsuspendUpdate();
+board.setBoundingBox([-0.80000,111481.80000,4.80000,-17442.80000]);
+</script>
+
+<div id="3DtoTracksSize" class="jxgbox" style="width:600px; height:300px;"></div>
+<script type="text/javascript">
+var board = JXG.JSXGraph.initBoard('3DtoTracksSize', {boundingbox: [-10, 10, 10, -10], axis:true,showCopyright:false});
+board.suspendUpdate();
+var data0= [2.00000,3.04000,4.08000,5.12000,6.16000,7.20000,8.24000,9.28000,10.32000,11.36000,12.40000,13.44000,14.48000,15.52000,16.56000,17.60000,18.64000,19.68000,20.72000,21.76000,22.80000,23.84000,24.88000,25.92000,26.96000,28.00000,];
+var data1= [20559.00000,6505.00000,2864.00000,1666.00000,1008.00000,770.00000,544.00000,444.00000,298.00000,201.00000,193.00000,142.00000,98.00000,74.00000,56.00000,41.00000,29.00000,21.00000,17.00000,11.00000,8.00000,3.00000,4.00000,1.00000,1.00000,2.00000,];
+board.createElement('chart', [ data0,data1], {chartStyle:'line,point',labels:[ data0,data1]});
+board.unsuspendUpdate();
+board.setBoundingBox([-3.20000,24670.60000,33.20000,-4110.60000]);
+</script>
+</html>

@@ -1,0 +1,18 @@
+{
+    "status": "SUCCESS",
+    "execMode": "LOCAL",
+    "nodeName": "StructureFromMotion_1",
+    "nodeType": "StructureFromMotion",
+    "packageName": "aliceVision",
+    "packageVersion": null,
+    "graph": "",
+    "commandLine": "aliceVision_incrementalSfM  --input \"C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/CameraInit/026f33a740f8a756863d1d8de740930b0046119f/cameraInit.sfm\" --featuresFolders \"C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/FeatureExtraction/b693ecbda6344a513a5a6b0bf324e8ef4605089c\" --matchesFolders \"C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/FeatureMatching/961cec140530f7b3f584e456a8b867cfafeffa61\" --describerTypes sift --localizerEstimator acransac --localizerEstimatorMaxIterations 4096 --localizerEstimatorError 0.0 --lockScenePreviouslyReconstructed False --useLocalBA True --localBAGraphDistance 1 --maxNumberOfMatches 0 --minInputTrackLength 2 --minNumberOfObservationsForTriangulation 2 --minAngleForTriangulation 3.0 --minAngleForLandmark 2.0 --maxReprojectionError 4.0 --minAngleInitialPair 5.0 --maxAngleInitialPair 40.0 --useOnlyMatchesFromInputFolder False --useRigConstraint True --lockAllIntrinsics False --initialPairA \"\" --initialPairB \"\" --interFileExtension .abc --verboseLevel info --output \"C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/StructureFromMotion/05321de2f97c332c089e527a2c8afd2a22e8c4b3/sfm.abc\" --outputViewsAndPoses \"C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/StructureFromMotion/05321de2f97c332c089e527a2c8afd2a22e8c4b3/cameras.sfm\" --extraInfoFolder \"C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/StructureFromMotion/05321de2f97c332c089e527a2c8afd2a22e8c4b3\" ",
+    "env": null,
+    "startDateTime": "2021-07-27 17:50:37.646581",
+    "endDateTime": "2021-07-27 17:50:38.617985",
+    "elapsedTime": 0.9714031219482422,
+    "hostname": "DESKTOP-S9BKKVK",
+    "sessionUid": "7aa0facc-eefa-11eb-9917-00d86118ab6b",
+    "returnCode": 0,
+    "elapsedTimeStr": "0:00:00.971403"
+}

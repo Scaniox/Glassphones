@@ -1,0 +1,97 @@
+Program called with the following parameters:
+ * describerPreset = "normal"
+ * describerTypes = "sift"
+ * forceCpuExtraction = 1
+ * input = "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/CameraInit/026f33a740f8a756863d1d8de740930b0046119f/cameraInit.sfm"
+ * maxThreads = 0 (default)
+ * output = "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/FeatureExtraction/b693ecbda6344a513a5a6b0bf324e8ef4605089c"
+ * rangeSize = 40
+ * rangeStart = 0
+ * verboseLevel = "info"
+
+[17:50:33.233431][info] CUDA-Enabled GPU.
+Device information:
+	- id:                      0
+	- name:                    GeForce GTX 1060 3GB
+	- compute capability:      6.1
+	- total device memory:     3072 MB 
+	- device memory available: 2475 MB 
+	- per-block shared memory: 49152
+	- warp size:               32
+	- max threads per block:   1024
+	- max threads per SM(X):   2048
+	- max block sizes:         {1024,1024,64}
+	- max grid sizes:          {2147483647,65535,65535}
+	- max 2D array texture:    {131072,65536}
+	- max 3D array texture:    {16384,16384,16384}
+	- max 2D linear texture:   {131072,65000,2097120}
+	- max 2D layered texture:  {32768,32768,2048}
+	- number of SM(x)s:        9
+	- registers per SM(x):     65536
+	- registers per block:     65536
+	- concurrent kernels:      yes
+	- mapping host memory:     yes
+	- unified addressing:      yes
+	- texture alignment:       512 byte
+	- pitch alignment:         32 byte
+
+[17:50:33.497671][info] Supported CUDA-Enabled GPU detected.
+[17:50:33.531702][info] Extracting sift features from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene01051.png' [cpu]
+[17:50:33.534705][info] Extracting sift features from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene01801.png' [cpu]
+[17:50:33.535705][info] Extracting sift features from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene01601.png' [cpu]
+[17:50:33.538710][info] Extracting sift features from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene01001.png' [cpu]
+[17:50:33.539711][info] Extracting sift features from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene01901.png' [cpu]
+[17:50:33.539711][info] Extracting sift features from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene01501.png' [cpu]
+[17:50:33.540711][info] Extracting sift features from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene01101.png' [cpu]
+[17:50:33.541711][info] Extracting sift features from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene01401.png' [cpu]
+[17:50:33.542712][info] Extracting sift features from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene00851.png' [cpu]
+[17:50:33.541711][info] Extracting sift features from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene00951.png' [cpu]
+[17:50:33.546716][info] Extracting sift features from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene00651.png' [cpu]
+[17:50:33.547718][info] Extracting sift features from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene00601.png' [cpu]
+[17:50:33.547718][info] Extracting sift features from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene01651.png' [cpu]
+[17:50:33.549721][info] Extracting sift features from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene01151.png' [cpu]
+[17:50:33.549721][info] Extracting sift features from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene00701.png' [cpu]
+[17:50:33.552722][info] Extracting sift features from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene01551.png' [cpu]
+[17:50:33.814989][info]       561 sift features extracted from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene01901.png'
+[17:50:33.819993][info]       466 sift features extracted from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene01051.png'
+[17:50:33.823997][info]       549 sift features extracted from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene01001.png'
+[17:50:33.825999][info]       374 sift features extracted from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene01401.png'
+[17:50:33.835007][info]       587 sift features extracted from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene01801.png'
+[17:50:33.836008][info]       404 sift features extracted from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene00851.png'
+[17:50:33.840012][info]       422 sift features extracted from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene01151.png'
+[17:50:33.842013][info] Extracting sift features from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene00751.png' [cpu]
+[17:50:33.843014][info]       491 sift features extracted from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene00951.png'
+[17:50:33.845016][info] Extracting sift features from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene01951.png' [cpu]
+[17:50:33.848019][info]       404 sift features extracted from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene01101.png'
+[17:50:33.857027][info] Extracting sift features from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene01751.png' [cpu]
+[17:50:33.858028][info] Extracting sift features from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene01251.png' [cpu]
+[17:50:33.860030][info] Extracting sift features from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene01701.png' [cpu]
+[17:50:33.868037][info] Extracting sift features from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene01351.png' [cpu]
+[17:50:33.868037][info]       371 sift features extracted from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene01501.png'
+[17:50:33.871040][info] Extracting sift features from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene01451.png' [cpu]
+[17:50:33.871040][info]       517 sift features extracted from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene00651.png'
+[17:50:33.877046][info]       399 sift features extracted from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene01551.png'
+[17:50:33.878046][info]       428 sift features extracted from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene01601.png'
+[17:50:33.880048][info]       433 sift features extracted from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene00601.png'
+[17:50:33.880048][info]       646 sift features extracted from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene00701.png'
+[17:50:33.906072][info] Extracting sift features from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene01851.png' [cpu]
+[17:50:33.922087][info] Extracting sift features from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene00901.png' [cpu]
+[17:50:33.930093][info]       778 sift features extracted from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene01651.png'
+[17:50:33.963123][info] Extracting sift features from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene01201.png' [cpu]
+[17:50:33.969129][info] Extracting sift features from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene00801.png' [cpu]
+[17:50:33.970130][info] Extracting sift features from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene01301.png' [cpu]
+[17:50:34.003160][info] Extracting sift features from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene02001.png' [cpu]
+[17:50:34.087237][info]       482 sift features extracted from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene01951.png'
+[17:50:34.108255][info]       617 sift features extracted from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene00751.png'
+[17:50:34.112259][info]       244 sift features extracted from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene01351.png'
+[17:50:34.113260][info]       489 sift features extracted from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene01701.png'
+[17:50:34.113260][info]       450 sift features extracted from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene01251.png'
+[17:50:34.115262][info]       302 sift features extracted from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene01451.png'
+[17:50:34.116262][info]       319 sift features extracted from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene01201.png'
+[17:50:34.117263][info]       475 sift features extracted from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene00901.png'
+[17:50:34.118264][info]       361 sift features extracted from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene01301.png'
+[17:50:34.118264][info]       381 sift features extracted from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene01851.png'
+[17:50:34.118264][info]       672 sift features extracted from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene01751.png'
+[17:50:34.124270][info]       375 sift features extracted from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene00801.png'
+[17:50:34.132277][info]       325 sift features extracted from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene02001.png'
+[17:50:34.133278][info] Task done in (s): 0.635000

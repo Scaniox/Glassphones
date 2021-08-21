@@ -1,0 +1,806 @@
+Program called with the following parameters:
+ * describerTypes = "sift"
+ * distanceRatio = 0.8
+ * exportDebugFiles = 0
+ * featuresFolders =  = [C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/FeatureExtraction/b693ecbda6344a513a5a6b0bf324e8ef4605089c]
+ * geometricError = 0
+ * geometricEstimator =  Unknown Type "enum aliceVision::robustEstimation::ERobustEstimator"
+ * geometricFilterType = "fundamental_matrix"
+ * guidedMatching = 0
+ * imagePairsList = "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt"
+ * input = "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/CameraInit/026f33a740f8a756863d1d8de740930b0046119f/cameraInit.sfm"
+ * matchFilePerImage = 0 (default)
+ * maxIteration = 2048
+ * maxMatches = 0
+ * output = "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/FeatureMatching/961cec140530f7b3f584e456a8b867cfafeffa61"
+ * photometricMatchingMethod = "ANN_L2"
+ * rangeSize = 20
+ * rangeStart = 0
+ * savePutativeMatches = 0
+ * useGridSort = 1 (default)
+ * verboseLevel = "info"
+
+[17:50:34.827417][info] Load pair list from file: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt
+[17:50:34.830420][info] loadPairs: image pair (20455773, 136314038) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.830420][info] loadPairs: image pair (20455773, 160486800) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.830420][info] loadPairs: image pair (20455773, 282548764) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.830420][info] loadPairs: image pair (20455773, 323167612) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.830420][info] loadPairs: image pair (20455773, 394590645) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.830420][info] loadPairs: image pair (20455773, 510607587) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.830420][info] loadPairs: image pair (20455773, 614660772) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.830420][info] loadPairs: image pair (20455773, 746792408) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.830420][info] loadPairs: image pair (20455773, 785519142) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.830420][info] loadPairs: image pair (20455773, 1020074247) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.831421][info] loadPairs: image pair (20455773, 1049429640) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.831421][info] loadPairs: image pair (20455773, 1104676139) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.831421][info] loadPairs: image pair (20455773, 1164619235) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.831421][info] loadPairs: image pair (20455773, 1283968274) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.831421][info] loadPairs: image pair (20455773, 1311600941) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.831421][info] loadPairs: image pair (20455773, 1343242448) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.831421][info] loadPairs: image pair (20455773, 1430520676) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.831421][info] loadPairs: image pair (20455773, 1446341273) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.831421][info] loadPairs: image pair (20455773, 1539772914) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.831421][info] loadPairs: image pair (20455773, 1739492887) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.831421][info] loadPairs: image pair (20455773, 1822323831) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.831421][info] loadPairs: image pair (20455773, 1860028773) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.831421][info] loadPairs: image pair (20455773, 1865439864) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.831421][info] loadPairs: image pair (20455773, 1875356350) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.831421][info] loadPairs: image pair (20455773, 1886369179) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.831421][info] loadPairs: image pair (20455773, 1898130451) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.831421][info] loadPairs: image pair (20455773, 1940359100) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.831421][info] loadPairs: image pair (20455773, 2015013291) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.831421][info] loadPairs: image pair (136314038, 160486800) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.831421][info] loadPairs: image pair (136314038, 282548764) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.831421][info] loadPairs: image pair (136314038, 323167612) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.831421][info] loadPairs: image pair (136314038, 394590645) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.831421][info] loadPairs: image pair (136314038, 510607587) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.831421][info] loadPairs: image pair (136314038, 614660772) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.831421][info] loadPairs: image pair (136314038, 746792408) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.831421][info] loadPairs: image pair (136314038, 785519142) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.831421][info] loadPairs: image pair (136314038, 1020074247) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.831421][info] loadPairs: image pair (136314038, 1049429640) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.831421][info] loadPairs: image pair (136314038, 1104676139) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.831421][info] loadPairs: image pair (136314038, 1164619235) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.831421][info] loadPairs: image pair (136314038, 1283968274) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.831421][info] loadPairs: image pair (136314038, 1311600941) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.831421][info] loadPairs: image pair (136314038, 1343242448) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.831421][info] loadPairs: image pair (136314038, 1430520676) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.831421][info] loadPairs: image pair (136314038, 1446341273) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.831421][info] loadPairs: image pair (136314038, 1539772914) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.831421][info] loadPairs: image pair (136314038, 1739492887) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.831421][info] loadPairs: image pair (136314038, 1822323831) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.831421][info] loadPairs: image pair (136314038, 1860028773) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.831421][info] loadPairs: image pair (136314038, 1865439864) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.831421][info] loadPairs: image pair (136314038, 1875356350) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.831421][info] loadPairs: image pair (136314038, 1886369179) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.831421][info] loadPairs: image pair (136314038, 1898130451) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.832421][info] loadPairs: image pair (136314038, 1940359100) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.832421][info] loadPairs: image pair (136314038, 2015013291) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.832421][info] loadPairs: image pair (160486800, 282548764) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.832421][info] loadPairs: image pair (160486800, 323167612) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.832421][info] loadPairs: image pair (160486800, 394590645) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.832421][info] loadPairs: image pair (160486800, 510607587) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.832421][info] loadPairs: image pair (160486800, 614660772) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.832421][info] loadPairs: image pair (160486800, 746792408) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.832421][info] loadPairs: image pair (160486800, 785519142) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.832421][info] loadPairs: image pair (160486800, 1020074247) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.832421][info] loadPairs: image pair (160486800, 1049429640) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.832421][info] loadPairs: image pair (160486800, 1104676139) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.832421][info] loadPairs: image pair (160486800, 1164619235) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.832421][info] loadPairs: image pair (160486800, 1283968274) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.832421][info] loadPairs: image pair (160486800, 1311600941) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.832421][info] loadPairs: image pair (160486800, 1343242448) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.832421][info] loadPairs: image pair (160486800, 1430520676) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.832421][info] loadPairs: image pair (160486800, 1446341273) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.832421][info] loadPairs: image pair (160486800, 1539772914) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.832421][info] loadPairs: image pair (160486800, 1739492887) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.832421][info] loadPairs: image pair (160486800, 1822323831) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.832421][info] loadPairs: image pair (160486800, 1860028773) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.832421][info] loadPairs: image pair (160486800, 1865439864) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.832421][info] loadPairs: image pair (160486800, 1875356350) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.832421][info] loadPairs: image pair (160486800, 1886369179) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.832421][info] loadPairs: image pair (160486800, 1898130451) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.832421][info] loadPairs: image pair (160486800, 1940359100) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.832421][info] loadPairs: image pair (160486800, 2015013291) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.832421][info] loadPairs: image pair (282548764, 323167612) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.832421][info] loadPairs: image pair (282548764, 394590645) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.832421][info] loadPairs: image pair (282548764, 510607587) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.832421][info] loadPairs: image pair (282548764, 614660772) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.832421][info] loadPairs: image pair (282548764, 746792408) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.832421][info] loadPairs: image pair (282548764, 785519142) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.832421][info] loadPairs: image pair (282548764, 1020074247) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.832421][info] loadPairs: image pair (282548764, 1049429640) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.832421][info] loadPairs: image pair (282548764, 1104676139) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.832421][info] loadPairs: image pair (282548764, 1164619235) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.832421][info] loadPairs: image pair (282548764, 1283968274) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.832421][info] loadPairs: image pair (282548764, 1311600941) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.832421][info] loadPairs: image pair (282548764, 1343242448) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.832421][info] loadPairs: image pair (282548764, 1430520676) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.832421][info] loadPairs: image pair (282548764, 1446341273) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.833422][info] loadPairs: image pair (282548764, 1539772914) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.833422][info] loadPairs: image pair (282548764, 1739492887) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.833422][info] loadPairs: image pair (282548764, 1822323831) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.833422][info] loadPairs: image pair (282548764, 1860028773) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.833422][info] loadPairs: image pair (282548764, 1865439864) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.833422][info] loadPairs: image pair (282548764, 1875356350) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.833422][info] loadPairs: image pair (282548764, 1886369179) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.833422][info] loadPairs: image pair (282548764, 1898130451) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.833422][info] loadPairs: image pair (282548764, 1940359100) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.833422][info] loadPairs: image pair (282548764, 2015013291) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.833422][info] loadPairs: image pair (323167612, 394590645) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.833422][info] loadPairs: image pair (323167612, 510607587) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.833422][info] loadPairs: image pair (323167612, 614660772) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.833422][info] loadPairs: image pair (323167612, 746792408) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.833422][info] loadPairs: image pair (323167612, 785519142) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.833422][info] loadPairs: image pair (323167612, 1020074247) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.833422][info] loadPairs: image pair (323167612, 1049429640) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.833422][info] loadPairs: image pair (323167612, 1104676139) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.833422][info] loadPairs: image pair (323167612, 1164619235) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.833422][info] loadPairs: image pair (323167612, 1283968274) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.833422][info] loadPairs: image pair (323167612, 1311600941) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.833422][info] loadPairs: image pair (323167612, 1343242448) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.833422][info] loadPairs: image pair (323167612, 1430520676) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.833422][info] loadPairs: image pair (323167612, 1446341273) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.833422][info] loadPairs: image pair (323167612, 1539772914) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.833422][info] loadPairs: image pair (323167612, 1739492887) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.833422][info] loadPairs: image pair (323167612, 1822323831) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.833422][info] loadPairs: image pair (323167612, 1860028773) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.833422][info] loadPairs: image pair (323167612, 1865439864) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.833422][info] loadPairs: image pair (323167612, 1875356350) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.833422][info] loadPairs: image pair (323167612, 1886369179) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.833422][info] loadPairs: image pair (323167612, 1898130451) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.833422][info] loadPairs: image pair (323167612, 1940359100) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.833422][info] loadPairs: image pair (323167612, 2015013291) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.833422][info] loadPairs: image pair (394590645, 510607587) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.833422][info] loadPairs: image pair (394590645, 614660772) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.833422][info] loadPairs: image pair (394590645, 746792408) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.833422][info] loadPairs: image pair (394590645, 785519142) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.833422][info] loadPairs: image pair (394590645, 1020074247) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.833422][info] loadPairs: image pair (394590645, 1049429640) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.833422][info] loadPairs: image pair (394590645, 1104676139) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.833422][info] loadPairs: image pair (394590645, 1164619235) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.833422][info] loadPairs: image pair (394590645, 1283968274) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.833422][info] loadPairs: image pair (394590645, 1311600941) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.833422][info] loadPairs: image pair (394590645, 1343242448) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.834423][info] loadPairs: image pair (394590645, 1430520676) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.834423][info] loadPairs: image pair (394590645, 1446341273) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.834423][info] loadPairs: image pair (394590645, 1539772914) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.834423][info] loadPairs: image pair (394590645, 1739492887) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.834423][info] loadPairs: image pair (394590645, 1822323831) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.834423][info] loadPairs: image pair (394590645, 1860028773) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.834423][info] loadPairs: image pair (394590645, 1865439864) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.834423][info] loadPairs: image pair (394590645, 1875356350) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.834423][info] loadPairs: image pair (394590645, 1886369179) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.834423][info] loadPairs: image pair (394590645, 1898130451) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.834423][info] loadPairs: image pair (394590645, 1940359100) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.834423][info] loadPairs: image pair (394590645, 2015013291) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.834423][info] loadPairs: image pair (510607587, 614660772) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.834423][info] loadPairs: image pair (510607587, 746792408) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.834423][info] loadPairs: image pair (510607587, 785519142) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.834423][info] loadPairs: image pair (510607587, 1020074247) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.834423][info] loadPairs: image pair (510607587, 1049429640) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.834423][info] loadPairs: image pair (510607587, 1104676139) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.834423][info] loadPairs: image pair (510607587, 1164619235) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.834423][info] loadPairs: image pair (510607587, 1283968274) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.834423][info] loadPairs: image pair (510607587, 1311600941) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.834423][info] loadPairs: image pair (510607587, 1343242448) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.834423][info] loadPairs: image pair (510607587, 1430520676) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.834423][info] loadPairs: image pair (510607587, 1446341273) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.834423][info] loadPairs: image pair (510607587, 1539772914) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.834423][info] loadPairs: image pair (510607587, 1739492887) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.834423][info] loadPairs: image pair (510607587, 1822323831) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.834423][info] loadPairs: image pair (510607587, 1860028773) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.834423][info] loadPairs: image pair (510607587, 1865439864) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.834423][info] loadPairs: image pair (510607587, 1875356350) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.834423][info] loadPairs: image pair (510607587, 1886369179) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.834423][info] loadPairs: image pair (510607587, 1898130451) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.834423][info] loadPairs: image pair (510607587, 1940359100) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.834423][info] loadPairs: image pair (510607587, 2015013291) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.834423][info] loadPairs: image pair (614660772, 746792408) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.834423][info] loadPairs: image pair (614660772, 785519142) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.834423][info] loadPairs: image pair (614660772, 1020074247) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.834423][info] loadPairs: image pair (614660772, 1049429640) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.834423][info] loadPairs: image pair (614660772, 1104676139) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.834423][info] loadPairs: image pair (614660772, 1164619235) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.834423][info] loadPairs: image pair (614660772, 1283968274) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.834423][info] loadPairs: image pair (614660772, 1311600941) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.834423][info] loadPairs: image pair (614660772, 1343242448) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.834423][info] loadPairs: image pair (614660772, 1430520676) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.834423][info] loadPairs: image pair (614660772, 1446341273) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.834423][info] loadPairs: image pair (614660772, 1539772914) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.834423][info] loadPairs: image pair (614660772, 1739492887) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.835424][info] loadPairs: image pair (614660772, 1822323831) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.835424][info] loadPairs: image pair (614660772, 1860028773) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.835424][info] loadPairs: image pair (614660772, 1865439864) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.835424][info] loadPairs: image pair (614660772, 1875356350) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.835424][info] loadPairs: image pair (614660772, 1886369179) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.835424][info] loadPairs: image pair (614660772, 1898130451) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.835424][info] loadPairs: image pair (614660772, 1940359100) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.835424][info] loadPairs: image pair (614660772, 2015013291) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.835424][info] loadPairs: image pair (746792408, 785519142) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.835424][info] loadPairs: image pair (746792408, 1020074247) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.835424][info] loadPairs: image pair (746792408, 1049429640) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.835424][info] loadPairs: image pair (746792408, 1104676139) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.835424][info] loadPairs: image pair (746792408, 1164619235) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.835424][info] loadPairs: image pair (746792408, 1283968274) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.835424][info] loadPairs: image pair (746792408, 1311600941) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.835424][info] loadPairs: image pair (746792408, 1343242448) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.835424][info] loadPairs: image pair (746792408, 1430520676) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.835424][info] loadPairs: image pair (746792408, 1446341273) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.835424][info] loadPairs: image pair (746792408, 1539772914) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.835424][info] loadPairs: image pair (746792408, 1739492887) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.835424][info] loadPairs: image pair (746792408, 1822323831) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.835424][info] loadPairs: image pair (746792408, 1860028773) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.835424][info] loadPairs: image pair (746792408, 1865439864) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.835424][info] loadPairs: image pair (746792408, 1875356350) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.835424][info] loadPairs: image pair (746792408, 1886369179) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.835424][info] loadPairs: image pair (746792408, 1898130451) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.835424][info] loadPairs: image pair (746792408, 1940359100) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.835424][info] loadPairs: image pair (746792408, 2015013291) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.835424][info] loadPairs: image pair (785519142, 1020074247) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.835424][info] loadPairs: image pair (785519142, 1049429640) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.835424][info] loadPairs: image pair (785519142, 1104676139) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.835424][info] loadPairs: image pair (785519142, 1164619235) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.835424][info] loadPairs: image pair (785519142, 1283968274) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.835424][info] loadPairs: image pair (785519142, 1311600941) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.835424][info] loadPairs: image pair (785519142, 1343242448) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.835424][info] loadPairs: image pair (785519142, 1430520676) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.835424][info] loadPairs: image pair (785519142, 1446341273) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.835424][info] loadPairs: image pair (785519142, 1539772914) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.835424][info] loadPairs: image pair (785519142, 1739492887) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.835424][info] loadPairs: image pair (785519142, 1822323831) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.835424][info] loadPairs: image pair (785519142, 1860028773) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.835424][info] loadPairs: image pair (785519142, 1865439864) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.835424][info] loadPairs: image pair (785519142, 1875356350) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.835424][info] loadPairs: image pair (785519142, 1886369179) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.835424][info] loadPairs: image pair (785519142, 1898130451) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.835424][info] loadPairs: image pair (785519142, 1940359100) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.835424][info] loadPairs: image pair (785519142, 2015013291) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.836425][info] loadPairs: image pair (1020074247, 1049429640) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.836425][info] loadPairs: image pair (1020074247, 1104676139) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.836425][info] loadPairs: image pair (1020074247, 1164619235) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.836425][info] loadPairs: image pair (1020074247, 1283968274) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.836425][info] loadPairs: image pair (1020074247, 1311600941) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.836425][info] loadPairs: image pair (1020074247, 1343242448) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.836425][info] loadPairs: image pair (1020074247, 1430520676) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.836425][info] loadPairs: image pair (1020074247, 1446341273) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.836425][info] loadPairs: image pair (1020074247, 1539772914) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.836425][info] loadPairs: image pair (1020074247, 1739492887) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.836425][info] loadPairs: image pair (1020074247, 1822323831) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.836425][info] loadPairs: image pair (1020074247, 1860028773) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.836425][info] loadPairs: image pair (1020074247, 1865439864) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.836425][info] loadPairs: image pair (1020074247, 1875356350) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.836425][info] loadPairs: image pair (1020074247, 1886369179) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.836425][info] loadPairs: image pair (1020074247, 1898130451) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.836425][info] loadPairs: image pair (1020074247, 1940359100) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.836425][info] loadPairs: image pair (1020074247, 2015013291) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.836425][info] loadPairs: image pair (1049429640, 1104676139) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.836425][info] loadPairs: image pair (1049429640, 1164619235) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.836425][info] loadPairs: image pair (1049429640, 1283968274) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.836425][info] loadPairs: image pair (1049429640, 1311600941) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.836425][info] loadPairs: image pair (1049429640, 1343242448) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.836425][info] loadPairs: image pair (1049429640, 1430520676) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.836425][info] loadPairs: image pair (1049429640, 1446341273) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.836425][info] loadPairs: image pair (1049429640, 1539772914) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.836425][info] loadPairs: image pair (1049429640, 1739492887) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.836425][info] loadPairs: image pair (1049429640, 1822323831) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.836425][info] loadPairs: image pair (1049429640, 1860028773) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.836425][info] loadPairs: image pair (1049429640, 1865439864) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.836425][info] loadPairs: image pair (1049429640, 1875356350) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.836425][info] loadPairs: image pair (1049429640, 1886369179) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.836425][info] loadPairs: image pair (1049429640, 1898130451) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.836425][info] loadPairs: image pair (1049429640, 1940359100) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.836425][info] loadPairs: image pair (1049429640, 2015013291) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.836425][info] loadPairs: image pair (1104676139, 1164619235) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.836425][info] loadPairs: image pair (1104676139, 1283968274) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.836425][info] loadPairs: image pair (1104676139, 1311600941) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.836425][info] loadPairs: image pair (1104676139, 1343242448) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.836425][info] loadPairs: image pair (1104676139, 1430520676) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.836425][info] loadPairs: image pair (1104676139, 1446341273) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.836425][info] loadPairs: image pair (1104676139, 1539772914) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.836425][info] loadPairs: image pair (1104676139, 1739492887) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.836425][info] loadPairs: image pair (1104676139, 1822323831) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.836425][info] loadPairs: image pair (1104676139, 1860028773) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.836425][info] loadPairs: image pair (1104676139, 1865439864) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.836425][info] loadPairs: image pair (1104676139, 1875356350) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.836425][info] loadPairs: image pair (1104676139, 1886369179) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.837426][info] loadPairs: image pair (1104676139, 1898130451) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.837426][info] loadPairs: image pair (1104676139, 1940359100) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.837426][info] loadPairs: image pair (1104676139, 2015013291) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.837426][info] loadPairs: image pair (1164619235, 1283968274) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.837426][info] loadPairs: image pair (1164619235, 1311600941) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.837426][info] loadPairs: image pair (1164619235, 1343242448) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.837426][info] loadPairs: image pair (1164619235, 1430520676) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.837426][info] loadPairs: image pair (1164619235, 1446341273) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.837426][info] loadPairs: image pair (1164619235, 1539772914) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.837426][info] loadPairs: image pair (1164619235, 1739492887) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.837426][info] loadPairs: image pair (1164619235, 1822323831) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.837426][info] loadPairs: image pair (1164619235, 1860028773) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.837426][info] loadPairs: image pair (1164619235, 1865439864) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.837426][info] loadPairs: image pair (1164619235, 1875356350) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.837426][info] loadPairs: image pair (1164619235, 1886369179) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.837426][info] loadPairs: image pair (1164619235, 1898130451) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.837426][info] loadPairs: image pair (1164619235, 1940359100) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.837426][info] loadPairs: image pair (1164619235, 2015013291) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.837426][info] loadPairs: image pair (1283968274, 1311600941) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.837426][info] loadPairs: image pair (1283968274, 1343242448) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.837426][info] loadPairs: image pair (1283968274, 1430520676) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.837426][info] loadPairs: image pair (1283968274, 1446341273) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.837426][info] loadPairs: image pair (1283968274, 1539772914) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.837426][info] loadPairs: image pair (1283968274, 1739492887) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.837426][info] loadPairs: image pair (1283968274, 1822323831) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.837426][info] loadPairs: image pair (1283968274, 1860028773) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.837426][info] loadPairs: image pair (1283968274, 1865439864) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.837426][info] loadPairs: image pair (1283968274, 1875356350) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.837426][info] loadPairs: image pair (1283968274, 1886369179) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.837426][info] loadPairs: image pair (1283968274, 1898130451) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.837426][info] loadPairs: image pair (1283968274, 1940359100) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.837426][info] loadPairs: image pair (1283968274, 2015013291) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.837426][info] loadPairs: image pair (1311600941, 1343242448) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.837426][info] loadPairs: image pair (1311600941, 1430520676) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.837426][info] loadPairs: image pair (1311600941, 1446341273) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.837426][info] loadPairs: image pair (1311600941, 1539772914) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.837426][info] loadPairs: image pair (1311600941, 1739492887) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.837426][info] loadPairs: image pair (1311600941, 1822323831) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.837426][info] loadPairs: image pair (1311600941, 1860028773) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.837426][info] loadPairs: image pair (1311600941, 1865439864) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.837426][info] loadPairs: image pair (1311600941, 1875356350) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.837426][info] loadPairs: image pair (1311600941, 1886369179) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.837426][info] loadPairs: image pair (1311600941, 1898130451) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.837426][info] loadPairs: image pair (1311600941, 1940359100) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.837426][info] loadPairs: image pair (1311600941, 2015013291) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.837426][info] loadPairs: image pair (1343242448, 1430520676) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.837426][info] loadPairs: image pair (1343242448, 1446341273) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.838427][info] loadPairs: image pair (1343242448, 1539772914) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.838427][info] loadPairs: image pair (1343242448, 1739492887) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.838427][info] loadPairs: image pair (1343242448, 1822323831) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.838427][info] loadPairs: image pair (1343242448, 1860028773) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.838427][info] loadPairs: image pair (1343242448, 1865439864) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.838427][info] loadPairs: image pair (1343242448, 1875356350) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.838427][info] loadPairs: image pair (1343242448, 1886369179) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.838427][info] loadPairs: image pair (1343242448, 1898130451) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.838427][info] loadPairs: image pair (1343242448, 1940359100) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.838427][info] loadPairs: image pair (1343242448, 2015013291) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.838427][info] loadPairs: image pair (1430520676, 1446341273) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.838427][info] loadPairs: image pair (1430520676, 1539772914) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.838427][info] loadPairs: image pair (1430520676, 1739492887) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.838427][info] loadPairs: image pair (1430520676, 1822323831) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.838427][info] loadPairs: image pair (1430520676, 1860028773) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.838427][info] loadPairs: image pair (1430520676, 1865439864) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.838427][info] loadPairs: image pair (1430520676, 1875356350) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.838427][info] loadPairs: image pair (1430520676, 1886369179) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.838427][info] loadPairs: image pair (1430520676, 1898130451) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.838427][info] loadPairs: image pair (1430520676, 1940359100) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.838427][info] loadPairs: image pair (1430520676, 2015013291) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.838427][info] loadPairs: image pair (1446341273, 1539772914) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.838427][info] loadPairs: image pair (1446341273, 1739492887) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.838427][info] loadPairs: image pair (1446341273, 1822323831) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.838427][info] loadPairs: image pair (1446341273, 1860028773) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.838427][info] loadPairs: image pair (1446341273, 1865439864) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.838427][info] loadPairs: image pair (1446341273, 1875356350) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.838427][info] loadPairs: image pair (1446341273, 1886369179) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.838427][info] loadPairs: image pair (1446341273, 1898130451) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.838427][info] loadPairs: image pair (1446341273, 1940359100) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.838427][info] loadPairs: image pair (1446341273, 2015013291) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.838427][info] loadPairs: image pair (1539772914, 1739492887) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.838427][info] loadPairs: image pair (1539772914, 1822323831) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.838427][info] loadPairs: image pair (1539772914, 1860028773) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.838427][info] loadPairs: image pair (1539772914, 1865439864) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.838427][info] loadPairs: image pair (1539772914, 1875356350) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.838427][info] loadPairs: image pair (1539772914, 1886369179) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.838427][info] loadPairs: image pair (1539772914, 1898130451) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.838427][info] loadPairs: image pair (1539772914, 1940359100) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.838427][info] loadPairs: image pair (1539772914, 2015013291) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt".
+[17:50:34.838427][info] Number of pairs: 370
+[17:50:34.838427][info] Putative matches
+[17:50:34.839428][info] There are 29 views and 370 image pairs.
+Loading regions
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+[17:50:34.869455][info] Supported CUDA-Enabled GPU detected.
+***************************************************
+[17:50:34.906489][info] sift Regions Matching
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+[17:50:35.675206][info] 370 putative image pair matches
+[17:50:35.675206][info] 	- image pair (20455773, 136314038) contains 17 putative matches.
+[17:50:35.676207][info] 	- image pair (20455773, 160486800) contains 15 putative matches.
+[17:50:35.676207][info] 	- image pair (20455773, 282548764) contains 10 putative matches.
+[17:50:35.676207][info] 	- image pair (20455773, 323167612) contains 8 putative matches.
+[17:50:35.676207][info] 	- image pair (20455773, 394590645) contains 87 putative matches.
+[17:50:35.676207][info] 	- image pair (20455773, 510607587) contains 7 putative matches.
+[17:50:35.676207][info] 	- image pair (20455773, 614660772) contains 16 putative matches.
+[17:50:35.676207][info] 	- image pair (20455773, 746792408) contains 12 putative matches.
+[17:50:35.676207][info] 	- image pair (20455773, 785519142) contains 9 putative matches.
+[17:50:35.676207][info] 	- image pair (20455773, 1020074247) contains 5 putative matches.
+[17:50:35.676207][info] 	- image pair (20455773, 1049429640) contains 6 putative matches.
+[17:50:35.676207][info] 	- image pair (20455773, 1104676139) contains 49 putative matches.
+[17:50:35.676207][info] 	- image pair (20455773, 1164619235) contains 20 putative matches.
+[17:50:35.676207][info] 	- image pair (20455773, 1283968274) contains 6 putative matches.
+[17:50:35.676207][info] 	- image pair (20455773, 1311600941) contains 9 putative matches.
+[17:50:35.676207][info] 	- image pair (20455773, 1343242448) contains 11 putative matches.
+[17:50:35.676207][info] 	- image pair (20455773, 1430520676) contains 5 putative matches.
+[17:50:35.676207][info] 	- image pair (20455773, 1446341273) contains 5 putative matches.
+[17:50:35.676207][info] 	- image pair (20455773, 1539772914) contains 13 putative matches.
+[17:50:35.676207][info] 	- image pair (20455773, 1739492887) contains 9 putative matches.
+[17:50:35.676207][info] 	- image pair (20455773, 1822323831) contains 21 putative matches.
+[17:50:35.676207][info] 	- image pair (20455773, 1860028773) contains 9 putative matches.
+[17:50:35.676207][info] 	- image pair (20455773, 1865439864) contains 8 putative matches.
+[17:50:35.676207][info] 	- image pair (20455773, 1875356350) contains 17 putative matches.
+[17:50:35.676207][info] 	- image pair (20455773, 1886369179) contains 13 putative matches.
+[17:50:35.676207][info] 	- image pair (20455773, 1898130451) contains 14 putative matches.
+[17:50:35.676207][info] 	- image pair (20455773, 1940359100) contains 7 putative matches.
+[17:50:35.676207][info] 	- image pair (20455773, 2015013291) contains 9 putative matches.
+[17:50:35.676207][info] 	- image pair (136314038, 160486800) contains 12 putative matches.
+[17:50:35.676207][info] 	- image pair (136314038, 282548764) contains 7 putative matches.
+[17:50:35.676207][info] 	- image pair (136314038, 323167612) contains 8 putative matches.
+[17:50:35.676207][info] 	- image pair (136314038, 394590645) contains 25 putative matches.
+[17:50:35.676207][info] 	- image pair (136314038, 510607587) contains 6 putative matches.
+[17:50:35.676207][info] 	- image pair (136314038, 614660772) contains 9 putative matches.
+[17:50:35.676207][info] 	- image pair (136314038, 746792408) contains 11 putative matches.
+[17:50:35.676207][info] 	- image pair (136314038, 785519142) contains 6 putative matches.
+[17:50:35.676207][info] 	- image pair (136314038, 1020074247) contains 10 putative matches.
+[17:50:35.676207][info] 	- image pair (136314038, 1049429640) contains 9 putative matches.
+[17:50:35.676207][info] 	- image pair (136314038, 1104676139) contains 12 putative matches.
+[17:50:35.676207][info] 	- image pair (136314038, 1164619235) contains 26 putative matches.
+[17:50:35.676207][info] 	- image pair (136314038, 1283968274) contains 9 putative matches.
+[17:50:35.676207][info] 	- image pair (136314038, 1311600941) contains 10 putative matches.
+[17:50:35.676207][info] 	- image pair (136314038, 1343242448) contains 9 putative matches.
+[17:50:35.676207][info] 	- image pair (136314038, 1430520676) contains 5 putative matches.
+[17:50:35.676207][info] 	- image pair (136314038, 1446341273) contains 4 putative matches.
+[17:50:35.676207][info] 	- image pair (136314038, 1539772914) contains 7 putative matches.
+[17:50:35.676207][info] 	- image pair (136314038, 1739492887) contains 7 putative matches.
+[17:50:35.676207][info] 	- image pair (136314038, 1822323831) contains 17 putative matches.
+[17:50:35.676207][info] 	- image pair (136314038, 1860028773) contains 5 putative matches.
+[17:50:35.676207][info] 	- image pair (136314038, 1865439864) contains 9 putative matches.
+[17:50:35.676207][info] 	- image pair (136314038, 1875356350) contains 13 putative matches.
+[17:50:35.676207][info] 	- image pair (136314038, 1886369179) contains 18 putative matches.
+[17:50:35.677208][info] 	- image pair (136314038, 1898130451) contains 7 putative matches.
+[17:50:35.677208][info] 	- image pair (136314038, 1940359100) contains 7 putative matches.
+[17:50:35.677208][info] 	- image pair (136314038, 2015013291) contains 6 putative matches.
+[17:50:35.677208][info] 	- image pair (160486800, 282548764) contains 25 putative matches.
+[17:50:35.677208][info] 	- image pair (160486800, 323167612) contains 26 putative matches.
+[17:50:35.677208][info] 	- image pair (160486800, 394590645) contains 12 putative matches.
+[17:50:35.677208][info] 	- image pair (160486800, 510607587) contains 24 putative matches.
+[17:50:35.677208][info] 	- image pair (160486800, 614660772) contains 45 putative matches.
+[17:50:35.677208][info] 	- image pair (160486800, 746792408) contains 31 putative matches.
+[17:50:35.677208][info] 	- image pair (160486800, 785519142) contains 18 putative matches.
+[17:50:35.677208][info] 	- image pair (160486800, 1020074247) contains 11 putative matches.
+[17:50:35.677208][info] 	- image pair (160486800, 1049429640) contains 18 putative matches.
+[17:50:35.677208][info] 	- image pair (160486800, 1104676139) contains 6 putative matches.
+[17:50:35.677208][info] 	- image pair (160486800, 1164619235) contains 22 putative matches.
+[17:50:35.677208][info] 	- image pair (160486800, 1283968274) contains 25 putative matches.
+[17:50:35.677208][info] 	- image pair (160486800, 1311600941) contains 45 putative matches.
+[17:50:35.677208][info] 	- image pair (160486800, 1343242448) contains 13 putative matches.
+[17:50:35.677208][info] 	- image pair (160486800, 1430520676) contains 48 putative matches.
+[17:50:35.677208][info] 	- image pair (160486800, 1446341273) contains 28 putative matches.
+[17:50:35.677208][info] 	- image pair (160486800, 1539772914) contains 36 putative matches.
+[17:50:35.677208][info] 	- image pair (160486800, 1739492887) contains 55 putative matches.
+[17:50:35.677208][info] 	- image pair (160486800, 1822323831) contains 6 putative matches.
+[17:50:35.677208][info] 	- image pair (160486800, 1860028773) contains 31 putative matches.
+[17:50:35.677208][info] 	- image pair (160486800, 1865439864) contains 15 putative matches.
+[17:50:35.677208][info] 	- image pair (160486800, 1875356350) contains 68 putative matches.
+[17:50:35.677208][info] 	- image pair (160486800, 1886369179) contains 11 putative matches.
+[17:50:35.677208][info] 	- image pair (160486800, 1898130451) contains 29 putative matches.
+[17:50:35.677208][info] 	- image pair (160486800, 1940359100) contains 14 putative matches.
+[17:50:35.677208][info] 	- image pair (160486800, 2015013291) contains 65 putative matches.
+[17:50:35.677208][info] 	- image pair (282548764, 323167612) contains 26 putative matches.
+[17:50:35.677208][info] 	- image pair (282548764, 394590645) contains 10 putative matches.
+[17:50:35.677208][info] 	- image pair (282548764, 510607587) contains 42 putative matches.
+[17:50:35.677208][info] 	- image pair (282548764, 614660772) contains 78 putative matches.
+[17:50:35.677208][info] 	- image pair (282548764, 746792408) contains 24 putative matches.
+[17:50:35.677208][info] 	- image pair (282548764, 785519142) contains 73 putative matches.
+[17:50:35.677208][info] 	- image pair (282548764, 1020074247) contains 21 putative matches.
+[17:50:35.677208][info] 	- image pair (282548764, 1049429640) contains 20 putative matches.
+[17:50:35.677208][info] 	- image pair (282548764, 1104676139) contains 10 putative matches.
+[17:50:35.677208][info] 	- image pair (282548764, 1164619235) contains 13 putative matches.
+[17:50:35.677208][info] 	- image pair (282548764, 1283968274) contains 25 putative matches.
+[17:50:35.677208][info] 	- image pair (282548764, 1311600941) contains 32 putative matches.
+[17:50:35.677208][info] 	- image pair (282548764, 1343242448) contains 15 putative matches.
+[17:50:35.677208][info] 	- image pair (282548764, 1430520676) contains 17 putative matches.
+[17:50:35.677208][info] 	- image pair (282548764, 1446341273) contains 33 putative matches.
+[17:50:35.677208][info] 	- image pair (282548764, 1539772914) contains 35 putative matches.
+[17:50:35.677208][info] 	- image pair (282548764, 1739492887) contains 20 putative matches.
+[17:50:35.677208][info] 	- image pair (282548764, 1822323831) contains 2 putative matches.
+[17:50:35.677208][info] 	- image pair (282548764, 1860028773) contains 33 putative matches.
+[17:50:35.677208][info] 	- image pair (282548764, 1865439864) contains 15 putative matches.
+[17:50:35.677208][info] 	- image pair (282548764, 1875356350) contains 28 putative matches.
+[17:50:35.677208][info] 	- image pair (282548764, 1886369179) contains 10 putative matches.
+[17:50:35.677208][info] 	- image pair (282548764, 1898130451) contains 28 putative matches.
+[17:50:35.677208][info] 	- image pair (282548764, 1940359100) contains 23 putative matches.
+[17:50:35.677208][info] 	- image pair (282548764, 2015013291) contains 30 putative matches.
+[17:50:35.677208][info] 	- image pair (323167612, 394590645) contains 8 putative matches.
+[17:50:35.678208][info] 	- image pair (323167612, 510607587) contains 46 putative matches.
+[17:50:35.678208][info] 	- image pair (323167612, 614660772) contains 34 putative matches.
+[17:50:35.678208][info] 	- image pair (323167612, 746792408) contains 33 putative matches.
+[17:50:35.678208][info] 	- image pair (323167612, 785519142) contains 28 putative matches.
+[17:50:35.678208][info] 	- image pair (323167612, 1020074247) contains 20 putative matches.
+[17:50:35.678208][info] 	- image pair (323167612, 1049429640) contains 85 putative matches.
+[17:50:35.678208][info] 	- image pair (323167612, 1104676139) contains 6 putative matches.
+[17:50:35.678208][info] 	- image pair (323167612, 1164619235) contains 8 putative matches.
+[17:50:35.678208][info] 	- image pair (323167612, 1283968274) contains 40 putative matches.
+[17:50:35.678208][info] 	- image pair (323167612, 1311600941) contains 29 putative matches.
+[17:50:35.678208][info] 	- image pair (323167612, 1343242448) contains 18 putative matches.
+[17:50:35.678208][info] 	- image pair (323167612, 1430520676) contains 19 putative matches.
+[17:50:35.678208][info] 	- image pair (323167612, 1446341273) contains 40 putative matches.
+[17:50:35.678208][info] 	- image pair (323167612, 1539772914) contains 26 putative matches.
+[17:50:35.678208][info] 	- image pair (323167612, 1739492887) contains 23 putative matches.
+[17:50:35.678208][info] 	- image pair (323167612, 1822323831) contains 4 putative matches.
+[17:50:35.678208][info] 	- image pair (323167612, 1860028773) contains 32 putative matches.
+[17:50:35.678208][info] 	- image pair (323167612, 1865439864) contains 58 putative matches.
+[17:50:35.678208][info] 	- image pair (323167612, 1875356350) contains 31 putative matches.
+[17:50:35.678208][info] 	- image pair (323167612, 1886369179) contains 9 putative matches.
+[17:50:35.678208][info] 	- image pair (323167612, 1898130451) contains 35 putative matches.
+[17:50:35.678208][info] 	- image pair (323167612, 1940359100) contains 28 putative matches.
+[17:50:35.678208][info] 	- image pair (323167612, 2015013291) contains 29 putative matches.
+[17:50:35.678208][info] 	- image pair (394590645, 510607587) contains 13 putative matches.
+[17:50:35.678208][info] 	- image pair (394590645, 614660772) contains 16 putative matches.
+[17:50:35.678208][info] 	- image pair (394590645, 746792408) contains 12 putative matches.
+[17:50:35.678208][info] 	- image pair (394590645, 785519142) contains 12 putative matches.
+[17:50:35.678208][info] 	- image pair (394590645, 1020074247) contains 9 putative matches.
+[17:50:35.678208][info] 	- image pair (394590645, 1049429640) contains 7 putative matches.
+[17:50:35.678208][info] 	- image pair (394590645, 1104676139) contains 58 putative matches.
+[17:50:35.678208][info] 	- image pair (394590645, 1164619235) contains 20 putative matches.
+[17:50:35.678208][info] 	- image pair (394590645, 1283968274) contains 5 putative matches.
+[17:50:35.678208][info] 	- image pair (394590645, 1311600941) contains 15 putative matches.
+[17:50:35.678208][info] 	- image pair (394590645, 1343242448) contains 6 putative matches.
+[17:50:35.678208][info] 	- image pair (394590645, 1430520676) contains 5 putative matches.
+[17:50:35.678208][info] 	- image pair (394590645, 1446341273) contains 8 putative matches.
+[17:50:35.678208][info] 	- image pair (394590645, 1539772914) contains 7 putative matches.
+[17:50:35.678208][info] 	- image pair (394590645, 1739492887) contains 10 putative matches.
+[17:50:35.678208][info] 	- image pair (394590645, 1822323831) contains 15 putative matches.
+[17:50:35.678208][info] 	- image pair (394590645, 1860028773) contains 8 putative matches.
+[17:50:35.678208][info] 	- image pair (394590645, 1865439864) contains 7 putative matches.
+[17:50:35.678208][info] 	- image pair (394590645, 1875356350) contains 27 putative matches.
+[17:50:35.678208][info] 	- image pair (394590645, 1886369179) contains 15 putative matches.
+[17:50:35.678208][info] 	- image pair (394590645, 1898130451) contains 8 putative matches.
+[17:50:35.678208][info] 	- image pair (394590645, 1940359100) contains 7 putative matches.
+[17:50:35.678208][info] 	- image pair (394590645, 2015013291) contains 10 putative matches.
+[17:50:35.678208][info] 	- image pair (510607587, 614660772) contains 38 putative matches.
+[17:50:35.678208][info] 	- image pair (510607587, 746792408) contains 30 putative matches.
+[17:50:35.678208][info] 	- image pair (510607587, 785519142) contains 50 putative matches.
+[17:50:35.678208][info] 	- image pair (510607587, 1020074247) contains 5 putative matches.
+[17:50:35.678208][info] 	- image pair (510607587, 1049429640) contains 14 putative matches.
+[17:50:35.678208][info] 	- image pair (510607587, 1104676139) contains 5 putative matches.
+[17:50:35.678208][info] 	- image pair (510607587, 1164619235) contains 8 putative matches.
+[17:50:35.678208][info] 	- image pair (510607587, 1283968274) contains 110 putative matches.
+[17:50:35.678208][info] 	- image pair (510607587, 1311600941) contains 32 putative matches.
+[17:50:35.679210][info] 	- image pair (510607587, 1343242448) contains 14 putative matches.
+[17:50:35.679210][info] 	- image pair (510607587, 1430520676) contains 8 putative matches.
+[17:50:35.679210][info] 	- image pair (510607587, 1446341273) contains 66 putative matches.
+[17:50:35.679210][info] 	- image pair (510607587, 1539772914) contains 26 putative matches.
+[17:50:35.679210][info] 	- image pair (510607587, 1739492887) contains 16 putative matches.
+[17:50:35.679210][info] 	- image pair (510607587, 1822323831) contains 3 putative matches.
+[17:50:35.679210][info] 	- image pair (510607587, 1860028773) contains 51 putative matches.
+[17:50:35.679210][info] 	- image pair (510607587, 1865439864) contains 41 putative matches.
+[17:50:35.679210][info] 	- image pair (510607587, 1875356350) contains 30 putative matches.
+[17:50:35.679210][info] 	- image pair (510607587, 1886369179) contains 5 putative matches.
+[17:50:35.679210][info] 	- image pair (510607587, 1898130451) contains 24 putative matches.
+[17:50:35.679210][info] 	- image pair (510607587, 1940359100) contains 38 putative matches.
+[17:50:35.679210][info] 	- image pair (510607587, 2015013291) contains 23 putative matches.
+[17:50:35.679210][info] 	- image pair (614660772, 746792408) contains 22 putative matches.
+[17:50:35.679210][info] 	- image pair (614660772, 785519142) contains 37 putative matches.
+[17:50:35.679210][info] 	- image pair (614660772, 1020074247) contains 10 putative matches.
+[17:50:35.679210][info] 	- image pair (614660772, 1049429640) contains 12 putative matches.
+[17:50:35.679210][info] 	- image pair (614660772, 1104676139) contains 10 putative matches.
+[17:50:35.679210][info] 	- image pair (614660772, 1164619235) contains 10 putative matches.
+[17:50:35.679210][info] 	- image pair (614660772, 1283968274) contains 28 putative matches.
+[17:50:35.679210][info] 	- image pair (614660772, 1311600941) contains 57 putative matches.
+[17:50:35.679210][info] 	- image pair (614660772, 1343242448) contains 17 putative matches.
+[17:50:35.679210][info] 	- image pair (614660772, 1430520676) contains 16 putative matches.
+[17:50:35.679210][info] 	- image pair (614660772, 1446341273) contains 28 putative matches.
+[17:50:35.679210][info] 	- image pair (614660772, 1539772914) contains 27 putative matches.
+[17:50:35.679210][info] 	- image pair (614660772, 1739492887) contains 20 putative matches.
+[17:50:35.679210][info] 	- image pair (614660772, 1822323831) contains 6 putative matches.
+[17:50:35.679210][info] 	- image pair (614660772, 1860028773) contains 22 putative matches.
+[17:50:35.679210][info] 	- image pair (614660772, 1865439864) contains 12 putative matches.
+[17:50:35.679210][info] 	- image pair (614660772, 1875356350) contains 35 putative matches.
+[17:50:35.679210][info] 	- image pair (614660772, 1886369179) contains 18 putative matches.
+[17:50:35.679210][info] 	- image pair (614660772, 1898130451) contains 26 putative matches.
+[17:50:35.679210][info] 	- image pair (614660772, 1940359100) contains 19 putative matches.
+[17:50:35.679210][info] 	- image pair (614660772, 2015013291) contains 23 putative matches.
+[17:50:35.679210][info] 	- image pair (746792408, 785519142) contains 23 putative matches.
+[17:50:35.679210][info] 	- image pair (746792408, 1020074247) contains 10 putative matches.
+[17:50:35.679210][info] 	- image pair (746792408, 1049429640) contains 20 putative matches.
+[17:50:35.679210][info] 	- image pair (746792408, 1104676139) contains 7 putative matches.
+[17:50:35.679210][info] 	- image pair (746792408, 1164619235) contains 11 putative matches.
+[17:50:35.679210][info] 	- image pair (746792408, 1283968274) contains 30 putative matches.
+[17:50:35.679210][info] 	- image pair (746792408, 1311600941) contains 33 putative matches.
+[17:50:35.679210][info] 	- image pair (746792408, 1343242448) contains 23 putative matches.
+[17:50:35.679210][info] 	- image pair (746792408, 1430520676) contains 15 putative matches.
+[17:50:35.679210][info] 	- image pair (746792408, 1446341273) contains 23 putative matches.
+[17:50:35.679210][info] 	- image pair (746792408, 1539772914) contains 28 putative matches.
+[17:50:35.679210][info] 	- image pair (746792408, 1739492887) contains 22 putative matches.
+[17:50:35.679210][info] 	- image pair (746792408, 1822323831) contains 5 putative matches.
+[17:50:35.679210][info] 	- image pair (746792408, 1860028773) contains 51 putative matches.
+[17:50:35.679210][info] 	- image pair (746792408, 1865439864) contains 16 putative matches.
+[17:50:35.679210][info] 	- image pair (746792408, 1875356350) contains 30 putative matches.
+[17:50:35.679210][info] 	- image pair (746792408, 1886369179) contains 6 putative matches.
+[17:50:35.679210][info] 	- image pair (746792408, 1898130451) contains 34 putative matches.
+[17:50:35.679210][info] 	- image pair (746792408, 1940359100) contains 25 putative matches.
+[17:50:35.679210][info] 	- image pair (746792408, 2015013291) contains 17 putative matches.
+[17:50:35.679210][info] 	- image pair (785519142, 1020074247) contains 18 putative matches.
+[17:50:35.679210][info] 	- image pair (785519142, 1049429640) contains 23 putative matches.
+[17:50:35.679210][info] 	- image pair (785519142, 1104676139) contains 10 putative matches.
+[17:50:35.680211][info] 	- image pair (785519142, 1164619235) contains 9 putative matches.
+[17:50:35.680211][info] 	- image pair (785519142, 1283968274) contains 32 putative matches.
+[17:50:35.680211][info] 	- image pair (785519142, 1311600941) contains 29 putative matches.
+[17:50:35.680211][info] 	- image pair (785519142, 1343242448) contains 11 putative matches.
+[17:50:35.680211][info] 	- image pair (785519142, 1430520676) contains 11 putative matches.
+[17:50:35.680211][info] 	- image pair (785519142, 1446341273) contains 33 putative matches.
+[17:50:35.680211][info] 	- image pair (785519142, 1539772914) contains 21 putative matches.
+[17:50:35.680211][info] 	- image pair (785519142, 1739492887) contains 14 putative matches.
+[17:50:35.680211][info] 	- image pair (785519142, 1822323831) contains 4 putative matches.
+[17:50:35.680211][info] 	- image pair (785519142, 1860028773) contains 33 putative matches.
+[17:50:35.680211][info] 	- image pair (785519142, 1865439864) contains 25 putative matches.
+[17:50:35.680211][info] 	- image pair (785519142, 1875356350) contains 35 putative matches.
+[17:50:35.680211][info] 	- image pair (785519142, 1886369179) contains 8 putative matches.
+[17:50:35.680211][info] 	- image pair (785519142, 1898130451) contains 31 putative matches.
+[17:50:35.680211][info] 	- image pair (785519142, 1940359100) contains 14 putative matches.
+[17:50:35.680211][info] 	- image pair (785519142, 2015013291) contains 18 putative matches.
+[17:50:35.680211][info] 	- image pair (1020074247, 1049429640) contains 21 putative matches.
+[17:50:35.680211][info] 	- image pair (1020074247, 1104676139) contains 15 putative matches.
+[17:50:35.680211][info] 	- image pair (1020074247, 1164619235) contains 13 putative matches.
+[17:50:35.680211][info] 	- image pair (1020074247, 1283968274) contains 20 putative matches.
+[17:50:35.680211][info] 	- image pair (1020074247, 1311600941) contains 28 putative matches.
+[17:50:35.680211][info] 	- image pair (1020074247, 1343242448) contains 33 putative matches.
+[17:50:35.680211][info] 	- image pair (1020074247, 1430520676) contains 24 putative matches.
+[17:50:35.680211][info] 	- image pair (1020074247, 1446341273) contains 22 putative matches.
+[17:50:35.680211][info] 	- image pair (1020074247, 1539772914) contains 45 putative matches.
+[17:50:35.680211][info] 	- image pair (1020074247, 1739492887) contains 30 putative matches.
+[17:50:35.680211][info] 	- image pair (1020074247, 1822323831) contains 5 putative matches.
+[17:50:35.680211][info] 	- image pair (1020074247, 1860028773) contains 23 putative matches.
+[17:50:35.680211][info] 	- image pair (1020074247, 1865439864) contains 22 putative matches.
+[17:50:35.680211][info] 	- image pair (1020074247, 1875356350) contains 40 putative matches.
+[17:50:35.680211][info] 	- image pair (1020074247, 1886369179) contains 9 putative matches.
+[17:50:35.680211][info] 	- image pair (1020074247, 1898130451) contains 37 putative matches.
+[17:50:35.680211][info] 	- image pair (1020074247, 1940359100) contains 33 putative matches.
+[17:50:35.680211][info] 	- image pair (1020074247, 2015013291) contains 29 putative matches.
+[17:50:35.680211][info] 	- image pair (1049429640, 1104676139) contains 10 putative matches.
+[17:50:35.680211][info] 	- image pair (1049429640, 1164619235) contains 12 putative matches.
+[17:50:35.680211][info] 	- image pair (1049429640, 1283968274) contains 36 putative matches.
+[17:50:35.680211][info] 	- image pair (1049429640, 1311600941) contains 35 putative matches.
+[17:50:35.680211][info] 	- image pair (1049429640, 1343242448) contains 20 putative matches.
+[17:50:35.680211][info] 	- image pair (1049429640, 1430520676) contains 22 putative matches.
+[17:50:35.680211][info] 	- image pair (1049429640, 1446341273) contains 35 putative matches.
+[17:50:35.680211][info] 	- image pair (1049429640, 1539772914) contains 31 putative matches.
+[17:50:35.680211][info] 	- image pair (1049429640, 1739492887) contains 23 putative matches.
+[17:50:35.681211][info] 	- image pair (1049429640, 1822323831) contains 6 putative matches.
+[17:50:35.681211][info] 	- image pair (1049429640, 1860028773) contains 33 putative matches.
+[17:50:35.681211][info] 	- image pair (1049429640, 1865439864) contains 36 putative matches.
+[17:50:35.681211][info] 	- image pair (1049429640, 1875356350) contains 34 putative matches.
+[17:50:35.681211][info] 	- image pair (1049429640, 1886369179) contains 6 putative matches.
+[17:50:35.681211][info] 	- image pair (1049429640, 1898130451) contains 27 putative matches.
+[17:50:35.681211][info] 	- image pair (1049429640, 1940359100) contains 32 putative matches.
+[17:50:35.681211][info] 	- image pair (1049429640, 2015013291) contains 20 putative matches.
+[17:50:35.681211][info] 	- image pair (1104676139, 1164619235) contains 15 putative matches.
+[17:50:35.681211][info] 	- image pair (1104676139, 1283968274) contains 11 putative matches.
+[17:50:35.681211][info] 	- image pair (1104676139, 1311600941) contains 12 putative matches.
+[17:50:35.681211][info] 	- image pair (1104676139, 1343242448) contains 8 putative matches.
+[17:50:35.681211][info] 	- image pair (1104676139, 1430520676) contains 4 putative matches.
+[17:50:35.681211][info] 	- image pair (1104676139, 1446341273) contains 6 putative matches.
+[17:50:35.681211][info] 	- image pair (1104676139, 1539772914) contains 7 putative matches.
+[17:50:35.681211][info] 	- image pair (1104676139, 1739492887) contains 6 putative matches.
+[17:50:35.681211][info] 	- image pair (1104676139, 1822323831) contains 19 putative matches.
+[17:50:35.681211][info] 	- image pair (1104676139, 1860028773) contains 7 putative matches.
+[17:50:35.681211][info] 	- image pair (1104676139, 1865439864) contains 6 putative matches.
+[17:50:35.681211][info] 	- image pair (1104676139, 1875356350) contains 12 putative matches.
+[17:50:35.681211][info] 	- image pair (1104676139, 1886369179) contains 10 putative matches.
+[17:50:35.681211][info] 	- image pair (1104676139, 1898130451) contains 10 putative matches.
+[17:50:35.681211][info] 	- image pair (1104676139, 1940359100) contains 5 putative matches.
+[17:50:35.681211][info] 	- image pair (1104676139, 2015013291) contains 12 putative matches.
+[17:50:35.681211][info] 	- image pair (1164619235, 1283968274) contains 16 putative matches.
+[17:50:35.681211][info] 	- image pair (1164619235, 1311600941) contains 18 putative matches.
+[17:50:35.681211][info] 	- image pair (1164619235, 1343242448) contains 13 putative matches.
+[17:50:35.681211][info] 	- image pair (1164619235, 1430520676) contains 20 putative matches.
+[17:50:35.681211][info] 	- image pair (1164619235, 1446341273) contains 10 putative matches.
+[17:50:35.681211][info] 	- image pair (1164619235, 1539772914) contains 9 putative matches.
+[17:50:35.681211][info] 	- image pair (1164619235, 1739492887) contains 14 putative matches.
+[17:50:35.681211][info] 	- image pair (1164619235, 1822323831) contains 10 putative matches.
+[17:50:35.681211][info] 	- image pair (1164619235, 1860028773) contains 10 putative matches.
+[17:50:35.681211][info] 	- image pair (1164619235, 1865439864) contains 4 putative matches.
+[17:50:35.681211][info] 	- image pair (1164619235, 1875356350) contains 30 putative matches.
+[17:50:35.681211][info] 	- image pair (1164619235, 1886369179) contains 9 putative matches.
+[17:50:35.681211][info] 	- image pair (1164619235, 1898130451) contains 15 putative matches.
+[17:50:35.681211][info] 	- image pair (1164619235, 1940359100) contains 9 putative matches.
+[17:50:35.681211][info] 	- image pair (1164619235, 2015013291) contains 22 putative matches.
+[17:50:35.681211][info] 	- image pair (1283968274, 1311600941) contains 33 putative matches.
+[17:50:35.681211][info] 	- image pair (1283968274, 1343242448) contains 13 putative matches.
+[17:50:35.681211][info] 	- image pair (1283968274, 1430520676) contains 21 putative matches.
+[17:50:35.681211][info] 	- image pair (1283968274, 1446341273) contains 98 putative matches.
+[17:50:35.681211][info] 	- image pair (1283968274, 1539772914) contains 39 putative matches.
+[17:50:35.681211][info] 	- image pair (1283968274, 1739492887) contains 28 putative matches.
+[17:50:35.681211][info] 	- image pair (1283968274, 1822323831) contains 8 putative matches.
+[17:50:35.681211][info] 	- image pair (1283968274, 1860028773) contains 68 putative matches.
+[17:50:35.681211][info] 	- image pair (1283968274, 1865439864) contains 32 putative matches.
+[17:50:35.681211][info] 	- image pair (1283968274, 1875356350) contains 25 putative matches.
+[17:50:35.681211][info] 	- image pair (1283968274, 1886369179) contains 9 putative matches.
+[17:50:35.681211][info] 	- image pair (1283968274, 1898130451) contains 38 putative matches.
+[17:50:35.681211][info] 	- image pair (1283968274, 1940359100) contains 33 putative matches.
+[17:50:35.681211][info] 	- image pair (1283968274, 2015013291) contains 34 putative matches.
+[17:50:35.681211][info] 	- image pair (1311600941, 1343242448) contains 17 putative matches.
+[17:50:35.681211][info] 	- image pair (1311600941, 1430520676) contains 26 putative matches.
+[17:50:35.681211][info] 	- image pair (1311600941, 1446341273) contains 56 putative matches.
+[17:50:35.681211][info] 	- image pair (1311600941, 1539772914) contains 60 putative matches.
+[17:50:35.681211][info] 	- image pair (1311600941, 1739492887) contains 22 putative matches.
+[17:50:35.682212][info] 	- image pair (1311600941, 1822323831) contains 3 putative matches.
+[17:50:35.682212][info] 	- image pair (1311600941, 1860028773) contains 33 putative matches.
+[17:50:35.682212][info] 	- image pair (1311600941, 1865439864) contains 14 putative matches.
+[17:50:35.682212][info] 	- image pair (1311600941, 1875356350) contains 35 putative matches.
+[17:50:35.682212][info] 	- image pair (1311600941, 1886369179) contains 12 putative matches.
+[17:50:35.682212][info] 	- image pair (1311600941, 1898130451) contains 52 putative matches.
+[17:50:35.682212][info] 	- image pair (1311600941, 1940359100) contains 22 putative matches.
+[17:50:35.682212][info] 	- image pair (1311600941, 2015013291) contains 44 putative matches.
+[17:50:35.682212][info] 	- image pair (1343242448, 1430520676) contains 17 putative matches.
+[17:50:35.682212][info] 	- image pair (1343242448, 1446341273) contains 28 putative matches.
+[17:50:35.682212][info] 	- image pair (1343242448, 1539772914) contains 21 putative matches.
+[17:50:35.682212][info] 	- image pair (1343242448, 1739492887) contains 39 putative matches.
+[17:50:35.682212][info] 	- image pair (1343242448, 1822323831) contains 5 putative matches.
+[17:50:35.682212][info] 	- image pair (1343242448, 1860028773) contains 21 putative matches.
+[17:50:35.682212][info] 	- image pair (1343242448, 1865439864) contains 19 putative matches.
+[17:50:35.682212][info] 	- image pair (1343242448, 1875356350) contains 36 putative matches.
+[17:50:35.682212][info] 	- image pair (1343242448, 1886369179) contains 9 putative matches.
+[17:50:35.682212][info] 	- image pair (1343242448, 1898130451) contains 26 putative matches.
+[17:50:35.682212][info] 	- image pair (1343242448, 1940359100) contains 20 putative matches.
+[17:50:35.682212][info] 	- image pair (1343242448, 2015013291) contains 32 putative matches.
+[17:50:35.682212][info] 	- image pair (1430520676, 1446341273) contains 34 putative matches.
+[17:50:35.682212][info] 	- image pair (1430520676, 1539772914) contains 38 putative matches.
+[17:50:35.682212][info] 	- image pair (1430520676, 1739492887) contains 94 putative matches.
+[17:50:35.682212][info] 	- image pair (1430520676, 1822323831) contains 7 putative matches.
+[17:50:35.682212][info] 	- image pair (1430520676, 1860028773) contains 30 putative matches.
+[17:50:35.682212][info] 	- image pair (1430520676, 1865439864) contains 9 putative matches.
+[17:50:35.682212][info] 	- image pair (1430520676, 1875356350) contains 64 putative matches.
+[17:50:35.682212][info] 	- image pair (1430520676, 1886369179) contains 11 putative matches.
+[17:50:35.682212][info] 	- image pair (1430520676, 1898130451) contains 38 putative matches.
+[17:50:35.682212][info] 	- image pair (1430520676, 1940359100) contains 18 putative matches.
+[17:50:35.682212][info] 	- image pair (1430520676, 2015013291) contains 73 putative matches.
+[17:50:35.682212][info] 	- image pair (1446341273, 1539772914) contains 72 putative matches.
+[17:50:35.682212][info] 	- image pair (1446341273, 1739492887) contains 40 putative matches.
+[17:50:35.682212][info] 	- image pair (1446341273, 1822323831) contains 1 putative matches.
+[17:50:35.682212][info] 	- image pair (1446341273, 1860028773) contains 58 putative matches.
+[17:50:35.682212][info] 	- image pair (1446341273, 1865439864) contains 30 putative matches.
+[17:50:35.682212][info] 	- image pair (1446341273, 1875356350) contains 37 putative matches.
+[17:50:35.682212][info] 	- image pair (1446341273, 1886369179) contains 4 putative matches.
+[17:50:35.682212][info] 	- image pair (1446341273, 1898130451) contains 46 putative matches.
+[17:50:35.682212][info] 	- image pair (1446341273, 1940359100) contains 55 putative matches.
+[17:50:35.682212][info] 	- image pair (1446341273, 2015013291) contains 55 putative matches.
+[17:50:35.682212][info] 	- image pair (1539772914, 1739492887) contains 65 putative matches.
+[17:50:35.682212][info] 	- image pair (1539772914, 1822323831) contains 4 putative matches.
+[17:50:35.682212][info] 	- image pair (1539772914, 1860028773) contains 76 putative matches.
+[17:50:35.682212][info] 	- image pair (1539772914, 1865439864) contains 18 putative matches.
+[17:50:35.682212][info] 	- image pair (1539772914, 1875356350) contains 42 putative matches.
+[17:50:35.682212][info] 	- image pair (1539772914, 1886369179) contains 8 putative matches.
+[17:50:35.682212][info] 	- image pair (1539772914, 1898130451) contains 93 putative matches.
+[17:50:35.682212][info] 	- image pair (1539772914, 1940359100) contains 43 putative matches.
+[17:50:35.682212][info] 	- image pair (1539772914, 2015013291) contains 84 putative matches.
+[17:50:35.682212][info] Task (Regions Matching) done in (s): 0.776000
+[17:50:35.683213][info] Geometric filtering: using fundamental_matrix
+Robust Model Estimation
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+[17:50:36.936429][info] 9 geometric image pair matches:
+[17:50:36.936429][info] 	- image pair (20455773, 394590645) contains 62 geometric matches.
+[17:50:36.936429][info] 	- image pair (282548764, 785519142) contains 53 geometric matches.
+[17:50:36.936429][info] 	- image pair (323167612, 1049429640) contains 69 geometric matches.
+[17:50:36.936429][info] 	- image pair (510607587, 1283968274) contains 93 geometric matches.
+[17:50:36.936429][info] 	- image pair (1283968274, 1446341273) contains 83 geometric matches.
+[17:50:36.936429][info] 	- image pair (1430520676, 1739492887) contains 80 geometric matches.
+[17:50:36.936429][info] 	- image pair (1430520676, 2015013291) contains 58 geometric matches.
+[17:50:36.936429][info] 	- image pair (1539772914, 1898130451) contains 68 geometric matches.
+[17:50:36.936429][info] 	- image pair (1539772914, 2015013291) contains 64 geometric matches.
+[17:50:36.936429][info] Grid filtering
+[17:50:36.936429][info] After grid filtering:
+[17:50:36.936429][info] 	- image pair (20455773, 394590645) contains 62 geometric matches.
+[17:50:36.936429][info] 	- image pair (282548764, 785519142) contains 53 geometric matches.
+[17:50:36.936429][info] 	- image pair (323167612, 1049429640) contains 69 geometric matches.
+[17:50:36.936429][info] 	- image pair (510607587, 1283968274) contains 93 geometric matches.
+[17:50:36.936429][info] 	- image pair (1283968274, 1446341273) contains 83 geometric matches.
+[17:50:36.936429][info] 	- image pair (1430520676, 1739492887) contains 80 geometric matches.
+[17:50:36.937430][info] 	- image pair (1430520676, 2015013291) contains 58 geometric matches.
+[17:50:36.937430][info] 	- image pair (1539772914, 1898130451) contains 68 geometric matches.
+[17:50:36.937430][info] 	- image pair (1539772914, 2015013291) contains 64 geometric matches.
+[17:50:36.937430][info] Save geometric matches.
+[17:50:36.943436][info] Task done in (s): 1.260000

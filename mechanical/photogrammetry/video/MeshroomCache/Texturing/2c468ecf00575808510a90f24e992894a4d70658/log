@@ -1,0 +1,100 @@
+Program called with the following parameters:
+ * angleHardThreshold = 90
+ * bestScoreThreshold = 0.1
+ * correctEV = 0
+ * downscale =  Unknown Type "unsigned int"
+ * fillHoles = 0
+ * flipNormals = 0
+ * forceVisibleByAllVertices = 0
+ * imagesFolder = "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/PrepareDenseScene/3e4c19c9a6e097340eab7f3527b9e6b37897db51"
+ * input = "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/Meshing/db83591ce1e8f06cfc1e3cb798bf2ff74a9c68ce/densePointCloud.abc"
+ * inputMesh = "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/MeshFiltering/824bb1fc97e66b3d18760ff6004b31c06b283055/mesh.obj"
+ * multiBandDownscale =  Unknown Type "unsigned int"
+ * multiBandNbContrib =  Unknown Type "class std::vector<int,class std::allocator<int> >"
+ * output = "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/Texturing/2c468ecf00575808510a90f24e992894a4d70658"
+ * outputTextureFileType = "png"
+ * padding =  Unknown Type "unsigned int"
+ * processColorspace = "sRGB"
+ * textureSide =  Unknown Type "unsigned int"
+ * unwrapMethod = "Basic"
+ * useScore = 1
+ * useUDIM = 1
+ * verboseLevel = "info"
+ * visibilityRemappingMethod = "PullPush"
+
+[17:51:03.936353][info] Found 1 image dimension(s): 
+[17:51:03.937354][info] 	- [640x480]
+[17:51:03.947363][info] Overall maximum dimension: [640x480]
+[17:51:03.948364][info] Loading mesh from obj file: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/MeshFiltering/824bb1fc97e66b3d18760ff6004b31c06b283055/mesh.obj
+[17:51:03.953368][info] 	- # vertices: 2546
+	- # normals: 0
+	- # uv coordinates: 0
+	- # triangles: 5023
+[17:51:03.960375][info] Mesh loaded: 
+	- #points: 2546
+	- # triangles: 5023
+[17:51:03.963377][info] remapMeshVisibility based on triangles start.
+[17:51:03.969383][info] remapMeshVisibility done.
+[17:51:03.970384][info] Input mesh has no UV coordinates, start unwrapping (Basic)
+[17:51:03.970384][info] Generating UVs (textureSide: 8192; padding: 5).
+[17:51:03.970384][info] Creating texture charts.
+[17:51:03.975388][info] Packing texture charts (5023 charts).
+[17:51:03.984396][info] Finalize packed charts (32 charts).
+[17:51:03.984396][info] Creating texture atlases.
+[17:51:03.984396][info] 	- texture atlas 1
+[17:51:03.985397][info] Filled with 32 charts.
+[17:51:03.990402][info] Unwrapping done.
+[17:51:03.990402][info] Writing obj and mtl file.
+[17:51:04.003414][info] Writing done: 
+	- obj file: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/Texturing/2c468ecf00575808510a90f24e992894a4d70658\texturedMesh.obj
+	- mtl file: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/Texturing/2c468ecf00575808510a90f24e992894a4d70658\texturedMesh.mtl
+[17:51:04.003414][info] Generate textures.
+[17:51:04.003414][info] Texturing: Use multiband blending with the following contributions per band:
+[17:51:04.003414][info]   - 1
+[17:51:04.003414][info]   - 5
+[17:51:04.003414][info]   - 10
+[17:51:04.003414][info] Texturing in sRGB colorspace.
+[17:51:04.003414][info] Images loaded from cache with: no exposure correction
+[17:51:04.003414][info] Total amount of free RAM  : 6182 MB.
+[17:51:04.003414][info] Total amount of memory available : 6167 MB.
+[17:51:04.004415][info] Total amount of an image in memory  : 3 MB.
+[17:51:04.004415][info] Total amount of an atlas pyramid in memory: 3072 MB.
+[17:51:04.004415][info] Processing 1 atlases by chunks of 1
+[17:51:04.004415][info] Generating texture for atlases 1 to 1
+[17:51:04.004415][info] Generating texture for atlas 1/1 (5023 triangles).
+[17:51:04.027435][info] Reading pixel color.
+[17:51:04.946284][info] - camera 1430520676 (1/6) with contributions to 1 texture files:
+[17:51:04.979313][info]   - Texture file: 1
+[17:51:04.979313][info]       - band 1: 130 triangles.
+[17:51:04.980314][info]       - band 2: 3619 triangles.
+[17:51:04.991325][info]       - band 3: 0 triangles.
+[17:51:04.991325][info] - camera 1539772914 (2/6) with contributions to 1 texture files:
+[17:51:05.024354][info]   - Texture file: 1
+[17:51:05.024354][info]       - band 1: 186 triangles.
+[17:51:05.028358][info]       - band 2: 4143 triangles.
+[17:51:05.039368][info]       - band 3: 0 triangles.
+[17:51:05.039368][info] - camera 1739492887 (3/6) with contributions to 1 texture files:
+[17:51:05.071398][info]   - Texture file: 1
+[17:51:05.072401][info]       - band 1: 98 triangles.
+[17:51:05.073399][info]       - band 2: 4668 triangles.
+[17:51:05.086411][info]       - band 3: 0 triangles.
+[17:51:05.087412][info] - camera 1875356350 (4/6) with contributions to 1 texture files:
+[17:51:05.119441][info]   - Texture file: 1
+[17:51:05.119441][info]       - band 1: 2684 triangles.
+[17:51:05.128449][info]       - band 2: 531 triangles.
+[17:51:05.130451][info]       - band 3: 0 triangles.
+[17:51:05.130451][info] - camera 1898130451 (5/6) with contributions to 1 texture files:
+[17:51:05.162480][info]   - Texture file: 1
+[17:51:05.163481][info]       - band 1: 86 triangles.
+[17:51:05.163481][info]       - band 2: 2573 triangles.
+[17:51:05.170487][info]       - band 3: 0 triangles.
+[17:51:05.170487][info] - camera 2015013291 (6/6) with contributions to 1 texture files:
+[17:51:05.203517][info]   - Texture file: 1
+[17:51:05.203517][info]       - band 1: 1816 triangles.
+[17:51:05.212525][info]       - band 2: 2926 triangles.
+[17:51:05.218531][info]       - band 3: 0 triangles.
+[17:51:05.218531][info] Create texture 1
+[17:51:05.218531][info]   - Computing final (average) color.
+[17:51:05.621913][info]   - Edge padding (15 pixels).
+[17:51:05.914178][info]   - Writing texture file: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/Texturing/2c468ecf00575808510a90f24e992894a4d70658\texture_1001.png
+[17:51:09.819882][info] Task done in (s): 5.901000

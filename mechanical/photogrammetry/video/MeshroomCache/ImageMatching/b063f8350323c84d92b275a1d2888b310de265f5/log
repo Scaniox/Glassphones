@@ -1,0 +1,15 @@
+Program called with the following parameters:
+ * featuresFolders =  = [C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/FeatureExtraction/b693ecbda6344a513a5a6b0bf324e8ef4605089c]
+ * input = "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/CameraInit/026f33a740f8a756863d1d8de740930b0046119f/cameraInit.sfm"
+ * matchingMode = "a/a" (default)
+ * maxDescriptors = 500
+ * minNbImages = 200
+ * nbMatches = 50
+ * output = "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt"
+ * outputCombinedSfM = "" (default)
+ * tree = "C:\Users\alexl\projects\photogrammetry\meshroom\aliceVision\share\aliceVision\vlfeat_K80L3.SIFT.tree"
+ * verboseLevel = "info"
+ * weights = ""
+
+[17:50:34.496116][info] Brute force generation
+[17:50:34.498118][info] pairList exported in: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt

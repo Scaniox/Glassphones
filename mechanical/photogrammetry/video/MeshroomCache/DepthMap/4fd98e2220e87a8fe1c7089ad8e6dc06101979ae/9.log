@@ -1,0 +1,57 @@
+Program called with the following parameters:
+ * downscale = 2
+ * exportIntermediateResults = 0
+ * imagesFolder = "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/PrepareDenseScene/3e4c19c9a6e097340eab7f3527b9e6b37897db51"
+ * input = "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/StructureFromMotion/05321de2f97c332c089e527a2c8afd2a22e8c4b3/sfm.abc"
+ * maxViewAngle = 70
+ * minViewAngle = 2
+ * nbGPUs = 0
+ * output = "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/DepthMap/4fd98e2220e87a8fe1c7089ad8e6dc06101979ae"
+ * rangeSize = 3
+ * rangeStart = 27
+ * refineGammaC = 15.5
+ * refineGammaP = 8
+ * refineMaxTCams = 6
+ * refineNDepthsToRefine = 31
+ * refineNSamplesHalf = 150
+ * refineNiters = 100
+ * refineSigma = 15
+ * refineUseTcOrRcPixSize = 0
+ * refineWSH = 3
+ * sgmGammaC = 5.5
+ * sgmGammaP = 8
+ * sgmMaxTCams = 10
+ * sgmWSH = 4
+ * verboseLevel = "info"
+
+[17:50:50.556159][info] CUDA-Enabled GPU.
+Device information:
+	- id:                      0
+	- name:                    GeForce GTX 1060 3GB
+	- compute capability:      6.1
+	- total device memory:     3072 MB 
+	- device memory available: 2475 MB 
+	- per-block shared memory: 49152
+	- warp size:               32
+	- max threads per block:   1024
+	- max threads per SM(X):   2048
+	- max block sizes:         {1024,1024,64}
+	- max grid sizes:          {2147483647,65535,65535}
+	- max 2D array texture:    {131072,65536}
+	- max 3D array texture:    {16384,16384,16384}
+	- max 2D linear texture:   {131072,65000,2097120}
+	- max 2D layered texture:  {32768,32768,2048}
+	- number of SM(x)s:        9
+	- registers per SM(x):     65536
+	- registers per block:     65536
+	- concurrent kernels:      yes
+	- mapping host memory:     yes
+	- unified addressing:      yes
+	- texture alignment:       512 byte
+	- pitch alignment:         32 byte
+
+[17:50:50.741327][info] Supported CUDA-Enabled GPU detected.
+[17:50:50.751336][info] Found 1 image dimension(s): 
+[17:50:50.751336][info] 	- [640x480]
+[17:50:50.761345][info] Overall maximum dimension: [640x480]
+[17:50:50.762346][info] No camera to process.

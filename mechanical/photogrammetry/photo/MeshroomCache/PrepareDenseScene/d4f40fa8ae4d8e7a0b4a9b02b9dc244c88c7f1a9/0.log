@@ -1,0 +1,16 @@
+Program called with the following parameters:
+ * evCorrection = 0
+ * input = "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/MeshroomCache/StructureFromMotion/d71c1582ed01c90abd0e8f21b0806b4d62578cae/sfm.abc"
+ * output = "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/MeshroomCache/PrepareDenseScene/d4f40fa8ae4d8e7a0b4a9b02b9dc244c88c7f1a9"
+ * outputFileType = "exr"
+ * rangeSize = 40
+ * rangeStart = 0
+ * saveMatricesTxtFiles = 0
+ * saveMetadata = 1
+ * verboseLevel = "info"
+
+Exporting Scene Undistorted Images
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+[18:10:23.201462][info] median Ev : 11.6817
+***************************************************

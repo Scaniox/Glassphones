@@ -1,0 +1,18 @@
+{
+    "status": "SUCCESS",
+    "execMode": "LOCAL",
+    "nodeName": "DepthMapFilter_1",
+    "nodeType": "DepthMapFilter",
+    "packageName": "aliceVision",
+    "packageVersion": null,
+    "graph": "",
+    "commandLine": "aliceVision_depthMapFiltering  --input \"C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/StructureFromMotion/05321de2f97c332c089e527a2c8afd2a22e8c4b3/sfm.abc\" --depthMapsFolder \"C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/DepthMap/4fd98e2220e87a8fe1c7089ad8e6dc06101979ae\" --minViewAngle 2.0 --maxViewAngle 70.0 --nNearestCams 10 --minNumOfConsistentCams 3 --minNumOfConsistentCamsWithLowSimilarity 4 --pixSizeBall 0 --pixSizeBallWithLowSimilarity 0 --computeNormalMaps False --verboseLevel info --output \"C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/DepthMapFilter/be69f848473599ab3ad288b9843b7f50fe8396a6\" --rangeStart 0 --rangeSize 10",
+    "env": null,
+    "startDateTime": "2021-07-27 17:50:50.892464",
+    "endDateTime": "2021-07-27 17:50:51.565075",
+    "elapsedTime": 0.6726112365722656,
+    "hostname": "DESKTOP-S9BKKVK",
+    "sessionUid": "7aa0facc-eefa-11eb-9917-00d86118ab6b",
+    "returnCode": 0,
+    "elapsedTimeStr": "0:00:00.672611"
+}

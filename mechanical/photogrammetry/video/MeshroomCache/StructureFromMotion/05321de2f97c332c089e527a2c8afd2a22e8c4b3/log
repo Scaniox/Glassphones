@@ -1,0 +1,305 @@
+Program called with the following parameters:
+ * describerTypes = "sift"
+ * extraInfoFolder = "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/StructureFromMotion/05321de2f97c332c089e527a2c8afd2a22e8c4b3"
+ * featuresFolders =  = [C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/FeatureExtraction/b693ecbda6344a513a5a6b0bf324e8ef4605089c]
+ * initialPairA = ""
+ * initialPairB = ""
+ * input = "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/CameraInit/026f33a740f8a756863d1d8de740930b0046119f/cameraInit.sfm"
+ * interFileExtension = ".abc"
+ * localBAGraphDistance = 1
+ * localizerEstimator =  Unknown Type "enum aliceVision::robustEstimation::ERobustEstimator"
+ * localizerEstimatorError = 0
+ * localizerEstimatorMaxIterations = 4096
+ * lockAllIntrinsics = 0
+ * lockScenePreviouslyReconstructed = 0
+ * matchesFolders =  = [C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/FeatureMatching/961cec140530f7b3f584e456a8b867cfafeffa61]
+ * maxAngleInitialPair = 40
+ * maxNumberOfMatches = 0
+ * maxReprojectionError = 4
+ * minAngleForLandmark = 2
+ * minAngleForTriangulation = 3
+ * minAngleInitialPair = 5
+ * minInputTrackLength = 2
+ * minNumberOfObservationsForTriangulation = 2
+ * output = "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/StructureFromMotion/05321de2f97c332c089e527a2c8afd2a22e8c4b3/sfm.abc"
+ * outputViewsAndPoses = "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/StructureFromMotion/05321de2f97c332c089e527a2c8afd2a22e8c4b3/cameras.sfm"
+ * useLocalBA = 1
+ * useOnlyMatchesFromInputFolder = 0
+ * useRigConstraint = 1
+ * useTrackFiltering = 1 (default)
+ * verboseLevel = "info"
+
+Loading features
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+[17:50:37.903336][info] Supported CUDA-Enabled GPU detected.
+***************************************************
+[17:50:37.997421][info] Fuse matches into tracks: 
+	- # tracks: 622
+	- # images in tracks: 15
+[17:50:37.997421][info] TrackLength, Occurrence
+[17:50:37.997421][info] 	2	486
+[17:50:37.997421][info] 	3	95
+[17:50:37.997421][info] 	4	27
+[17:50:37.997421][info] 	5	14
+Automatic selection of an initial pair:
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+[17:50:38.028449][info] Initial pair is:
+	- [A] view id: 1739492887, filepath: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene01601.png
+	- [B] view id: 2015013291, filepath: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/r50 imgs/scene01051.png
+[17:50:38.028449][info] 110 matches in the image pair for the initial pose estimation.
+[17:50:38.127539][info] Bundle adjustment start.
+[17:50:38.127539][info] Start bundle adjustment iteration: 0
+[17:50:38.144555][info] Bundle Adjustment Statistics:
+	- local strategy enabled: no
+	- adjustment duration: 0.0109896 s
+	- poses:
+	    - # refined:  2
+	    - # constant: 0
+	    - # ignored:  0
+	- landmarks:
+	    - # refined:  220
+	    - # constant: 0
+	    - # ignored:  0
+	- intrinsics:
+	    - # refined:  0
+	    - # constant: 1
+	    - # ignored:  0
+	- # residual blocks: 440
+	- # successful iterations: 4
+	- # unsuccessful iterations: 0
+	- initial RMSE: 0.295844
+	- final   RMSE: 0.259276
+[17:50:38.144555][info] Remove outliers: 
+	- # outliers residual error: 0
+	- # outliers angular error: 0
+[17:50:38.144555][info] Bundle adjustment iteration: 0 took 16 msec.
+[17:50:38.144555][info] Bundle adjustment with 1 iterations took 17 msec.
+[17:50:38.144555][info] Initial pair is: 1739492887, 2015013291
+[17:50:38.144555][info] Begin Incremental Reconstruction:
+	- mode: SfM augmentation
+	- # images in input: 29
+	- # images in resection: 27
+	- # landmarks in input: 110
+	- # cameras already calibrated: 2
+[17:50:38.144555][info] Incremental Reconstruction start iteration 0:
+	- # number of resection groups: 0
+	- # number of poses: 2
+	- # number of landmarks: 110
+	- # remaining images: 27
+[17:50:38.145555][info] Update Reconstruction:
+	- resection id: 0
+	- # images in the resection group: 1
+	- # images remaining: 27
+[17:50:38.145555][info] [3/29] Robust Resection of view: 1875356350
+[17:50:38.156565][info] Robust Resection information:
+	- resection status: true
+	- threshold (error max): 7.99798
+	- # points used for resection: 40
+	- # points validated by robust resection: 37
+[17:50:38.158568][info] Bundle adjustment start.
+[17:50:38.159569][info] Start bundle adjustment iteration: 0
+[17:50:38.185592][info] Bundle Adjustment Statistics:
+	- local strategy enabled: no
+	- adjustment duration: 0.0242992 s
+	- poses:
+	    - # refined:  3
+	    - # constant: 0
+	    - # ignored:  0
+	- landmarks:
+	    - # refined:  395
+	    - # constant: 0
+	    - # ignored:  0
+	- intrinsics:
+	    - # refined:  1
+	    - # constant: 0
+	    - # ignored:  0
+	- # residual blocks: 790
+	- # successful iterations: 24
+	- # unsuccessful iterations: 0
+	- initial RMSE: 0.629653
+	- final   RMSE: 0.271244
+[17:50:38.186592][info] Remove outliers: 
+	- # outliers residual error: 1
+	- # outliers angular error: 3
+[17:50:38.186592][info] Bundle adjustment iteration: 0 took 27 msec.
+[17:50:38.186592][info] Bundle adjustment with 1 iterations took 27 msec.
+[17:50:38.222626][info] Update Reconstruction:
+	- resection id: 1
+	- # images in the resection group: 1
+	- # images remaining: 26
+[17:50:38.222626][info] [4/29] Robust Resection of view: 1430520676
+[17:50:38.236638][info] Robust Resection information:
+	- resection status: true
+	- threshold (error max): 5.17451
+	- # points used for resection: 55
+	- # points validated by robust resection: 54
+[17:50:38.238641][info] Bundle adjustment start.
+[17:50:38.238641][info] Start bundle adjustment iteration: 0
+[17:50:38.267666][info] Bundle Adjustment Statistics:
+	- local strategy enabled: no
+	- adjustment duration: 0.0259672 s
+	- poses:
+	    - # refined:  4
+	    - # constant: 0
+	    - # ignored:  0
+	- landmarks:
+	    - # refined:  538
+	    - # constant: 0
+	    - # ignored:  0
+	- intrinsics:
+	    - # refined:  1
+	    - # constant: 0
+	    - # ignored:  0
+	- # residual blocks: 1076
+	- # successful iterations: 17
+	- # unsuccessful iterations: 0
+	- initial RMSE: 0.568161
+	- final   RMSE: 0.356485
+[17:50:38.267666][info] Remove outliers: 
+	- # outliers residual error: 2
+	- # outliers angular error: 1
+[17:50:38.267666][info] Bundle adjustment iteration: 0 took 29 msec.
+[17:50:38.267666][info] Bundle adjustment with 1 iterations took 29 msec.
+[17:50:38.267666][info] Update Reconstruction:
+	- resection id: 2
+	- # images in the resection group: 1
+	- # images remaining: 25
+[17:50:38.267666][info] [5/29] Robust Resection of view: 1539772914
+[17:50:38.279677][info] Robust Resection information:
+	- resection status: true
+	- threshold (error max): 5.35208
+	- # points used for resection: 42
+	- # points validated by robust resection: 39
+[17:50:38.280678][info] Bundle adjustment start.
+[17:50:38.280678][info] Start bundle adjustment iteration: 0
+[17:50:38.366756][info] Bundle Adjustment Statistics:
+	- local strategy enabled: no
+	- adjustment duration: 0.082688 s
+	- poses:
+	    - # refined:  5
+	    - # constant: 0
+	    - # ignored:  0
+	- landmarks:
+	    - # refined:  619
+	    - # constant: 0
+	    - # ignored:  0
+	- intrinsics:
+	    - # refined:  1
+	    - # constant: 0
+	    - # ignored:  0
+	- # residual blocks: 1238
+	- # successful iterations: 51
+	- # unsuccessful iterations: 0
+	- initial RMSE: 0.501115
+	- final   RMSE: 0.366746
+[17:50:38.367757][info] Remove outliers: 
+	- # outliers residual error: 2
+	- # outliers angular error: 0
+[17:50:38.367757][info] Bundle adjustment iteration: 0 took 86 msec.
+[17:50:38.367757][info] Bundle adjustment with 1 iterations took 86 msec.
+[17:50:38.367757][info] Update Reconstruction:
+	- resection id: 3
+	- # images in the resection group: 1
+	- # images remaining: 24
+[17:50:38.367757][info] [6/29] Robust Resection of view: 1898130451
+[17:50:38.375764][info] Robust Resection information:
+	- resection status: true
+	- threshold (error max): 2.64627
+	- # points used for resection: 25
+	- # points validated by robust resection: 22
+[17:50:38.376768][info] Bundle adjustment start.
+[17:50:38.377767][info] Start bundle adjustment iteration: 0
+[17:50:38.392780][info] Bundle Adjustment Statistics:
+	- local strategy enabled: no
+	- adjustment duration: 0.0116308 s
+	- poses:
+	    - # refined:  6
+	    - # constant: 0
+	    - # ignored:  0
+	- landmarks:
+	    - # refined:  718
+	    - # constant: 0
+	    - # ignored:  0
+	- intrinsics:
+	    - # refined:  1
+	    - # constant: 0
+	    - # ignored:  0
+	- # residual blocks: 1436
+	- # successful iterations: 6
+	- # unsuccessful iterations: 0
+	- initial RMSE: 0.431764
+	- final   RMSE: 0.347795
+[17:50:38.392780][info] Remove outliers: 
+	- # outliers residual error: 0
+	- # outliers angular error: 0
+[17:50:38.393782][info] Bundle adjustment iteration: 0 took 16 msec.
+[17:50:38.393782][info] Bundle adjustment with 1 iterations took 16 msec.
+[17:50:38.424809][info] Incremental Reconstruction start iteration 1:
+	- # number of resection groups: 4
+	- # number of poses: 6
+	- # number of landmarks: 280
+	- # remaining images: 23
+[17:50:38.424809][info] Incremental Reconstruction completed with 2 iterations:
+	- # number of resection groups: 4
+	- # number of poses: 6
+	- # number of landmarks: 280
+	- # remaining images: 23
+[17:50:38.424809][info] Structure from Motion statistics:
+	- # input images: 29
+	- # cameras calibrated: 6
+	- # poses: 6
+	- # landmarks: 280
+	- elapsed time: 0.28
+	- residual RMSE: 0.491857
+[17:50:38.425810][info] Histogram of residuals:
+
+0	|	1.1e+03
+0.5	|	2.5e+02
+1	|	54
+1.5	|	16
+2	|	3
+2.5	|	3
+3
+
+[17:50:38.425810][info] # landmarks: 280
+[17:50:38.425810][info] # overall observations: 718
+[17:50:38.425810][info] Landmarks observations length min: 2, mean: 2.56429, median: 2, max: 5
+[17:50:38.425810][info] Histogram of observations length:
+
+2	|	174
+3	|	68
+4	|	24
+5	|	14
+6
+
+[17:50:38.425810][info] Landmarks per view min: 63, mean: 120.333, median: 104, max: 190
+[17:50:38.425810][info] Histogram of nb landmarks per view:
+
+63	|	1
+75	|	0
+88	|	1
+101	|	2
+114	|	0
+127	|	0
+139	|	0
+152	|	1
+165	|	0
+178	|	1
+191
+
+
+Compute scene structure color
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+[17:50:38.464845][info] Structure from motion took (s): 0.473000
+[17:50:38.464845][info] Generating HTML report...
+[17:50:38.469850][info] Export SfMData to disk: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/StructureFromMotion/05321de2f97c332c089e527a2c8afd2a22e8c4b3/sfm.abc
+[17:50:38.536911][info] Structure from Motion results:
+	- # input images: 29
+	- # cameras calibrated: 6
+	- # poses: 6
+	- # landmarks: 280

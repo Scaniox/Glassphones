@@ -1,0 +1,245 @@
+Program called with the following parameters:
+ * downscale = 2
+ * exportIntermediateResults = 0
+ * imagesFolder = "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/PrepareDenseScene/3e4c19c9a6e097340eab7f3527b9e6b37897db51"
+ * input = "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/StructureFromMotion/05321de2f97c332c089e527a2c8afd2a22e8c4b3/sfm.abc"
+ * maxViewAngle = 70
+ * minViewAngle = 2
+ * nbGPUs = 0
+ * output = "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/DepthMap/4fd98e2220e87a8fe1c7089ad8e6dc06101979ae"
+ * rangeSize = 3
+ * rangeStart = 0
+ * refineGammaC = 15.5
+ * refineGammaP = 8
+ * refineMaxTCams = 6
+ * refineNDepthsToRefine = 31
+ * refineNSamplesHalf = 150
+ * refineNiters = 100
+ * refineSigma = 15
+ * refineUseTcOrRcPixSize = 0
+ * refineWSH = 3
+ * sgmGammaC = 5.5
+ * sgmGammaP = 8
+ * sgmMaxTCams = 10
+ * sgmWSH = 4
+ * verboseLevel = "info"
+
+[17:50:39.309613][info] CUDA-Enabled GPU.
+Device information:
+	- id:                      0
+	- name:                    GeForce GTX 1060 3GB
+	- compute capability:      6.1
+	- total device memory:     3072 MB 
+	- device memory available: 2475 MB 
+	- per-block shared memory: 49152
+	- warp size:               32
+	- max threads per block:   1024
+	- max threads per SM(X):   2048
+	- max block sizes:         {1024,1024,64}
+	- max grid sizes:          {2147483647,65535,65535}
+	- max 2D array texture:    {131072,65536}
+	- max 3D array texture:    {16384,16384,16384}
+	- max 2D linear texture:   {131072,65000,2097120}
+	- max 2D layered texture:  {32768,32768,2048}
+	- number of SM(x)s:        9
+	- registers per SM(x):     65536
+	- registers per block:     65536
+	- concurrent kernels:      yes
+	- mapping host memory:     yes
+	- unified addressing:      yes
+	- texture alignment:       512 byte
+	- pitch alignment:         32 byte
+
+[17:50:39.503790][info] Supported CUDA-Enabled GPU detected.
+[17:50:39.513799][info] Found 1 image dimension(s): 
+[17:50:39.513799][info] 	- [640x480]
+[17:50:39.531815][info] Overall maximum dimension: [640x480]
+[17:50:39.531815][info] Create depth maps.
+number of CUDA devices:	1
+   0: GeForce GTX 1060 3GB
+[17:50:39.531815][info] # GPU devices: 1, # CPU threads: 16
+[17:50:39.531815][info] Plane sweeping parameters:
+	- scale: 1
+	- step: 1
+[17:50:39.531815][info] PlaneSweepingCuda:
+	- _nImgsInGPUAtTime: 6
+	- scales: 1
+	- subPixel: Yes
+	- varianceWSH: 4
+CUDA device no 0 for 0
+Device 0 memory - used: 596.762512, free: 2475.237549, total: 3072.000000
+Device 0 memory - used: 608.762512, free: 2463.237549, total: 3072.000000
+[17:50:39.535819][info] Found only 3/10 nearest cameras for view id: 1430520676
+[17:50:39.535819][info] Found only 3/6 nearest cameras for view id: 1430520676
+[17:50:39.601879][info] Estimate depth map, view id: 1430520676
+Device 0 memory - used: 627.075012, free: 2444.925049, total: 3072.000000
+total size of volume map in GPU memory: 18.281250
+nDepths 156, nDepthsToSearch 156 
+ps_computeSimilarityVolume elapsed time: 3.000000 ms 
+Device 0 memory - used: 620.137512, free: 2451.862549, total: 3072.000000
+total size of volume map in GPU memory: 11.367188
+nDepths 97, nDepthsToSearch 97 
+ps_computeSimilarityVolume elapsed time: 3.000000 ms 
+Device 0 memory - used: 627.075012, free: 2444.925049, total: 3072.000000
+total size of volume map in GPU memory: 18.281250
+nDepths 156, nDepthsToSearch 156 
+ps_computeSimilarityVolume elapsed time: 3.000000 ms 
+ps_SGMoptimizeSimVolume
+ps_updateAggrVolume
+ps_aggregatePathVolume
+ps_aggregatePathVolume done
+ps_updateAggrVolume done
+ps_updateAggrVolume
+ps_aggregatePathVolume
+ps_aggregatePathVolume done
+ps_updateAggrVolume done
+ps_updateAggrVolume
+ps_aggregatePathVolume
+ps_aggregatePathVolume done
+ps_updateAggrVolume done
+ps_updateAggrVolume
+ps_aggregatePathVolume
+ps_aggregatePathVolume done
+ps_updateAggrVolume done
+SGM volume gpu elapsed time: 92.000000 ms 
+ps_SGMoptimizeSimVolume done
+[17:50:40.317069][info] Refine depth map, view id: 1430520676
+gpu elapsed time: 10.000000 ms 
+gpu elapsed time: 9.000000 ms 
+gpu elapsed time: 9.000000 ms 
+gpu elapsed time: 10.000000 ms 
+gpu elapsed time: 8.000000 ms 
+gpu elapsed time: 7.000000 ms 
+gpu elapsed time: 10.000000 ms 
+gpu elapsed time: 2.000000 ms 
+gpu elapsed time: 8.000000 ms 
+gpu elapsed time: 11.000000 ms 
+gpu elapsed time: 9.000000 ms 
+gpu elapsed time: 8.000000 ms 
+gpu elapsed time: 6.000000 ms 
+gpu elapsed time: 7.000000 ms 
+gpu elapsed time: 6.000000 ms 
+gpu elapsed time: 7.000000 ms 
+rc: 0, gpu elapsed time: 4.000000 ms 
+rc: 0, gpu elapsed time: 4.000000 ms 
+rc: 0, gpu elapsed time: 4.000000 ms 
+rc: 0, gpu elapsed time: 5.000000 ms 
+[17:50:40.523760][info] Found only 4/10 nearest cameras for view id: 1539772914
+[17:50:40.524760][info] Found only 4/6 nearest cameras for view id: 1539772914
+[17:50:40.524760][info] Estimate depth map, view id: 1539772914
+Device 0 memory - used: 644.325012, free: 2427.675049, total: 3072.000000
+total size of volume map in GPU memory: 35.507813
+nDepths 303, nDepthsToSearch 303 
+ps_computeSimilarityVolume elapsed time: 4.000000 ms 
+Device 0 memory - used: 641.950012, free: 2430.050049, total: 3072.000000
+total size of volume map in GPU memory: 33.164063
+nDepths 283, nDepthsToSearch 283 
+ps_computeSimilarityVolume elapsed time: 3.000000 ms 
+ps_SGMoptimizeSimVolume
+ps_updateAggrVolume
+ps_aggregatePathVolume
+ps_aggregatePathVolume done
+ps_updateAggrVolume done
+ps_updateAggrVolume
+ps_aggregatePathVolume
+ps_aggregatePathVolume done
+ps_updateAggrVolume done
+ps_updateAggrVolume
+ps_aggregatePathVolume
+ps_aggregatePathVolume done
+ps_updateAggrVolume done
+ps_updateAggrVolume
+ps_aggregatePathVolume
+ps_aggregatePathVolume done
+ps_updateAggrVolume done
+SGM volume gpu elapsed time: 154.000000 ms 
+ps_SGMoptimizeSimVolume done
+[17:50:41.479658][info] Refine depth map, view id: 1539772914
+gpu elapsed time: 9.000000 ms 
+gpu elapsed time: 11.000000 ms 
+gpu elapsed time: 7.000000 ms 
+gpu elapsed time: 4.000000 ms 
+gpu elapsed time: 9.000000 ms 
+gpu elapsed time: 11.000000 ms 
+gpu elapsed time: 9.000000 ms 
+gpu elapsed time: 5.000000 ms 
+gpu elapsed time: 10.000000 ms 
+gpu elapsed time: 10.000000 ms 
+gpu elapsed time: 9.000000 ms 
+gpu elapsed time: 11.000000 ms 
+gpu elapsed time: 12.000000 ms 
+gpu elapsed time: 10.000000 ms 
+gpu elapsed time: 9.000000 ms 
+gpu elapsed time: 10.000000 ms 
+gpu elapsed time: 8.000000 ms 
+gpu elapsed time: 8.000000 ms 
+gpu elapsed time: 9.000000 ms 
+gpu elapsed time: 7.000000 ms 
+rc: 1, gpu elapsed time: 3.000000 ms 
+rc: 1, gpu elapsed time: 5.000000 ms 
+rc: 1, gpu elapsed time: 3.000000 ms 
+rc: 1, gpu elapsed time: 3.000000 ms 
+[17:50:41.779931][info] Found only 4/10 nearest cameras for view id: 1739492887
+[17:50:41.780932][info] Found only 4/6 nearest cameras for view id: 1739492887
+[17:50:41.808957][info] Estimate depth map, view id: 1739492887
+Device 0 memory - used: 622.762512, free: 2449.237549, total: 3072.000000
+total size of volume map in GPU memory: 13.945313
+nDepths 119, nDepthsToSearch 119 
+ps_computeSimilarityVolume elapsed time: 3.000000 ms 
+Device 0 memory - used: 624.637512, free: 2447.362549, total: 3072.000000
+total size of volume map in GPU memory: 15.820313
+nDepths 135, nDepthsToSearch 135 
+ps_computeSimilarityVolume elapsed time: 3.000000 ms 
+Device 0 memory - used: 622.762512, free: 2449.237549, total: 3072.000000
+total size of volume map in GPU memory: 13.945313
+nDepths 119, nDepthsToSearch 119 
+ps_computeSimilarityVolume elapsed time: 3.000000 ms 
+Device 0 memory - used: 627.637512, free: 2444.362549, total: 3072.000000
+total size of volume map in GPU memory: 18.867188
+nDepths 161, nDepthsToSearch 161 
+ps_computeSimilarityVolume elapsed time: 3.000000 ms 
+ps_SGMoptimizeSimVolume
+ps_updateAggrVolume
+ps_aggregatePathVolume
+ps_aggregatePathVolume done
+ps_updateAggrVolume done
+ps_updateAggrVolume
+ps_aggregatePathVolume
+ps_aggregatePathVolume done
+ps_updateAggrVolume done
+ps_updateAggrVolume
+ps_aggregatePathVolume
+ps_aggregatePathVolume done
+ps_updateAggrVolume done
+ps_updateAggrVolume
+ps_aggregatePathVolume
+ps_aggregatePathVolume done
+ps_updateAggrVolume done
+SGM volume gpu elapsed time: 94.000000 ms 
+ps_SGMoptimizeSimVolume done
+[17:50:42.510611][info] Refine depth map, view id: 1739492887
+gpu elapsed time: 9.000000 ms 
+gpu elapsed time: 9.000000 ms 
+gpu elapsed time: 10.000000 ms 
+gpu elapsed time: 3.000000 ms 
+gpu elapsed time: 8.000000 ms 
+gpu elapsed time: 7.000000 ms 
+gpu elapsed time: 8.000000 ms 
+gpu elapsed time: 9.000000 ms 
+gpu elapsed time: 8.000000 ms 
+gpu elapsed time: 9.000000 ms 
+gpu elapsed time: 5.000000 ms 
+gpu elapsed time: 1.000000 ms 
+gpu elapsed time: 6.000000 ms 
+gpu elapsed time: 11.000000 ms 
+gpu elapsed time: 10.000000 ms 
+gpu elapsed time: 8.000000 ms 
+gpu elapsed time: 8.000000 ms 
+gpu elapsed time: 7.000000 ms 
+gpu elapsed time: 9.000000 ms 
+gpu elapsed time: 8.000000 ms 
+rc: 2, gpu elapsed time: 5.000000 ms 
+rc: 2, gpu elapsed time: 4.000000 ms 
+rc: 2, gpu elapsed time: 3.000000 ms 
+rc: 2, gpu elapsed time: 3.000000 ms 
+[17:50:42.754338][info] Task done in (s): 3.447000

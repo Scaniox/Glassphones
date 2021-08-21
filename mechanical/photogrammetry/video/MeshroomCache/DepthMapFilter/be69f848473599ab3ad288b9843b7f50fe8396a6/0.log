@@ -1,0 +1,29 @@
+Program called with the following parameters:
+ * computeNormalMaps = 0
+ * depthMapsFolder = "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/DepthMap/4fd98e2220e87a8fe1c7089ad8e6dc06101979ae"
+ * input = "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/StructureFromMotion/05321de2f97c332c089e527a2c8afd2a22e8c4b3/sfm.abc"
+ * maxViewAngle = 70
+ * minNumOfConsistentCams = 3
+ * minNumOfConsistentCamsWithLowSimilarity = 4
+ * minViewAngle = 2
+ * nNearestCams = 10
+ * output = "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/DepthMapFilter/be69f848473599ab3ad288b9843b7f50fe8396a6"
+ * pixSizeBall = 0
+ * pixSizeBallWithLowSimilarity = 0
+ * rangeSize = 10
+ * rangeStart = 0
+ * verboseLevel = "info"
+
+[17:50:51.136686][info] Found 1 image dimension(s): 
+[17:50:51.137687][info] 	- [640x480]
+[17:50:51.157705][info] Overall maximum dimension: [640x480]
+[17:50:51.157705][info] Filter depth maps.
+[17:50:51.157705][info] Precomputing groups.
+[17:50:51.182728][info] Found only 4/10 nearest cameras for view id: 1739492887
+[17:50:51.182728][info] Found only 5/10 nearest cameras for view id: 2015013291
+[17:50:51.182728][info] Found only 2/10 nearest cameras for view id: 1875356350
+[17:50:51.183728][info] Found only 2/10 nearest cameras for view id: 1898130451
+[17:50:51.184729][info] Found only 4/10 nearest cameras for view id: 1539772914
+[17:50:51.184729][info] Found only 3/10 nearest cameras for view id: 1430520676
+[17:50:51.411936][info] Filtering depth maps.
+[17:50:51.478997][info] Task done in (s): 0.353000

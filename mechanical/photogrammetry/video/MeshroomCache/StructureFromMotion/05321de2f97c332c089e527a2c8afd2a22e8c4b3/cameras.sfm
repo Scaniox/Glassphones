@@ -1,0 +1,448 @@
+{
+    "version": [
+        "1",
+        "0",
+        "0"
+    ],
+    "featuresFolders": [
+        "..\\..\\FeatureExtraction\\b693ecbda6344a513a5a6b0bf324e8ef4605089c"
+    ],
+    "matchesFolders": [
+        "..\\..\\FeatureMatching\\961cec140530f7b3f584e456a8b867cfafeffa61"
+    ],
+    "views": [
+        {
+            "viewId": "20455773",
+            "poseId": "20455773",
+            "intrinsicId": "14981360",
+            "path": "C:\/Users\/alexl\/projects\/Glassphones\/mechanical\/photogrammetry\/r50 imgs\/scene01901.png",
+            "width": "640",
+            "height": "480",
+            "metadata": ""
+        },
+        {
+            "viewId": "136314038",
+            "poseId": "136314038",
+            "intrinsicId": "14981360",
+            "path": "C:\/Users\/alexl\/projects\/Glassphones\/mechanical\/photogrammetry\/r50 imgs\/scene01951.png",
+            "width": "640",
+            "height": "480",
+            "metadata": ""
+        },
+        {
+            "viewId": "160486800",
+            "poseId": "160486800",
+            "intrinsicId": "14981360",
+            "path": "C:\/Users\/alexl\/projects\/Glassphones\/mechanical\/photogrammetry\/r50 imgs\/scene00701.png",
+            "width": "640",
+            "height": "480",
+            "metadata": ""
+        },
+        {
+            "viewId": "282548764",
+            "poseId": "282548764",
+            "intrinsicId": "14981360",
+            "path": "C:\/Users\/alexl\/projects\/Glassphones\/mechanical\/photogrammetry\/r50 imgs\/scene01301.png",
+            "width": "640",
+            "height": "480",
+            "metadata": ""
+        },
+        {
+            "viewId": "323167612",
+            "poseId": "323167612",
+            "intrinsicId": "14981360",
+            "path": "C:\/Users\/alexl\/projects\/Glassphones\/mechanical\/photogrammetry\/r50 imgs\/scene01401.png",
+            "width": "640",
+            "height": "480",
+            "metadata": ""
+        },
+        {
+            "viewId": "394590645",
+            "poseId": "394590645",
+            "intrinsicId": "14981360",
+            "path": "C:\/Users\/alexl\/projects\/Glassphones\/mechanical\/photogrammetry\/r50 imgs\/scene01751.png",
+            "width": "640",
+            "height": "480",
+            "metadata": ""
+        },
+        {
+            "viewId": "510607587",
+            "poseId": "510607587",
+            "intrinsicId": "14981360",
+            "path": "C:\/Users\/alexl\/projects\/Glassphones\/mechanical\/photogrammetry\/r50 imgs\/scene01001.png",
+            "width": "640",
+            "height": "480",
+            "metadata": ""
+        },
+        {
+            "viewId": "614660772",
+            "poseId": "614660772",
+            "intrinsicId": "14981360",
+            "path": "C:\/Users\/alexl\/projects\/Glassphones\/mechanical\/photogrammetry\/r50 imgs\/scene00751.png",
+            "width": "640",
+            "height": "480",
+            "metadata": ""
+        },
+        {
+            "viewId": "746792408",
+            "poseId": "746792408",
+            "intrinsicId": "14981360",
+            "path": "C:\/Users\/alexl\/projects\/Glassphones\/mechanical\/photogrammetry\/r50 imgs\/scene00601.png",
+            "width": "640",
+            "height": "480",
+            "metadata": ""
+        },
+        {
+            "viewId": "785519142",
+            "poseId": "785519142",
+            "intrinsicId": "14981360",
+            "path": "C:\/Users\/alexl\/projects\/Glassphones\/mechanical\/photogrammetry\/r50 imgs\/scene00801.png",
+            "width": "640",
+            "height": "480",
+            "metadata": ""
+        },
+        {
+            "viewId": "1020074247",
+            "poseId": "1020074247",
+            "intrinsicId": "14981360",
+            "path": "C:\/Users\/alexl\/projects\/Glassphones\/mechanical\/photogrammetry\/r50 imgs\/scene01101.png",
+            "width": "640",
+            "height": "480",
+            "metadata": ""
+        },
+        {
+            "viewId": "1049429640",
+            "poseId": "1049429640",
+            "intrinsicId": "14981360",
+            "path": "C:\/Users\/alexl\/projects\/Glassphones\/mechanical\/photogrammetry\/r50 imgs\/scene01351.png",
+            "width": "640",
+            "height": "480",
+            "metadata": ""
+        },
+        {
+            "viewId": "1104676139",
+            "poseId": "1104676139",
+            "intrinsicId": "14981360",
+            "path": "C:\/Users\/alexl\/projects\/Glassphones\/mechanical\/photogrammetry\/r50 imgs\/scene01801.png",
+            "width": "640",
+            "height": "480",
+            "metadata": ""
+        },
+        {
+            "viewId": "1164619235",
+            "poseId": "1164619235",
+            "intrinsicId": "14981360",
+            "path": "C:\/Users\/alexl\/projects\/Glassphones\/mechanical\/photogrammetry\/r50 imgs\/scene01701.png",
+            "width": "640",
+            "height": "480",
+            "metadata": ""
+        },
+        {
+            "viewId": "1283968274",
+            "poseId": "1283968274",
+            "intrinsicId": "14981360",
+            "path": "C:\/Users\/alexl\/projects\/Glassphones\/mechanical\/photogrammetry\/r50 imgs\/scene00851.png",
+            "width": "640",
+            "height": "480",
+            "metadata": ""
+        },
+        {
+            "viewId": "1311600941",
+            "poseId": "1311600941",
+            "intrinsicId": "14981360",
+            "path": "C:\/Users\/alexl\/projects\/Glassphones\/mechanical\/photogrammetry\/r50 imgs\/scene01251.png",
+            "width": "640",
+            "height": "480",
+            "metadata": ""
+        },
+        {
+            "viewId": "1343242448",
+            "poseId": "1343242448",
+            "intrinsicId": "14981360",
+            "path": "C:\/Users\/alexl\/projects\/Glassphones\/mechanical\/photogrammetry\/r50 imgs\/scene01151.png",
+            "width": "640",
+            "height": "480",
+            "metadata": ""
+        },
+        {
+            "viewId": "1430520676",
+            "poseId": "1430520676",
+            "intrinsicId": "14981360",
+            "resectionId": "1",
+            "path": "C:\/Users\/alexl\/projects\/Glassphones\/mechanical\/photogrammetry\/r50 imgs\/scene01201.png",
+            "width": "640",
+            "height": "480",
+            "metadata": ""
+        },
+        {
+            "viewId": "1446341273",
+            "poseId": "1446341273",
+            "intrinsicId": "14981360",
+            "path": "C:\/Users\/alexl\/projects\/Glassphones\/mechanical\/photogrammetry\/r50 imgs\/scene01551.png",
+            "width": "640",
+            "height": "480",
+            "metadata": ""
+        },
+        {
+            "viewId": "1539772914",
+            "poseId": "1539772914",
+            "intrinsicId": "14981360",
+            "resectionId": "2",
+            "path": "C:\/Users\/alexl\/projects\/Glassphones\/mechanical\/photogrammetry\/r50 imgs\/scene00901.png",
+            "width": "640",
+            "height": "480",
+            "metadata": ""
+        },
+        {
+            "viewId": "1739492887",
+            "poseId": "1739492887",
+            "intrinsicId": "14981360",
+            "path": "C:\/Users\/alexl\/projects\/Glassphones\/mechanical\/photogrammetry\/r50 imgs\/scene01601.png",
+            "width": "640",
+            "height": "480",
+            "metadata": ""
+        },
+        {
+            "viewId": "1822323831",
+            "poseId": "1822323831",
+            "intrinsicId": "14981360",
+            "path": "C:\/Users\/alexl\/projects\/Glassphones\/mechanical\/photogrammetry\/r50 imgs\/scene01851.png",
+            "width": "640",
+            "height": "480",
+            "metadata": ""
+        },
+        {
+            "viewId": "1860028773",
+            "poseId": "1860028773",
+            "intrinsicId": "14981360",
+            "path": "C:\/Users\/alexl\/projects\/Glassphones\/mechanical\/photogrammetry\/r50 imgs\/scene00951.png",
+            "width": "640",
+            "height": "480",
+            "metadata": ""
+        },
+        {
+            "viewId": "1865439864",
+            "poseId": "1865439864",
+            "intrinsicId": "14981360",
+            "path": "C:\/Users\/alexl\/projects\/Glassphones\/mechanical\/photogrammetry\/r50 imgs\/scene01451.png",
+            "width": "640",
+            "height": "480",
+            "metadata": ""
+        },
+        {
+            "viewId": "1875356350",
+            "poseId": "1875356350",
+            "intrinsicId": "14981360",
+            "resectionId": "0",
+            "path": "C:\/Users\/alexl\/projects\/Glassphones\/mechanical\/photogrammetry\/r50 imgs\/scene01651.png",
+            "width": "640",
+            "height": "480",
+            "metadata": ""
+        },
+        {
+            "viewId": "1886369179",
+            "poseId": "1886369179",
+            "intrinsicId": "14981360",
+            "path": "C:\/Users\/alexl\/projects\/Glassphones\/mechanical\/photogrammetry\/r50 imgs\/scene02001.png",
+            "width": "640",
+            "height": "480",
+            "metadata": ""
+        },
+        {
+            "viewId": "1898130451",
+            "poseId": "1898130451",
+            "intrinsicId": "14981360",
+            "resectionId": "3",
+            "path": "C:\/Users\/alexl\/projects\/Glassphones\/mechanical\/photogrammetry\/r50 imgs\/scene00651.png",
+            "width": "640",
+            "height": "480",
+            "metadata": ""
+        },
+        {
+            "viewId": "1940359100",
+            "poseId": "1940359100",
+            "intrinsicId": "14981360",
+            "path": "C:\/Users\/alexl\/projects\/Glassphones\/mechanical\/photogrammetry\/r50 imgs\/scene01501.png",
+            "width": "640",
+            "height": "480",
+            "metadata": ""
+        },
+        {
+            "viewId": "2015013291",
+            "poseId": "2015013291",
+            "intrinsicId": "14981360",
+            "path": "C:\/Users\/alexl\/projects\/Glassphones\/mechanical\/photogrammetry\/r50 imgs\/scene01051.png",
+            "width": "640",
+            "height": "480",
+            "metadata": ""
+        }
+    ],
+    "intrinsics": [
+        {
+            "intrinsicId": "14981360",
+            "width": "640",
+            "height": "480",
+            "serialNumber": "C:\/Users\/alexl\/projects\/Glassphones\/mechanical\/photogrammetry\/r50 imgs",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "551.40429806491488",
+            "principalPoint": [
+                "310.81892821688064",
+                "218.04462795847428"
+            ],
+            "distortionParams": [
+                "0.1437504493016728",
+                "-0.69176417970357473",
+                "0.69006781433133679"
+            ],
+            "locked": "0"
+        }
+    ],
+    "poses": [
+        {
+            "poseId": "1430520676",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.95872753624139984",
+                        "-0.21297668495366112",
+                        "0.1883678393958067",
+                        "0.24704290006737378",
+                        "0.95193830275936109",
+                        "-0.1810615179046299",
+                        "-0.14075267947288611",
+                        "0.22012360029259928",
+                        "0.96526384155598977"
+                    ],
+                    "center": [
+                        "-0.43178159594642734",
+                        "0.1741881799468592",
+                        "0.69641168397375863"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "1539772914",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.91823549095199264",
+                        "0.34757804883794058",
+                        "-0.18982382127162872",
+                        "-0.30081112932191162",
+                        "0.92387896990707774",
+                        "0.23655932329864582",
+                        "0.2575970644868244",
+                        "-0.16011604831948389",
+                        "0.95289380491129416"
+                    ],
+                    "center": [
+                        "1.5768400518169954",
+                        "-1.549870431250906",
+                        "0.9222427139841084"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "1739492887",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.99919311625280471",
+                        "6.0351409980215845e-05",
+                        "0.040163575422469656",
+                        "0.00016468194816173323",
+                        "0.99998430861598853",
+                        "-0.0055995894188132934",
+                        "-0.04016328314350117",
+                        "0.0056016854169659985",
+                        "0.99917742759112826"
+                    ],
+                    "center": [
+                        "-0.12337494299985816",
+                        "-0.16027449344667455",
+                        "0.50951922312546061"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "1875356350",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.9796444993083413",
+                        "-0.20072449579056359",
+                        "-0.0025162997701488748",
+                        "0.20064247675632244",
+                        "0.97869911404894683",
+                        "0.043481498144558053",
+                        "-0.0062651014355584594",
+                        "-0.043101287097146182",
+                        "0.9990510635370804"
+                    ],
+                    "center": [
+                        "-0.8100998626819742",
+                        "0.16334909757236027",
+                        "2.0279576578094711"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "1898130451",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.55475381435769011",
+                        "0.5679484611024318",
+                        "-0.60801542002400966",
+                        "-0.58935557181076448",
+                        "0.78406830426695739",
+                        "0.19467127219891669",
+                        "0.58728886881261444",
+                        "0.25034264473979917",
+                        "0.76968847256112805"
+                    ],
+                    "center": [
+                        "2.6415747069523232",
+                        "-0.77088272113079892",
+                        "2.0778099919258119"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "2015013291",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.98283324633560742",
+                        "0.009642309135658866",
+                        "-0.18424395721961537",
+                        "0.0042859938591391193",
+                        "0.99717058743157982",
+                        "0.07504964901981527",
+                        "0.18444630696777445",
+                        "-0.074550958651719748",
+                        "0.98001107871802096"
+                    ],
+                    "center": [
+                        "0.23794691459986123",
+                        "-0.5537919007550659",
+                        "1.1944730801360126"
+                    ]
+                },
+                "locked": "0"
+            }
+        }
+    ]
+}

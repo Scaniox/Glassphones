@@ -1,0 +1,18 @@
+{
+    "status": "SUCCESS",
+    "execMode": "LOCAL",
+    "nodeName": "ImageMatching_1",
+    "nodeType": "ImageMatching",
+    "packageName": "aliceVision",
+    "packageVersion": null,
+    "graph": "",
+    "commandLine": "aliceVision_imageMatching  --input \"C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/MeshroomCache/CameraInit/38a1536fbf3e12116b7468779bd0641d6f4c686d/cameraInit.sfm\" --featuresFolders \"C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/MeshroomCache/FeatureExtraction/498904acc1d041c8323ceafd515678640a11d699\" --tree \"C:\\Users\\alexl\\projects\\photogrammetry\\meshroom\\aliceVision\\share\\aliceVision\\vlfeat_K80L3.SIFT.tree\" --weights \"\" --minNbImages 200 --maxDescriptors 500 --nbMatches 50 --verboseLevel info --output \"C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/MeshroomCache/ImageMatching/0d1bc4acf8d895246b2e9b26d2ca10b898d05245/imageMatches.txt\" ",
+    "env": null,
+    "startDateTime": "2021-07-27 18:07:13.502048",
+    "endDateTime": "2021-07-27 18:07:13.811340",
+    "elapsedTime": 0.3092925548553467,
+    "hostname": "DESKTOP-S9BKKVK",
+    "sessionUid": "c0363c38-eefc-11eb-98df-00d86118ab6b",
+    "returnCode": 0,
+    "elapsedTimeStr": "0:00:00.309293"
+}

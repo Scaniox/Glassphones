@@ -1,0 +1,18 @@
+{
+    "status": "SUCCESS",
+    "execMode": "LOCAL",
+    "nodeName": "FeatureExtraction_1",
+    "nodeType": "FeatureExtraction",
+    "packageName": "aliceVision",
+    "packageVersion": null,
+    "graph": "",
+    "commandLine": "aliceVision_featureExtraction  --input \"C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/CameraInit/026f33a740f8a756863d1d8de740930b0046119f/cameraInit.sfm\" --describerTypes sift --describerPreset normal --forceCpuExtraction True --verboseLevel info --output \"C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/FeatureExtraction/b693ecbda6344a513a5a6b0bf324e8ef4605089c\" --rangeStart 0 --rangeSize 40",
+    "env": null,
+    "startDateTime": "2021-07-27 17:50:33.007704",
+    "endDateTime": "2021-07-27 17:50:34.259393",
+    "elapsedTime": 1.2516882419586182,
+    "hostname": "DESKTOP-S9BKKVK",
+    "sessionUid": "7aa0facc-eefa-11eb-9917-00d86118ab6b",
+    "returnCode": 0,
+    "elapsedTimeStr": "0:00:01.251688"
+}

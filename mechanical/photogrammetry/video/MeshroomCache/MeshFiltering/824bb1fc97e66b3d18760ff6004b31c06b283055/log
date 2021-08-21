@@ -1,0 +1,43 @@
+Program called with the following parameters:
+ * inputMesh = "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/Meshing/db83591ce1e8f06cfc1e3cb798bf2ff74a9c68ce/mesh.obj"
+ * iterations = 5
+ * keepLargestMeshOnly = 0
+ * lambda = 1
+ * outputMesh = "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/MeshFiltering/824bb1fc97e66b3d18760ff6004b31c06b283055/mesh.obj"
+ * removeLargeTrianglesFactor = 60
+ * verboseLevel = "info"
+
+[17:51:03.560011][info] Loading mesh from obj file: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/Meshing/db83591ce1e8f06cfc1e3cb798bf2ff74a9c68ce/mesh.obj
+[17:51:03.566017][info] 	- # vertices: 2546
+	- # normals: 0
+	- # uv coordinates: 0
+	- # triangles: 5023
+[17:51:03.573023][info] Mesh loaded: 
+	- #points: 2546
+	- # triangles: 5023
+[17:51:03.573023][info] Mesh file: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/Meshing/db83591ce1e8f06cfc1e3cb798bf2ff74a9c68ce/mesh.obj" loaded.
+[17:51:03.574024][info] Input mesh: 2546 vertices and 5023 facets.
+[17:51:03.574024][info] Mesh after large triangles removal: 2546 vertices and 5023 facets.
+[17:51:03.574024][info] Start mesh filtering.
+[17:51:03.585034][info] cleanMesh:
+	- # wrong points: 0
+	- # new points: 0
+[17:51:03.587036][info] Optimizing mesh smooth: 
+	- lamda: 1
+	- niters: 5
+
+[17:51:03.588037][info] Optimizing mesh smooth: iteration 0
+[17:51:03.589037][info] Optimizing mesh smooth: iteration 1
+[17:51:03.589037][info] Optimizing mesh smooth: iteration 2
+[17:51:03.589037][info] Optimizing mesh smooth: iteration 3
+[17:51:03.589037][info] Optimizing mesh smooth: iteration 4
+[17:51:03.589037][info] Mesh filtering done: 2546 vertices and 5023 facets.
+[17:51:03.589037][info] remove free points from mesh.
+Output mesh: 2546 vertices and 5023 facets.
+[17:51:03.590038][info] Save mesh.
+[17:51:03.590038][info] Save mesh to obj: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/MeshFiltering/824bb1fc97e66b3d18760ff6004b31c06b283055/mesh.obj
+[17:51:03.590038][info] Nb points: 2546
+[17:51:03.590038][info] Nb triangles: 5023
+[17:51:03.597045][info] Save mesh to obj done.
+[17:51:03.597045][info] Mesh file: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/MeshFiltering/824bb1fc97e66b3d18760ff6004b31c06b283055/mesh.obj" saved.
+[17:51:03.597045][info] Task done in (s): 0.038000

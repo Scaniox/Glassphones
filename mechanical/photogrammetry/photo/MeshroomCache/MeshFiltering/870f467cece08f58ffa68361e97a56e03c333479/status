@@ -1,0 +1,18 @@
+{
+    "status": "SUCCESS",
+    "execMode": "LOCAL",
+    "nodeName": "MeshFiltering_1",
+    "nodeType": "MeshFiltering",
+    "packageName": "aliceVision",
+    "packageVersion": null,
+    "graph": "",
+    "commandLine": "aliceVision_meshFiltering  --inputMesh \"C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/MeshroomCache/Meshing/114f4ff6afbac0e45e9cbe46789cd0630ba7c6f8/mesh.obj\" --removeLargeTrianglesFactor 60.0 --keepLargestMeshOnly False --iterations 5 --lambda 1.0 --verboseLevel info --outputMesh \"C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/MeshroomCache/MeshFiltering/870f467cece08f58ffa68361e97a56e03c333479/mesh.obj\" ",
+    "env": null,
+    "startDateTime": "2021-07-27 18:22:54.354368",
+    "endDateTime": "2021-07-27 18:23:01.061461",
+    "elapsedTime": 6.707093238830566,
+    "hostname": "DESKTOP-S9BKKVK",
+    "sessionUid": "c0363c38-eefc-11eb-98df-00d86118ab6b",
+    "returnCode": 0,
+    "elapsedTimeStr": "0:00:06.707093"
+}

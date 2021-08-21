@@ -1,0 +1,18 @@
+Program called with the following parameters:
+ * allowSingleView = 1
+ * defaultCameraModel = "" (default)
+ * defaultFieldOfView = 45
+ * defaultFocalLengthPix = -1 (default)
+ * defaultIntrinsic = "" (default)
+ * groupCameraFallback =  Unknown Type "enum EGroupCameraFallback"
+ * imageFolder = "" (default)
+ * input = "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/CameraInit/026f33a740f8a756863d1d8de740930b0046119f//viewpoints.sfm"
+ * output = "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/CameraInit/026f33a740f8a756863d1d8de740930b0046119f/cameraInit.sfm"
+ * sensorDatabase = "C:\Users\alexl\projects\photogrammetry\meshroom\aliceVision\share\aliceVision\cameraSensors.db"
+ * verboseLevel = "info"
+
+[17:50:32.918623][info] CameraInit report:
+	- # views listed: 29
+	   - # views with an initialized intrinsic listed: 29
+	   - # views without metadata (with a default intrinsic): 0
+	- # intrinsics listed: 1

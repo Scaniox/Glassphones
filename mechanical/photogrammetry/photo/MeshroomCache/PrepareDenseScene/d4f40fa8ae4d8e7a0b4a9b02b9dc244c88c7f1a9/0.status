@@ -1,0 +1,18 @@
+{
+    "status": "SUCCESS",
+    "execMode": "LOCAL",
+    "nodeName": "PrepareDenseScene_1",
+    "nodeType": "PrepareDenseScene",
+    "packageName": "aliceVision",
+    "packageVersion": null,
+    "graph": "",
+    "commandLine": "aliceVision_prepareDenseScene  --input \"C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/MeshroomCache/StructureFromMotion/d71c1582ed01c90abd0e8f21b0806b4d62578cae/sfm.abc\" --outputFileType exr --saveMetadata True --saveMatricesTxtFiles False --evCorrection False --verboseLevel info --output \"C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/MeshroomCache/PrepareDenseScene/d4f40fa8ae4d8e7a0b4a9b02b9dc244c88c7f1a9\" --rangeStart 0 --rangeSize 40",
+    "env": null,
+    "startDateTime": "2021-07-27 18:10:22.946230",
+    "endDateTime": "2021-07-27 18:10:29.557841",
+    "elapsedTime": 6.611611366271973,
+    "hostname": "DESKTOP-S9BKKVK",
+    "sessionUid": "c0363c38-eefc-11eb-98df-00d86118ab6b",
+    "returnCode": 0,
+    "elapsedTimeStr": "0:00:06.611611"
+}

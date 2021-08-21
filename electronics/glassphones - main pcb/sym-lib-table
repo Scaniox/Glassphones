@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name TinyPICO_Nan)(type Legacy)(uri "${KIPRJMOD}/components/esp32 - tinypico/TinyPICO Nano/KiCAD 5/TinyPICO_Nan.lib")(options "")(descr ""))
+  (lib (name 2021-06-12_14-49-54)(type Legacy)(uri ${KIPRJMOD}/components/MAX9850/2021-06-12_14-49-54.lib)(options "")(descr ""))
+  (lib (name 2021-07-21_13-51-30)(type Legacy)(uri "${KIPRJMOD}/components/DM3DS SD card slot/2021-07-21_13-51-30.lib")(options "")(descr ""))
+  (lib (name 2021-07-22_23-07-31)(type Legacy)(uri "${KIPRJMOD}/components/4X10k resistor array ul_EXB38V103JV/2021-07-22_23-07-31.lib")(options "")(descr ""))
+  (lib (name ICS-43432)(type Legacy)(uri "${KIPRJMOD}/components/ICS 43432 I2S microphone/ICS-43432.lib")(options "")(descr ""))
+)

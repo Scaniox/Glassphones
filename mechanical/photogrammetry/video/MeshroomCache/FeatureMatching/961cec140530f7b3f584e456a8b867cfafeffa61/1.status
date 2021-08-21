@@ -1,0 +1,18 @@
+{
+    "status": "SUCCESS",
+    "execMode": "LOCAL",
+    "nodeName": "FeatureMatching_1",
+    "nodeType": "FeatureMatching",
+    "packageName": "aliceVision",
+    "packageVersion": null,
+    "graph": "",
+    "commandLine": "aliceVision_featureMatching  --input \"C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/CameraInit/026f33a740f8a756863d1d8de740930b0046119f/cameraInit.sfm\" --featuresFolders \"C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/FeatureExtraction/b693ecbda6344a513a5a6b0bf324e8ef4605089c\" --imagePairsList \"C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/ImageMatching/b063f8350323c84d92b275a1d2888b310de265f5/imageMatches.txt\" --describerTypes sift --photometricMatchingMethod ANN_L2 --geometricEstimator acransac --geometricFilterType fundamental_matrix --distanceRatio 0.8 --maxIteration 2048 --geometricError 0.0 --maxMatches 0 --savePutativeMatches False --guidedMatching False --exportDebugFiles False --verboseLevel info --output \"C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/FeatureMatching/961cec140530f7b3f584e456a8b867cfafeffa61\" --rangeStart 20 --rangeSize 20",
+    "env": null,
+    "startDateTime": "2021-07-27 17:50:37.036521",
+    "endDateTime": "2021-07-27 17:50:37.635571",
+    "elapsedTime": 0.599050760269165,
+    "hostname": "DESKTOP-S9BKKVK",
+    "sessionUid": "7aa0facc-eefa-11eb-9917-00d86118ab6b",
+    "returnCode": 0,
+    "elapsedTimeStr": "0:00:00.599051"
+}

@@ -1,0 +1,71 @@
+Program called with the following parameters:
+ * describerTypes = "sift"
+ * distanceRatio = 0.8
+ * exportDebugFiles = 0
+ * featuresFolders =  = [C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/MeshroomCache/FeatureExtraction/498904acc1d041c8323ceafd515678640a11d699]
+ * geometricError = 0
+ * geometricEstimator =  Unknown Type "enum aliceVision::robustEstimation::ERobustEstimator"
+ * geometricFilterType = "fundamental_matrix"
+ * guidedMatching = 0
+ * imagePairsList = "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/MeshroomCache/ImageMatching/0d1bc4acf8d895246b2e9b26d2ca10b898d05245/imageMatches.txt"
+ * input = "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/MeshroomCache/CameraInit/38a1536fbf3e12116b7468779bd0641d6f4c686d/cameraInit.sfm"
+ * matchFilePerImage = 0 (default)
+ * maxIteration = 2048
+ * maxMatches = 0
+ * output = "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/MeshroomCache/FeatureMatching/8e7a8b733a39d459208570b47af6798179f21a7f"
+ * photometricMatchingMethod = "ANN_L2"
+ * rangeSize = 20
+ * rangeStart = 60
+ * savePutativeMatches = 0
+ * useGridSort = 1 (default)
+ * verboseLevel = "info"
+
+[18:08:33.058537][info] Load pair list from file: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/MeshroomCache/ImageMatching/0d1bc4acf8d895246b2e9b26d2ca10b898d05245/imageMatches.txt
+[18:08:33.059538][info] loadPairs: image pair (2026061171, 2050995335) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/MeshroomCache/ImageMatching/0d1bc4acf8d895246b2e9b26d2ca10b898d05245/imageMatches.txt".
+[18:08:33.060539][info] loadPairs: image pair (2026061171, 2115999314) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/MeshroomCache/ImageMatching/0d1bc4acf8d895246b2e9b26d2ca10b898d05245/imageMatches.txt".
+[18:08:33.060539][info] loadPairs: image pair (2026061171, 2128018622) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/MeshroomCache/ImageMatching/0d1bc4acf8d895246b2e9b26d2ca10b898d05245/imageMatches.txt".
+[18:08:33.060539][info] loadPairs: image pair (2050995335, 2115999314) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/MeshroomCache/ImageMatching/0d1bc4acf8d895246b2e9b26d2ca10b898d05245/imageMatches.txt".
+[18:08:33.060539][info] loadPairs: image pair (2050995335, 2128018622) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/MeshroomCache/ImageMatching/0d1bc4acf8d895246b2e9b26d2ca10b898d05245/imageMatches.txt".
+[18:08:33.060539][info] loadPairs: image pair (2115999314, 2128018622) added. File: "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/MeshroomCache/ImageMatching/0d1bc4acf8d895246b2e9b26d2ca10b898d05245/imageMatches.txt".
+[18:08:33.060539][info] Number of pairs: 6
+[18:08:33.060539][info] Putative matches
+[18:08:33.060539][info] There are 64 views and 6 image pairs.
+Loading regions
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+[18:08:33.091567][info] Supported CUDA-Enabled GPU detected.
+****[18:08:33.329813][info] sift Regions Matching
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+[18:08:33.851819][info] 6 putative image pair matches
+[18:08:33.851819][info] 	- image pair (2026061171, 2050995335) contains 326 putative matches.
+[18:08:33.851819][info] 	- image pair (2026061171, 2115999314) contains 530 putative matches.
+[18:08:33.851819][info] 	- image pair (2026061171, 2128018622) contains 587 putative matches.
+[18:08:33.851819][info] 	- image pair (2050995335, 2115999314) contains 267 putative matches.
+[18:08:33.851819][info] 	- image pair (2050995335, 2128018622) contains 346 putative matches.
+[18:08:33.851819][info] 	- image pair (2115999314, 2128018622) contains 719 putative matches.
+[18:08:33.851819][info] Task (Regions Matching) done in (s): 0.521000
+[18:08:33.851819][info] Geometric filtering: using fundamental_matrix
+Robust Model Estimation
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+[18:08:33.910377][info] 6 geometric image pair matches:
+[18:08:33.910377][info] 	- image pair (2026061171, 2050995335) contains 76 geometric matches.
+[18:08:33.910377][info] 	- image pair (2026061171, 2115999314) contains 257 geometric matches.
+[18:08:33.910377][info] 	- image pair (2026061171, 2128018622) contains 254 geometric matches.
+[18:08:33.911378][info] 	- image pair (2050995335, 2115999314) contains 61 geometric matches.
+[18:08:33.911378][info] 	- image pair (2050995335, 2128018622) contains 100 geometric matches.
+[18:08:33.911378][info] 	- image pair (2115999314, 2128018622) contains 291 geometric matches.
+[18:08:33.911378][info] Grid filtering
+[18:08:33.911378][info] After grid filtering:
+[18:08:33.911378][info] 	- image pair (2026061171, 2050995335) contains 76 geometric matches.
+[18:08:33.911378][info] 	- image pair (2026061171, 2115999314) contains 257 geometric matches.
+[18:08:33.911378][info] 	- image pair (2026061171, 2128018622) contains 254 geometric matches.
+[18:08:33.911378][info] 	- image pair (2050995335, 2115999314) contains 61 geometric matches.
+[18:08:33.911378][info] 	- image pair (2050995335, 2128018622) contains 100 geometric matches.
+[18:08:33.911378][info] 	- image pair (2115999314, 2128018622) contains 291 geometric matches.
+[18:08:33.911378][info] Save geometric matches.
+[18:08:33.917384][info] Task done in (s): 0.065000

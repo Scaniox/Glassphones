@@ -1,0 +1,18 @@
+{
+    "status": "SUCCESS",
+    "execMode": "LOCAL",
+    "nodeName": "Texturing_1",
+    "nodeType": "Texturing",
+    "packageName": "aliceVision",
+    "packageVersion": null,
+    "graph": "",
+    "commandLine": "aliceVision_texturing  --input \"C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/Meshing/db83591ce1e8f06cfc1e3cb798bf2ff74a9c68ce/densePointCloud.abc\" --imagesFolder \"C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/PrepareDenseScene/3e4c19c9a6e097340eab7f3527b9e6b37897db51\" --inputMesh \"C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/MeshFiltering/824bb1fc97e66b3d18760ff6004b31c06b283055/mesh.obj\" --textureSide 8192 --downscale 1 --outputTextureFileType png --unwrapMethod Basic --useUDIM True --fillHoles False --padding 5 --correctEV False --useScore True --processColorspace sRGB --multiBandDownscale 4 --multiBandNbContrib 1 5 10 0 --bestScoreThreshold 0.1 --angleHardThreshold 90.0 --forceVisibleByAllVertices False --flipNormals False --visibilityRemappingMethod PullPush --verboseLevel info --output \"C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/Texturing/2c468ecf00575808510a90f24e992894a4d70658\" ",
+    "env": null,
+    "startDateTime": "2021-07-27 17:51:03.616062",
+    "endDateTime": "2021-07-27 17:51:09.904959",
+    "elapsedTime": 6.288897275924683,
+    "hostname": "DESKTOP-S9BKKVK",
+    "sessionUid": "7aa0facc-eefa-11eb-9917-00d86118ab6b",
+    "returnCode": 0,
+    "elapsedTimeStr": "0:00:06.288897"
+}

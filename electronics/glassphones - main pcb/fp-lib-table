@@ -1,0 +1,10 @@
+(fp_lib_table
+  (lib (name MAX9850)(type KiCad)(uri ${KIPRJMOD}/components/MAX9850)(options "")(descr ""))
+  (lib (name "tinypico nano")(type KiCad)(uri "${KIPRJMOD}/components/esp32 - tinypico/TinyPICO Nano/KiCAD 5")(options "")(descr ""))
+  (lib (name "4X10k resistor array ul_EXB38V103JV")(type KiCad)(uri "${KIPRJMOD}/components/4X10k resistor array ul_EXB38V103JV")(options "")(descr ""))
+  (lib (name "DF52-5S-0 connector")(type KiCad)(uri "${KIPRJMOD}/components/DF52-5S-0.8H connector")(options "")(descr ""))
+  (lib (name "DM3DS SD card slot")(type KiCad)(uri "${KIPRJMOD}/components/DM3DS SD card slot")(options "")(descr ""))
+  (lib (name "TL3365 button")(type KiCad)(uri "${KIPRJMOD}/components/TL3365 button")(options "")(descr ""))
+  (lib (name "ICS 43432 I2S microphone")(type KiCad)(uri "${KIPRJMOD}/components/ICS 43432 I2S microphone")(options "")(descr ""))
+  (lib (name "usb micro b molex 105017 0001")(type KiCad)(uri "${KIPRJMOD}/components/usb micro b molex 105017 0001.pretty")(options "")(descr ""))
+)

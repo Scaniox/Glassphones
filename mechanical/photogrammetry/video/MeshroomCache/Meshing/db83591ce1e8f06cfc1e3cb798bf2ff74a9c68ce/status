@@ -1,0 +1,18 @@
+{
+    "status": "SUCCESS",
+    "execMode": "LOCAL",
+    "nodeName": "Meshing_1",
+    "nodeType": "Meshing",
+    "packageName": "aliceVision",
+    "packageVersion": null,
+    "graph": "",
+    "commandLine": "aliceVision_meshing  --input \"C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/StructureFromMotion/05321de2f97c332c089e527a2c8afd2a22e8c4b3/sfm.abc\" --depthMapsFolder \"C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/DepthMap/4fd98e2220e87a8fe1c7089ad8e6dc06101979ae\" --depthMapsFilterFolder \"C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/DepthMapFilter/be69f848473599ab3ad288b9843b7f50fe8396a6\" --estimateSpaceFromSfM True --estimateSpaceMinObservations 3 --estimateSpaceMinObservationAngle 10 --maxInputPoints 50000000 --maxPoints 5000000 --maxPointsPerVoxel 1000000 --minStep 2 --partitioning singleBlock --repartition multiResolution --angleFactor 15.0 --simFactor 15.0 --pixSizeMarginInitCoef 2.0 --pixSizeMarginFinalCoef 4.0 --voteMarginFactor 4.0 --contributeMarginFactor 2.0 --simGaussianSizeInit 10.0 --simGaussianSize 10.0 --minAngleThreshold 1.0 --refineFuse True --addLandmarksToTheDensePointCloud False --colorizeOutput False --saveRawDensePointCloud False --verboseLevel info --outputMesh \"C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/Meshing/db83591ce1e8f06cfc1e3cb798bf2ff74a9c68ce/mesh.obj\" --output \"C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/Meshing/db83591ce1e8f06cfc1e3cb798bf2ff74a9c68ce/densePointCloud.abc\" ",
+    "env": null,
+    "startDateTime": "2021-07-27 17:50:52.186640",
+    "endDateTime": "2021-07-27 17:51:03.338810",
+    "elapsedTime": 11.153171062469482,
+    "hostname": "DESKTOP-S9BKKVK",
+    "sessionUid": "7aa0facc-eefa-11eb-9917-00d86118ab6b",
+    "returnCode": 0,
+    "elapsedTimeStr": "0:00:11.153171"
+}

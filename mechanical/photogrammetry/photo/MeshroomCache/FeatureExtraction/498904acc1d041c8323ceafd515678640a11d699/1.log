@@ -1,0 +1,87 @@
+Program called with the following parameters:
+ * describerPreset = "normal"
+ * describerTypes = "sift"
+ * forceCpuExtraction = 1
+ * input = "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/MeshroomCache/CameraInit/38a1536fbf3e12116b7468779bd0641d6f4c686d/cameraInit.sfm"
+ * maxThreads = 0 (default)
+ * output = "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/MeshroomCache/FeatureExtraction/498904acc1d041c8323ceafd515678640a11d699"
+ * rangeSize = 40
+ * rangeStart = 40
+ * verboseLevel = "info"
+
+[18:07:04.420523][info] CUDA-Enabled GPU.
+Device information:
+	- id:                      0
+	- name:                    GeForce GTX 1060 3GB
+	- compute capability:      6.1
+	- total device memory:     3072 MB 
+	- device memory available: 2475 MB 
+	- per-block shared memory: 49152
+	- warp size:               32
+	- max threads per block:   1024
+	- max threads per SM(X):   2048
+	- max block sizes:         {1024,1024,64}
+	- max grid sizes:          {2147483647,65535,65535}
+	- max 2D array texture:    {131072,65536}
+	- max 3D array texture:    {16384,16384,16384}
+	- max 2D linear texture:   {131072,65000,2097120}
+	- max 2D layered texture:  {32768,32768,2048}
+	- number of SM(x)s:        9
+	- registers per SM(x):     65536
+	- registers per block:     65536
+	- concurrent kernels:      yes
+	- mapping host memory:     yes
+	- unified addressing:      yes
+	- texture alignment:       512 byte
+	- pitch alignment:         32 byte
+
+[18:07:04.568657][info] Supported CUDA-Enabled GPU detected.
+[18:07:04.855919][info] Extracting sift features from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175701(0).jpg' [cpu]
+[18:07:04.895955][info] Extracting sift features from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175652(0).jpg' [cpu]
+[18:07:04.907966][info] Extracting sift features from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175631(0).jpg' [cpu]
+[18:07:04.919977][info] Extracting sift features from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175618(0).jpg' [cpu]
+[18:07:04.937994][info] Extracting sift features from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175638(0).jpg' [cpu]
+[18:07:04.959014][info] Extracting sift features from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175637(0).jpg' [cpu]
+[18:07:04.967020][info] Extracting sift features from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175626(0).jpg' [cpu]
+[18:07:04.988039][info] Extracting sift features from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175703(0).jpg' [cpu]
+[18:07:05.034081][info] Extracting sift features from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175708.jpg' [cpu]
+[18:07:05.036082][info] Extracting sift features from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175706(0).jpg' [cpu]
+[18:07:05.059104][info] Extracting sift features from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175709(0).jpg' [cpu]
+[18:07:05.059104][info] Extracting sift features from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175619(0).jpg' [cpu]
+[18:07:05.087130][info] Extracting sift features from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175705(0).jpg' [cpu]
+[18:07:05.135174][info] Extracting sift features from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175647.jpg' [cpu]
+[18:07:08.959051][info]       9053 sift features extracted from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175706(0).jpg'
+[18:07:09.029116][info]       2489 sift features extracted from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175638(0).jpg'
+[18:07:09.039124][info]       3357 sift features extracted from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175637(0).jpg'
+[18:07:09.099686][info] Extracting sift features from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175653(0).jpg' [cpu]
+[18:07:09.171751][info]       8514 sift features extracted from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175703(0).jpg'
+[18:07:09.186764][info] Extracting sift features from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175715.jpg' [cpu]
+[18:07:09.186764][info] Extracting sift features from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175634(0).jpg' [cpu]
+[18:07:09.201779][info]       9163 sift features extracted from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175626(0).jpg'
+[18:07:09.337902][info] Extracting sift features from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175627(0).jpg' [cpu]
+[18:07:09.350914][info]       10000 sift features extracted from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175652(0).jpg'
+[18:07:09.483034][info] Extracting sift features from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175645(0).jpg' [cpu]
+[18:07:09.513061][info]       10000 sift features extracted from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175619(0).jpg'
+[18:07:09.582125][info]       9051 sift features extracted from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175618(0).jpg'
+[18:07:09.737265][info] Extracting sift features from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175636(0).jpg' [cpu]
+[18:07:09.860376][info]       2421 sift features extracted from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175631(0).jpg'
+[18:07:09.909421][info]       3562 sift features extracted from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175647.jpg'
+[18:07:10.044544][info] Extracting sift features from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175658(0).jpg' [cpu]
+[18:07:10.050549][info]       7642 sift features extracted from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175705(0).jpg'
+[18:07:10.151641][info]       10000 sift features extracted from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175701(0).jpg'
+[18:07:10.168657][info] Extracting sift features from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175624(0).jpg' [cpu]
+[18:07:10.173662][info]       10000 sift features extracted from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175708.jpg'
+[18:07:10.227710][info] Extracting sift features from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175644(0).jpg' [cpu]
+[18:07:10.316793][info] Extracting sift features from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175620(0).jpg' [cpu]
+[18:07:10.367839][info]       10000 sift features extracted from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175709(0).jpg'
+[18:07:11.430165][info]       3656 sift features extracted from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175634(0).jpg'
+[18:07:11.462194][info]       5606 sift features extracted from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175715.jpg'
+[18:07:12.047726][info]       2118 sift features extracted from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175645(0).jpg'
+[18:07:12.062740][info]       8068 sift features extracted from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175627(0).jpg'
+[18:07:12.111784][info]       10000 sift features extracted from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175653(0).jpg'
+[18:07:12.578208][info]       3916 sift features extracted from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175636(0).jpg'
+[18:07:12.842448][info]       2742 sift features extracted from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175644(0).jpg'
+[18:07:12.867471][info]       10000 sift features extracted from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175658(0).jpg'
+[18:07:13.030619][info]       10000 sift features extracted from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175620(0).jpg'
+[18:07:13.362921][info]       10000 sift features extracted from view 'C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/photo/imgs/20210727_175624(0).jpg'
+[18:07:13.364923][info] Task done in (s): 8.796000

@@ -1,0 +1,372 @@
+Program called with the following parameters:
+ * addLandmarksToTheDensePointCloud = 0
+ * angleFactor = 15
+ * colorizeOutput = 0
+ * contributeMarginFactor = 2
+ * depthMapsFilterFolder = "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/DepthMapFilter/be69f848473599ab3ad288b9843b7f50fe8396a6"
+ * depthMapsFolder = "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/DepthMap/4fd98e2220e87a8fe1c7089ad8e6dc06101979ae"
+ * estimateSpaceFromSfM = 1
+ * estimateSpaceMinObservationAngle = 10
+ * estimateSpaceMinObservations = 3
+ * input = "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/StructureFromMotion/05321de2f97c332c089e527a2c8afd2a22e8c4b3/sfm.abc"
+ * maxInputPoints = 50000000
+ * maxPoints = 5000000
+ * maxPointsPerVoxel = 1000000
+ * minAngleThreshold = 1
+ * minStep = 2
+ * output = "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/Meshing/db83591ce1e8f06cfc1e3cb798bf2ff74a9c68ce/densePointCloud.abc"
+ * outputMesh = "C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/Meshing/db83591ce1e8f06cfc1e3cb798bf2ff74a9c68ce/mesh.obj"
+ * partitioning =  Unknown Type "enum EPartitioningMode"
+ * pixSizeMarginFinalCoef = 4
+ * pixSizeMarginInitCoef = 2
+ * refineFuse = 1
+ * repartition =  Unknown Type "enum ERepartitionMode"
+ * saveRawDensePointCloud = 0
+ * simFactor = 15
+ * simGaussianSize = 10
+ * simGaussianSizeInit = 10
+ * universePercentile = 0.999 (default)
+ * verboseLevel = "info"
+ * voteMarginFactor = 4
+
+[17:50:52.417850][info] Found 1 image dimension(s): 
+[17:50:52.417850][info] 	- [640x480]
+[17:50:52.427859][info] Overall maximum dimension: [640x480]
+[17:50:52.427859][warning] repartitionMode: 1
+[17:50:52.427859][warning] partitioningMode: 1
+[17:50:52.428860][info] Meshing mode: multi-resolution, partitioning: single block.
+[17:50:52.428860][info] Estimate space from SfM.
+[17:50:52.428860][info] Estimate space done.
+[17:50:52.428860][info] pointToJoinPixSizeDist: 2
+[17:50:52.428860][info] Estimated: 1 1 1
+[17:50:52.428860][info] voxelNeighs.size(): 1
+[17:50:52.440871][info] Creating dense point cloud.
+[17:50:52.440871][info] fuseFromDepthMaps, maxVertices: 5000000
+[17:50:52.443874][info] simFactor: 15
+[17:50:52.443874][info] nbPixels: 1843200
+[17:50:52.443874][info] maxVertices: 5000000
+[17:50:52.443874][info] step: 2
+[17:50:52.443874][info] realMaxVertices: 460800
+[17:50:52.443874][info] Load depth maps and add points.
+[17:50:52.519942][info] Filter initial 3D points by pixel size to remove duplicates.
+[17:50:52.519942][info] Build nanoflann KdTree index.
+[17:50:52.583506][info] KdTree created for 460800 points.
+[17:50:52.590512][info] Filtering done.
+[17:50:52.593515][info] 450077 invalid points removed.
+[17:50:52.594516][info] 3D points loaded and filtered to 10723 points.
+[17:50:52.594516][info] Init visibilities to compute angle scores
+[17:50:52.597518][info] NANOFLANN: KdTree created.
+[17:50:52.598519][info] Create visibilities (0/6)
+[17:50:52.598519][info] Create visibilities (2/6)
+[17:50:52.598519][info] Create visibilities (4/6)
+[17:50:52.622541][info] Create visibilities (1/6)
+[17:50:52.626545][info] Create visibilities (5/6)
+[17:50:52.631550][info] Create visibilities (3/6)
+[17:50:52.664580][info] Visibilities created.
+[17:50:52.664580][info] Compute max angle per point
+[17:50:52.664580][info] angleFactor: 15
+[17:50:52.667582][info] 2295 invalid points removed.
+[17:50:52.668583][info] Filter by angle score and sim score
+[17:50:52.668583][info] Build nanoflann KdTree index.
+[17:50:52.670585][info] KdTree created for 8428 points.
+[17:50:52.670585][info] Filtering done.
+[17:50:52.671586][info] 5657 invalid points removed.
+[17:50:52.671586][info] The number of points is below the max number of vertices.
+[17:50:52.671586][info] 3D points loaded and filtered to 2771 points (maxVertices is 5000000).
+[17:50:52.671586][info] Create final visibilities
+[17:50:52.672587][info] NANOFLANN: KdTree created.
+[17:50:52.672587][info] Create visibilities (0/6)
+[17:50:52.672587][info] Create visibilities (2/6)
+[17:50:52.672587][info] Create visibilities (4/6)
+[17:50:52.698610][info] Create visibilities (5/6)
+[17:50:52.699611][info] Create visibilities (1/6)
+[17:50:52.719630][info] Create visibilities (3/6)
+[17:50:52.738647][info] Visibilities created.
+[17:50:52.738647][info] fuseFromDepthMaps done: 2771 points created.
+[17:50:52.765672][info] 25684 cells created by tetrahedralization.
+[17:50:52.784689][info] coutInvalidVertices: 0
+[17:50:52.784689][info] neighboringCellsPerVertexTmp: 4102
+[17:50:52.784689][info] verticesCoords: 4102
+[17:50:52.790694][info] Histogram of number of cams per point:
+[17:50:52.790694][info]     0: 1331
+[17:50:52.790694][info]     1: 0
+[17:50:52.790694][info]     2: 360
+[17:50:52.790694][info]     3: 925
+[17:50:52.790694][info]     4: 617
+[17:50:52.790694][info]     5: 448
+[17:50:52.790694][info]     6: 421
+[17:50:52.790694][info] Histogram of Nrc per point:
+[17:50:52.790694][info]     0: 1331
+[17:50:52.790694][info]     1: 0
+[17:50:52.790694][info]     2: 0
+[17:50:52.790694][info]     3: 0
+[17:50:52.790694][info]     4: 3
+[17:50:52.790694][info]     5: 5
+[17:50:52.790694][info]     6: 5
+[17:50:52.790694][info]     7: 6
+[17:50:52.790694][info]     8: 12
+[17:50:52.790694][info]     9: 25
+[17:50:52.790694][info]     10: 32
+[17:50:52.790694][info]     11: 41
+[17:50:52.790694][info]     12: 52
+[17:50:52.790694][info]     13: 50
+[17:50:52.790694][info]     14: 62
+[17:50:52.790694][info]     15: 69
+[17:50:52.791696][info]     16: 81
+[17:50:52.791696][info]     17: 96
+[17:50:52.791696][info]     18: 102
+[17:50:52.791696][info]     19: 103
+[17:50:52.791696][info]     20: 105
+[17:50:52.791696][info]     21: 109
+[17:50:52.791696][info]     22: 105
+[17:50:52.791696][info]     23: 115
+[17:50:52.791696][info]     24: 97
+[17:50:52.791696][info]     25: 85
+[17:50:52.791696][info]     26: 93
+[17:50:52.791696][info]     27: 77
+[17:50:52.791696][info]     28: 85
+[17:50:52.791696][info]     29: 70
+[17:50:52.791696][info]     30: 85
+[17:50:52.791696][info]     31: 67
+[17:50:52.791696][info]     32: 76
+[17:50:52.791696][info]     33: 50
+[17:50:52.791696][info]     34: 59
+[17:50:52.791696][info]     35: 67
+[17:50:52.791696][info]     36: 60
+[17:50:52.791696][info]     37: 51
+[17:50:52.791696][info]     38: 49
+[17:50:52.791696][info]     39: 38
+[17:50:52.791696][info]     40: 40
+[17:50:52.791696][info]     41: 36
+[17:50:52.791696][info]     42: 35
+[17:50:52.791696][info]     43: 28
+[17:50:52.791696][info]     44: 29
+[17:50:52.791696][info]     45: 18
+[17:50:52.791696][info]     46: 21
+[17:50:52.791696][info]     47: 15
+[17:50:52.791696][info]     48: 13
+[17:50:52.791696][info]     49: 8
+[17:50:52.791696][info]     50: 15
+[17:50:52.791696][info]     51: 9
+[17:50:52.791696][info]     52: 15
+[17:50:52.791696][info]     53: 9
+[17:50:52.791696][info]     54: 10
+[17:50:52.791696][info]     55: 6
+[17:50:52.791696][info]     56: 6
+[17:50:52.791696][info]     57: 2
+[17:50:52.791696][info]     58: 4
+[17:50:52.791696][info]     59: 1
+[17:50:52.791696][info]     60: 5
+[17:50:52.791696][info]     61: 6
+[17:50:52.791696][info]     62: 6
+[17:50:52.791696][info]     63: 6
+[17:50:52.791696][info]     64: 2
+[17:50:52.791696][info]     65: 3
+[17:50:52.791696][info]     66: 2
+[17:50:52.791696][info]     67: 3
+[17:50:52.791696][info]     68: 1
+[17:50:52.791696][info]     69: 3
+[17:50:52.791696][info]     70: 1
+[17:50:52.792696][info]     71: 0
+[17:50:52.792696][info]     72: 4
+[17:50:52.792696][info]     73: 2
+[17:50:52.792696][info]     74: 5
+[17:50:52.792696][info]     75: 6
+[17:50:52.792696][info]     76: 2
+[17:50:52.792696][info]     77: 4
+[17:50:52.792696][info]     78: 5
+[17:50:52.792696][info]     79: 0
+[17:50:52.792696][info]     80: 2
+[17:50:52.792696][info]     81: 1
+[17:50:52.792696][info]     82: 1
+[17:50:52.792696][info]     83: 5
+[17:50:52.792696][info]     84: 1
+[17:50:52.792696][info]     85: 1
+[17:50:52.792696][info]     86: 5
+[17:50:52.792696][info]     87: 2
+[17:50:52.792696][info]     88: 2
+[17:50:52.792696][info]     89: 3
+[17:50:52.792696][info]     90: 2
+[17:50:52.792696][info]     91: 2
+[17:50:52.792696][info]     92: 1
+[17:50:52.792696][info]     93: 0
+[17:50:52.792696][info]     94: 3
+[17:50:52.792696][info]     95: 3
+[17:50:52.792696][info]     96: 1
+[17:50:52.792696][info]     97: 0
+[17:50:52.792696][info]     98: 3
+[17:50:52.792696][info]     99: 3
+[17:50:52.792696][info]     100: 4
+[17:50:52.792696][info]     101: 0
+[17:50:52.792696][info]     102: 0
+[17:50:52.792696][info]     103: 1
+[17:50:52.792696][info]     104: 1
+[17:50:52.792696][info]     105: 0
+[17:50:52.792696][info]     106: 0
+[17:50:52.792696][info]     107: 0
+[17:50:52.792696][info]     108: 3
+[17:50:52.792696][info]     109: 2
+[17:50:52.792696][info]     110: 2
+[17:50:52.792696][info]     111: 0
+[17:50:52.792696][info]     112: 1
+[17:50:52.792696][info]     113: 1
+[17:50:52.792696][info]     114: 1
+[17:50:52.792696][info]     115: 0
+[17:50:52.792696][info]     116: 1
+[17:50:52.792696][info]     117: 7
+[17:50:52.792696][info]     118: 1
+[17:50:52.792696][info]     119: 1
+[17:50:52.792696][info]     120: 0
+[17:50:52.792696][info]     121: 0
+[17:50:52.793697][info]     122: 0
+[17:50:52.793697][info]     123: 0
+[17:50:52.793697][info]     124: 0
+[17:50:52.793697][info]     125: 1
+[17:50:52.793697][info]     126: 0
+[17:50:52.793697][info]     127: 0
+[17:50:52.793697][info]     128: 1
+[17:50:52.793697][info]     129: 3
+[17:50:52.793697][info]     130: 2
+[17:50:52.793697][info]     131: 0
+[17:50:52.793697][info]     132: 1
+[17:50:52.793697][info]     133: 0
+[17:50:52.793697][info]     134: 1
+[17:50:52.793697][info]     135: 0
+[17:50:52.793697][info]     136: 1
+[17:50:52.793697][info]     137: 1
+[17:50:52.793697][info]     138: 1
+[17:50:52.793697][info]     139: 0
+[17:50:52.793697][info]     140: 2
+[17:50:52.793697][info]     141: 0
+[17:50:52.793697][info]     142: 1
+[17:50:52.793697][info]     143: 1
+[17:50:52.793697][info]     144: 0
+[17:50:52.793697][info]     145: 0
+[17:50:52.793697][info]     146: 0
+[17:50:52.793697][info]     147: 0
+[17:50:52.793697][info]     148: 0
+[17:50:52.793697][info]     149: 2
+[17:50:52.793697][info]     150: 1
+[17:50:52.793697][info]     151: 0
+[17:50:52.793697][info]     152: 1
+[17:50:52.793697][info]     153: 0
+[17:50:52.793697][info]     154: 0
+[17:50:52.793697][info]     155: 0
+[17:50:52.793697][info]     156: 1
+[17:50:52.793697][info]     157: 0
+[17:50:52.793697][info]     158: 1
+[17:50:52.793697][info]     159: 0
+[17:50:52.793697][info]     160: 0
+[17:50:52.793697][info]     161: 0
+[17:50:52.793697][info]     162: 1
+[17:50:52.793697][info]     163: 1
+[17:50:52.793697][info]     164: 0
+[17:50:52.793697][info]     165: 0
+[17:50:52.793697][info]     166: 0
+[17:50:52.793697][info]     167: 0
+[17:50:52.793697][info]     168: 0
+[17:50:52.793697][info]     169: 1
+[17:50:52.793697][info]     170: 0
+[17:50:52.793697][info]     171: 0
+[17:50:52.793697][info]     172: 0
+[17:50:52.793697][info]     173: 0
+[17:50:52.793697][info]     174: 0
+[17:50:52.793697][info]     175: 0
+[17:50:52.793697][info]     176: 0
+[17:50:52.794698][info]     177: 0
+[17:50:52.794698][info]     178: 1
+[17:50:52.794698][info]     179: 0
+[17:50:52.794698][info]     180: 0
+[17:50:52.794698][info]     181: 0
+[17:50:52.794698][info]     182: 0
+[17:50:52.794698][info]     183: 0
+[17:50:52.794698][info]     184: 2
+[17:50:52.794698][info]     185: 0
+[17:50:52.794698][info]     186: 0
+[17:50:52.794698][info]     187: 0
+[17:50:52.794698][info]     188: 1
+[17:50:52.794698][info]     189: 0
+[17:50:52.794698][info]     190: 1
+[17:50:52.794698][info]     191: 0
+[17:50:52.794698][info]     192: 0
+[17:50:52.794698][info]     193: 0
+[17:50:52.794698][info]     194: 0
+[17:50:52.794698][info]     195: 0
+[17:50:52.794698][info]     196: 0
+[17:50:52.794698][info]     197: 0
+[17:50:52.794698][info]     198: 0
+[17:50:52.794698][info]     199: 0
+[17:50:52.794698][info]     200: 0
+[17:50:52.794698][info]     201: 0
+[17:50:52.794698][info]     202: 0
+[17:50:52.794698][info]     203: 0
+[17:50:52.794698][info]     204: 0
+[17:50:52.794698][info]     205: 0
+[17:50:52.794698][info]     206: 0
+[17:50:52.794698][info]     207: 0
+[17:50:52.794698][info]     208: 0
+[17:50:52.794698][info]     209: 0
+[17:50:52.794698][info]     210: 0
+[17:50:52.794698][info]     211: 1
+[17:50:52.797701][info] DelaunayGraphCut::reconstructExpetiments
+[17:50:52.797701][info] fixesSigma: false
+[17:50:52.797701][info] sigma: 4
+[17:50:52.797701][info] Jancosek IJCV method ( delta*100 = 10 ): 
+[17:50:52.797701][info] Computing s-t graph weights.
+[17:50:52.797701][info] setIsOnSurface nbSurfaceFacets: 0
+[17:51:02.952737][info] Forcing t-edges
+[17:51:02.965748][info] reconstructGC start.
+[17:51:02.965748][info] Maxflow: start allocation.
+[17:51:02.968751][info] Maxflow: add nodes.
+[17:51:02.973755][info] Maxflow: add edges.
+[17:51:03.084981][info] Maxflow: clear cells info.
+[17:51:03.084981][info] Maxflow: compute.
+[17:51:03.084981][info] # vertices: 25686, capacity: 25686
+[17:51:03.084981][info] 	- size[5]: 16
+[17:51:03.084981][info] 	- size[7]: 82
+[17:51:03.084981][info] 	- size[9]: 25586
+[17:51:03.084981][info] 	- size[17]: 1
+[17:51:03.084981][info] 	- size[25667]: 1
+[17:51:03.084981][info] 	- capacity[9]: 25684
+[17:51:03.084981][info] 	- capacity[25684]: 2
+[17:51:03.084981][info] Compute boykov_kolmogorov_max_flow.
+[17:51:03.145635][info] Full (white):0
+[17:51:03.145635][info] Empty (black):4
+[17:51:03.145635][info] Undefined (gray):1
+[17:51:03.145635][info] 	- color[0]: 16470
+[17:51:03.145635][info] 	- color[4]: 9216
+[17:51:03.145635][info] totalFlow: 44138.8
+[17:51:03.145635][info] Maxflow: update full/empty cells status.
+[17:51:03.145635][info] Maxflow: done.
+[17:51:03.163651][info] Maxflow: convert result to surface.
+[17:51:03.167655][info] setIsOnSurface nbSurfaceFacets: 5378
+[17:51:03.172659][info] setIsOnSurface nbSurfaceFacets: 5378
+[17:51:03.188674][info] setIsOnSurface nbSurfaceFacets: 5364
+[17:51:03.188674][info] reconstructGC done.
+[17:51:03.188674][info] Graph cut post-processing.
+[17:51:03.189675][info] Graph cut post-processing done.
+[17:51:03.189675][info] Extract mesh from Graph Cut.
+[17:51:03.192677][info] setIsOnSurface nbSurfaceFacets: 5144
+[17:51:03.192677][info] # surface facets: 5144
+[17:51:03.192677][info] # vertixes: 4102
+[17:51:03.192677][info] _cellIsFull.size(): 25684
+[17:51:03.196681][info] Extract mesh from Graph Cut done.
+[17:51:03.196681][info] Extract visibilities.
+[17:51:03.196681][info] Extract visibilities done.
+[17:51:03.196681][info] Mesh post-processing.
+[17:51:03.196681][info] remove free points from mesh.
+[17:51:03.197682][info] Mesh Cleaning.
+[17:51:03.209693][info] cleanMesh:
+	- # wrong points: 4
+	- # new points: 4
+[17:51:03.215698][info] cleanMesh:
+	- # wrong points: 0
+	- # new points: 0
+[17:51:03.218701][info] Mesh post-processing done.
+[17:51:03.223706][info] Save dense point cloud.
+[17:51:03.252732][info] Save obj mesh file.
+[17:51:03.253733][info] Save mesh to obj: C:/Users/alexl/projects/Glassphones/mechanical/photogrammetry/MeshroomCache/Meshing/db83591ce1e8f06cfc1e3cb798bf2ff74a9c68ce/mesh.obj
+[17:51:03.253733][info] Nb points: 2546
+[17:51:03.253733][info] Nb triangles: 5023
+[17:51:03.258737][info] Save mesh to obj done.
+[17:51:03.258737][info] Task done in (s): 10.853000
