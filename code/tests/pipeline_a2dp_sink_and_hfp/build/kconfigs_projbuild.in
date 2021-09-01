@@ -1,0 +1,8 @@
+source "C:/esp/idf/components/app_update/Kconfig.projbuild"
+source "C:/esp/idf/components/bootloader/Kconfig.projbuild"
+source "C:/esp/idf/components/esptool_py/Kconfig.projbuild"
+source "C:/esp/idf/components/partition_table/Kconfig.projbuild"
+source "C:/esp/esp-adf/components/audio_board/Kconfig.projbuild"
+source "C:/esp/esp-adf/components/esp-adf-libs/Kconfig.projbuild"
+source "C:/esp/esp-adf/components/esp-sr/Kconfig.projbuild"
+source "C:/esp/esp-adf/components/esp_dispatcher/Kconfig.projbuild"

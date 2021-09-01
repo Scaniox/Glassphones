@@ -10,20 +10,21 @@ void SD_card_init(){
 
     // initialise slot 0
     sdmmc_slot_config_t slot_cfg = SDMMC_SLOT_CONFIG_DEFAULT();
-    sdmmc_host_init_slot(SDMMC_HOST_SLOT_0, &slot_cfg);
+    ESP_ERROR_CHECK(sdmmc_host_init_slot(SDMMC_HOST_SLOT_0, &slot_cfg));
 
     // initialise SD protocol drivers
     sdmmc_card_t *card_info = NULL; // "handle" for the card
-    sdmmc_card_init(&card_host, card_info);
+    ESP_ERROR_CHECK(sdmmc_card_init(&card_host, card_info));
 
     // link a drive identification number to a path using VFS
     FATFS *file_system;
-    esp_vfs_fat_register(SD_BASE_PATH, 0, 1, &file_system); // register SD_BASE_PATH to drive 0, max 1 file open at once
+    ESP_ERROR_CHECK(esp_vfs_fat_register(SD_BASE_PATH, 0, 1, &file_system)); // register SD_BASE_PATH to drive 0, max 1 file open at once
 
     // register SD drivers to FATFS (mount SD card)
 
     ff_diskio_register_sdmmc(0, card_info); // register card to drive 0
     f_mount(file_system, 0, 0);
+
 
 
     sdmmc_card_print_info(stdout, card_info);

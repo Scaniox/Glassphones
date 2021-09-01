@@ -9,6 +9,7 @@
 #include "freertos/task.h"
 #include "freertos/queue.h"
 #include "nvs_flash.h"
+#include "esp_system.h"
 
 #include "driver/gpio.h"
 #include "driver/uart.h"
@@ -24,7 +25,7 @@
 #include "esp_a2dp_api.h"
 #include "esp_avrc_api.h"
 #include "BT_event_handlers.h"
-uint8_t sender_bt_address;
+    uint8_t sender_bt_address;
 
 //max9850e
 #include "driver/i2c.h"
@@ -41,3 +42,6 @@ uint8_t sender_bt_address;
 
 // serial communication
 #include "serial.h"
+
+//adf bluetooth
+#include "bluetooth_service.h"
