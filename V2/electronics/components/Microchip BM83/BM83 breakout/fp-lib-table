@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name BM83)(type KiCad)(uri ${KIPRJMOD}/BM83.pretty)(options "")(descr ""))
+  (lib (name TL3365_button)(type KiCad)(uri "C:/Users/alexl/projects/Glassphones/V2/electronics/components/TL3365 button/TL3365_button.pretty")(options "")(descr ""))
+)

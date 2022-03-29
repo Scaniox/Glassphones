@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>com.microchip.mplab.nbide.embedded.makeproject</type>
+    <configuration>
+        <Harmony xmlns="Harmony" MHC="true"/>
+        <data xmlns="http://www.netbeans.org/ns/make-project/1">
+            <name>Bluetooth_Basic_Demo_BM83_EVB</name>
+            <creation-uuid>e54023e9-3948-44ef-bf6f-29d8b223e555</creation-uuid>
+            <make-project-type>0</make-project-type>
+            <c-extensions>c</c-extensions>
+            <cpp-extensions/>
+            <header-extensions>h</header-extensions>
+            <asminc-extensions/>
+            <sourceEncoding>ISO-8859-1</sourceEncoding>
+            <sourceRootList>
+                <sourceRootElem>../src</sourceRootElem>
+                <sourceRootElem>..\src</sourceRootElem>
+                <sourceRootElem>..\src\MX450_DEMO_SPK</sourceRootElem>
+                <sourceRootElem>..\src\system_config\MX450_DEMO_SPK</sourceRootElem>
+                <sourceRootElem>..\src\MX450_BASIC_DEMO0</sourceRootElem>
+                <sourceRootElem>..\src\system_config\MX450_BASIC_DEMO0</sourceRootElem>
+                <sourceRootElem>../../../..</sourceRootElem>
+            </sourceRootList>
+            <confList>
+                <confElem>
+                    <name>MX450_BASIC_DEMO0</name>
+                    <type>2</type>
+                </confElem>
+                <confElem>
+                    <name>BM83_TX_Rx</name>
+                    <type>2</type>
+                </confElem>
+            </confList>
+            <formatting>
+                <project-formatting-style>false</project-formatting-style>
+            </formatting>
+            <make-dep-projects/>
+        </data>
+    </configuration>
+</project>

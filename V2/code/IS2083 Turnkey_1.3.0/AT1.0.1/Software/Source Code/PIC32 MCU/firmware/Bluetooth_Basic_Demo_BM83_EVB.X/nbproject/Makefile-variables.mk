@@ -1,0 +1,20 @@
+#
+# Generated - do not edit!
+#
+# NOCDDL
+#
+CND_BASEDIR=`pwd`
+# MX450_BASIC_DEMO0 configuration
+CND_ARTIFACT_DIR_MX450_BASIC_DEMO0=dist/MX450_BASIC_DEMO0/production
+CND_ARTIFACT_NAME_MX450_BASIC_DEMO0=Bluetooth_Basic_Demo_BM83_EVB.X.production.hex
+CND_ARTIFACT_PATH_MX450_BASIC_DEMO0=dist/MX450_BASIC_DEMO0/production/Bluetooth_Basic_Demo_BM83_EVB.X.production.hex
+CND_PACKAGE_DIR_MX450_BASIC_DEMO0=${CND_DISTDIR}/MX450_BASIC_DEMO0/package
+CND_PACKAGE_NAME_MX450_BASIC_DEMO0=bluetoothbasicdemobm83evb.x.tar
+CND_PACKAGE_PATH_MX450_BASIC_DEMO0=${CND_DISTDIR}/MX450_BASIC_DEMO0/package/bluetoothbasicdemobm83evb.x.tar
+# BM83_TX_Rx configuration
+CND_ARTIFACT_DIR_BM83_TX_Rx=dist/BM83_TX_Rx/production
+CND_ARTIFACT_NAME_BM83_TX_Rx=Bluetooth_Basic_Demo_BM83_EVB.X.production.hex
+CND_ARTIFACT_PATH_BM83_TX_Rx=dist/BM83_TX_Rx/production/Bluetooth_Basic_Demo_BM83_EVB.X.production.hex
+CND_PACKAGE_DIR_BM83_TX_Rx=${CND_DISTDIR}/BM83_TX_Rx/package
+CND_PACKAGE_NAME_BM83_TX_Rx=bluetoothbasicdemobm83evb.x.tar
+CND_PACKAGE_PATH_BM83_TX_Rx=${CND_DISTDIR}/BM83_TX_Rx/package/bluetoothbasicdemobm83evb.x.tar

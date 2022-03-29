@@ -1,0 +1,115 @@
+
+;;;      0  1  2  3  4  5  6  7     8  9  A  B  C  D  E  F
+0000    01 18 07 01 02 00 07 0B     01 4A 17 02 02 00 02 01     ;
+0010    00 03 18 01 01 03 05 00     19 17 01 60 1B 01 4C 1C     ;
+0020    01 00 1E 01 05 24 0B 02     00 00 00 00 00 00 07 00     ;
+0030    01 00 04 02 00 0F 02 0A     09 09 4D 43 48 50 20 42     ;
+0040    4D 38 0C 01 15 0B 01 00     03 0B 01 01 0D 01 00 06     ;
+0050    01 04 3F 00 09 86 0E 01     00 C0 01 BE 00 00 00 1F     ;
+0060    00 47 EB 1F 00 01 00 00     00 01 00 00 10 10 00 60     ;
+0070    00 00 00 1F 00 23 EB 1F     00 01 00 00 00 01 00 00     ;
+0080    10 10 00 60 00 00 00 1F     00 0B EB 1F 00 01 00 00     ;
+0090    00 01 00 00 10 10 00 60     00 00 00 1F 00 0B EB 1F     ;
+00A0    00 01 00 00 00 01 00 00     10 10 00 60 00 00 00 1F     ;
+00B0    00 05 EB 1F 00 01 00 00     00 01 00 00 10 10 00 60     ;
+00C0    00 00 00 1F 00 05 EB 1F     00 01 00 00 00 01 00 00     ;
+
+;;;      0  1  2  3  4  5  6  7     8  9  A  B  C  D  E  F
+00D0    10 10 00 60 12 03 E9 06     40 12 03 E9 06 40 11 03     ;
+00E0    F4 1E 40 12 03 E9 06 40     11 03 F4 1E 40 12 03 E9     ;
+00F0    06 40 00 00 00 1F 00 0B     EB 1F 00 01 00 00 00 01     ;
+0100    00 00 10 10 00 60 00 00     00 1F 00 0B EB 1F 00 01     ;
+0110    00 00 00 01 00 00 10 10     00 60         ;
+
+
+[== Audio Function ==]
+[ LineIn ]
+   --- Silence Detection Threshold                  | 0x14:-66dBOv
+
+[ Sound Effect ]
+   --- Multi-Band Dynamic Range Compression(MB-DRC) | ( ) 
+   --- Audio Widening(AW)                           | ( ) 
+   --- Virtual Bass(VB)                             | ( ) 
+   --- Audio Effect Mask                            | (v)All Off | ( )MB-DRC on| ( )All On| ( )AW On
+   --- Default Audio Effect                         | All Off
+   --- Knee Th                                      | -6dBov |-6dBov |-12dBov
+   --- Compression Ratio                            | 1/2 |1/3 |1/3
+   --- Make-Up Gain                                 | 5dB |3dB |2dB
+   --- Attack Time                                  | 20ms |20ms |20ms
+   --- Release Time                                 | 50ms |50ms |50ms
+   --- Bass Enhancement                             | 0x03
+   --- Cutoff-Freq (Bass Enhancement)               | 200Hz
+   --- Audio Widening Level                         | 0x0F: Highest level
+
+[ EQ ]
+   --- Equalizer                                    | (v) 
+   --- Initial Value                                | Off
+   --- EQ Mask Selection                            |  
+                                                    | (v)Off
+                                                    | (v)SOFT
+                                                    | (v)BASS
+                                                    | (v)TREBLE
+                                                    | (v)CLASSICAL
+                                                    | (v)ROCK
+                                                    | (v)JAZZ
+                                                    | (v)POP
+                                                    | (v)DANCE
+                                                    | (v)Rhythm and Blues
+                                                    | (v)Custom EQ
+
+[ Audio Line-In Silence Suppression ]
+   --- Silence data reversion and Fade-out of data  | 3
+   --- Silence supp threshold                       | 31
+   --- Silence supp MeanVariance thrd               | 255
+   --- Silence supp fadeout step                    | 64
+   --- Silence supp tuning counter                  | 240
+   --- Line-in supp minimum gain                    | 0
+   --- Silence supp fadein base step                | 64
+---------------------------------------------------------------------------
+
+[== Voice Function ==]
+[ Filter ]
+   --- Speaker -- HighPass Filter                   | Cutoff Freq: 300Hz
+   --- MIC -- HighPass Filter                       | Cutoff Freq: 210Hz
+
+[ NR ]
+   --- Speaker -- Noise Reduction                   | 15dB Noise Suppression -- Default
+   --- MIC -- Noise Reduction                       | 18dB Noise Suppression
+
+[ EQ ]
+   --- Speaker -- EQ                                | EQ Off
+   --- MIC -- EQ                                    | EQ Off
+
+[ MIC Gain/ComfortNoise ]
+   --- NE MIC Digital Gain                          | ( ) 
+   --- MIC Gain(Digital)                            | 0x1D:  10dB
+   --- WNG Enable/Disable                           | ( ) 
+   --- Comfort Noise                                | 0x0D:-78dB -- Default Level
+   --- FE Digital Gain                              | ( ) 
+   --- Gain SPKOut                                  | 0x0D:  -6dB
+
+[ AEC/AES ]
+   --- AEC On/Off                                   | ( ) 
+   --- AES On/Off                                   | ( ) 
+   --- Stepsize                                     | 0x02: 
+   --- Tap Length                                   | 0x05: 40msec Echo Tail
+   --- Linear AEC Thrd                              | 0x7F: Worst Linearity | 0x7F: Worst Linearity-mSBC
+   --- AES Suppression                              | 0x04:  | 0x04:-mSBC 
+   --- Double-Talk Threshold                        | 0x50:  | 0x50:-mSBC 
+
+---------------------------------------------------------------------------
+
+
+[== I2S/PCM ==]
+   --- 24Bit To 16Bit Truncate                      | ( ) 
+   --- MCLK                                         | ( ) 
+   --- MCLK selection:                              | 128 fs
+   --- I2S Mode                                     | Master mode
+   --- Data Bitwidth                                | 16bit
+   --- Loopback ADC Selection                       | Embedded ADC
+   --- Mic ADC Selection                            | Embedded ADC
+   --- DAC Selection                                | Embedded DAC
+   --- RFS Setting                                  | RFS high level -> Left channel
+
+---------------------------------------------------------------------------
+

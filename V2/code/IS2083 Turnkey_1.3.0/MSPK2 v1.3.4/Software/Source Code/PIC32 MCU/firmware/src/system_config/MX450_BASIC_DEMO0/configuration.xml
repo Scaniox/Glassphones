@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration version="1.0.9.2">
+  <DisplayManager>
+    <SystemInitScript/>
+    <SystemStartScript/>
+  </DisplayManager>
+  <General>
+    <HarmonyPath path="../../../.."/>
+    <Processor name=""/>
+    <ForceOptimization flag="true"/>
+    <MergeStrategy flag="OVERWRITE"/>
+  </General>
+  <Manifest>
+    <Files>
+      <File>
+        <Name>osal_impl_basic.h</Name>
+        <Path>Header Files/framework/osal/src</Path>
+      </File>
+      <File>
+        <Name>peripheral_common_32bit.h</Name>
+        <Path>Header Files/framework/peripheral</Path>
+      </File>
+      <File>
+        <Name>drv_tmr_mapping.h</Name>
+        <Path>Header Files/framework/driver/tmr</Path>
+      </File>
+      <File>
+        <Name>drv_tmr_variant_mapping.h</Name>
+        <Path>Header Files/framework/driver/tmr/src</Path>
+      </File>
+      <File>
+        <Name>driver_common.h</Name>
+        <Path>Header Files/framework/driver</Path>
+      </File>
+      <File>
+        <Name>drv_tmr.h</Name>
+        <Path>Header Files/framework/driver/tmr</Path>
+      </File>
+      <File>
+        <Name>sys_devcon.c</Name>
+        <Path>Source Files/framework/system/devcon/src</Path>
+      </File>
+      <File>
+        <Name>osal.h</Name>
+        <Path>Header Files/framework/osal</Path>
+      </File>
+      <File>
+        <Name>sys_ports.h</Name>
+        <Path>Header Files/framework/system/ports</Path>
+      </File>
+      <File>
+        <Name>driver.h</Name>
+        <Path>Header Files/framework/driver</Path>
+      </File>
+      <File>
+        <Name>peripheral_common.h</Name>
+        <Path>Header Files/framework/peripheral</Path>
+      </File>
+      <File>
+        <Name>sys_common.h</Name>
+        <Path>Header Files/framework/system/common</Path>
+      </File>
+      <File>
+        <Name>sys_buffer.h</Name>
+        <Path>Header Files/framework/system/common</Path>
+      </File>
+      <File>
+        <Name>sys_int_pic32.c</Name>
+        <Path>Source Files/framework/system/int/src</Path>
+      </File>
+      <File>
+        <Name>sys_clk.h</Name>
+        <Path>Header Files/framework/system/clk</Path>
+      </File>
+      <File>
+        <Name>osal_impl_none.h</Name>
+        <Path>Header Files/framework/osal/src</Path>
+      </File>
+      <File>
+        <Name>sys_clk_mapping.h</Name>
+        <Path>Header Files/framework/system/clk</Path>
+      </File>
+      <File>
+        <Name>osal_definitions.h</Name>
+        <Path>Header Files/framework/osal</Path>
+      </File>
+      <File>
+        <Name>sys_int_mapping.h</Name>
+        <Path>Header Files/framework/system/int</Path>
+      </File>
+      <File>
+        <Name>gfx_palette.h</Name>
+        <Path>Header Files/framework/gfx</Path>
+      </File>
+      <File>
+        <Name>sys_int_private.h</Name>
+        <Path>Header Files/framework/system/int/src</Path>
+      </File>
+      <File>
+        <Name>sys_devcon.h</Name>
+        <Path>Header Files/framework/system/devcon</Path>
+      </File>
+      <File>
+        <Name>system.h</Name>
+        <Path>Header Files/framework/system</Path>
+      </File>
+      <File>
+        <Name>sys_debug.h</Name>
+        <Path>Header Files/framework/system/debug</Path>
+      </File>
+      <File>
+        <Name>sys_module.h</Name>
+        <Path>Header Files/framework/system/common</Path>
+      </File>
+      <File>
+        <Name>sys_devcon_pic32mx.c</Name>
+        <Path>Source Files/framework/system/devcon/src</Path>
+      </File>
+      <File>
+        <Name>sys_devcon_local.h</Name>
+        <Path>Header Files/framework/system/devcon/src</Path>
+      </File>
+      <File>
+        <Name>peripheral.h</Name>
+        <Path>Header Files/framework/peripheral</Path>
+      </File>
+      <File>
+        <Name>sys_queue.h</Name>
+        <Path>Header Files/framework/system/common</Path>
+      </File>
+      <File>
+        <Name>sys_int.h</Name>
+        <Path>Header Files/framework/system/int</Path>
+      </File>
+    </Files>
+    <Templates>
+      <Template>
+        <Name>system_init.c</Name>
+        <Path>Source Files/app/system_config/MX450_BASIC_DEMO0</Path>
+        <Checksum>617E6F10EB05E80305B4C5805B6355A5</Checksum>
+      </Template>
+      <Template>
+        <Name>drv_i2c_static_buffer_model.c</Name>
+        <Path>Source Files/app/system_config/MX450_BASIC_DEMO0/framework/driver/i2c/src</Path>
+        <Checksum>1BD6E8FDE2E78F93C58037B89CB543CB</Checksum>
+      </Template>
+      <Template>
+        <Name>main.c</Name>
+        <Path>Source Files/app</Path>
+      </Template>
+      <Template>
+        <Name>drv_usart_static.h</Name>
+        <Path>Header Files/app/system_config/MX450_BASIC_DEMO0/framework/driver/usart</Path>
+        <Checksum>AE37BD63B6EC9F6ADD6B8006CE192FCB</Checksum>
+      </Template>
+      <Template>
+        <Name>drv_tmr_static.c</Name>
+        <Path>Source Files/app/system_config/MX450_BASIC_DEMO0/framework/driver/tmr/src</Path>
+        <Checksum>62D29CBB8FE9096745847E3B33D6F438</Checksum>
+      </Template>
+      <Template>
+        <Name>system_interrupt.c</Name>
+        <Path>Source Files/app/system_config/MX450_BASIC_DEMO0</Path>
+        <Checksum>963CE8005EA45D7C287BFE990A0F1966</Checksum>
+      </Template>
+      <Template>
+        <Name>drv_tmr_mapping.c</Name>
+        <Path>Source Files/app/system_config/MX450_BASIC_DEMO0/framework/driver/tmr/src</Path>
+        <Checksum>2CAE56994AB8C4966A293572681FF5BE</Checksum>
+      </Template>
+      <Template>
+        <Name>sys_clk_static.c</Name>
+        <Path>Source Files/app/system_config/MX450_BASIC_DEMO0/framework/system/clk/src</Path>
+        <Checksum>6AF033A7E8ECB69981D88ED27526EF17</Checksum>
+      </Template>
+      <Template>
+        <Name>system_exceptions.c</Name>
+        <Path>Source Files/app/system_config/MX450_BASIC_DEMO0</Path>
+        <Checksum>C111969CA43D6CEA1E9E33A6164E7AE0</Checksum>
+      </Template>
+      <Template>
+        <Name>app.c</Name>
+        <Path>Source Files/app</Path>
+      </Template>
+      <Template>
+        <Name>drv_usart_mapping.c</Name>
+        <Path>Source Files/app/system_config/MX450_BASIC_DEMO0/framework/driver/usart/src</Path>
+        <Checksum>115DDE4372E58D4116BC77DC36FD97DC</Checksum>
+      </Template>
+      <Template>
+        <Name>sys_clk_static.h</Name>
+        <Path>Header Files/app/system_config/MX450_BASIC_DEMO0/framework/system/clk</Path>
+        <Checksum>B4BD59D8D7C4DA95DC5E3B57755FD352</Checksum>
+      </Template>
+      <Template>
+        <Name>drv_i2c_static_buffer_model.h</Name>
+        <Path>Header Files/app/system_config/MX450_BASIC_DEMO0/framework/driver/i2c</Path>
+        <Checksum>960C81364707EBD7F58A98E66A4B2745</Checksum>
+      </Template>
+      <Template>
+        <Name>drv_usart_static.c</Name>
+        <Path>Source Files/app/system_config/MX450_BASIC_DEMO0/framework/driver/usart/src</Path>
+        <Checksum>A7913A3959EF5F266423CA7B27A15EDC</Checksum>
+      </Template>
+      <Template>
+        <Name>system_definitions.h</Name>
+        <Path>Header Files/app/system_config/MX450_BASIC_DEMO0</Path>
+        <Checksum>E79AE2D7FA1EE26F7C86616AA2786A7E</Checksum>
+      </Template>
+      <Template>
+        <Name>sys_ports_static.c</Name>
+        <Path>Source Files/app/system_config/MX450_BASIC_DEMO0/framework/system/ports/src</Path>
+        <Checksum>6EE949E340D2064D482FDACA269D12AF</Checksum>
+      </Template>
+      <Template>
+        <Name>app.h</Name>
+        <Path>Header Files/app</Path>
+      </Template>
+      <Template>
+        <Name>drv_i2c_mapping.c</Name>
+        <Path>Source Files/app/system_config/MX450_BASIC_DEMO0/framework/driver/i2c/src</Path>
+        <Checksum>7D0F37523DD9A21CCB6E8BEC84FDBFA8</Checksum>
+      </Template>
+      <Template>
+        <Name>system_tasks.c</Name>
+        <Path>Source Files/app/system_config/MX450_BASIC_DEMO0</Path>
+        <Checksum>BE644D0142ACA48D9CA2E6255A02CDBA</Checksum>
+      </Template>
+      <Template>
+        <Name>drv_tmr_static.h</Name>
+        <Path>Header Files/app/system_config/MX450_BASIC_DEMO0/framework/driver/tmr</Path>
+        <Checksum>3848B1C3EC270575ACBA3B9AE1CB12DD</Checksum>
+      </Template>
+      <Template>
+        <Name>drv_usart_static_byte_model.c</Name>
+        <Path>Source Files/app/system_config/MX450_BASIC_DEMO0/framework/driver/usart/src</Path>
+        <Checksum>B984EFF6A7FF6AD828EE634E1351AE46</Checksum>
+      </Template>
+      <Template>
+        <Name>system_config.h</Name>
+        <Path>Header Files/app/system_config/MX450_BASIC_DEMO0</Path>
+        <Checksum>C9E71337942A08B527A0E8607FDA8349</Checksum>
+      </Template>
+      <Template>
+        <Name>drv_usart_static_local.h</Name>
+        <Path>Header Files/app/system_config/MX450_BASIC_DEMO0/framework/driver/usart/src</Path>
+        <Checksum>62F7F49D6A443F111DA38971475472FD</Checksum>
+      </Template>
+    </Templates>
+    <CompilerItems>
+      <C32>
+        <Include value="C:\Microchip\harmony\v1_09\apps\wsg\bt5511-external-host-mcu_WSGA_10247\BT Speaker Basic Demo\firmware\src"/>
+        <Include value="C:\Microchip\harmony\v1_09\apps\wsg\bt5511-external-host-mcu_WSGA_10247\BT Speaker Basic Demo\firmware\src\system_config\MX450_BASIC_DEMO0"/>
+        <Include value="C:\Microchip\harmony\v1_09\apps\wsg\bt5511-external-host-mcu_WSGA_10247\BT Speaker Basic Demo\firmware\src\MX450_BASIC_DEMO0"/>
+        <Include value="C:\Microchip\harmony\v1_09\framework"/>
+        <Include value="C:\Microchip\harmony\v1_09\apps\wsg\bt5511-external-host-mcu_WSGA_10247\BT Speaker Basic Demo\firmware\src\system_config\MX450_BASIC_DEMO0\framework"/>
+      </C32>
+    </CompilerItems>
+    <Libraries>
+      <Library value="../../../../../../bin/framework/peripheral/PIC32MX450F256L_peripherals.a"/>
+    </Libraries>
+  </Manifest>
+</configuration>

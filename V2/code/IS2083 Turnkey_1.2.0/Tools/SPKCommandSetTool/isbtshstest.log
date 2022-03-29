@@ -1,0 +1,80 @@
+16:18:26:023	< Command: AA 00 02 08 00 F6 
+16:18:26:037	> Event: AA 00 03 00 08 00 F5 
+Command Complete.
+16:18:26:833	> Event: AA 00 04 18 00 02 07 DB 
+16:18:26:833	< Command: AA 00 02 14 18 D2 
+UART Versionv2.07
+
+16:18:33:394	< Command: AA 00 03 02 00 51 AA 
+16:18:33:394	< Command: AA 00 03 02 00 52 A9 
+16:18:33:404	> Event: AA 00 03 00 02 00 FB 
+Command Complete.
+16:18:33:423	> Event: AA 00 03 00 02 00 FB 
+Command Complete.
+16:18:33:423	> Event: AA 00 03 01 02 00 FA 
+16:18:33:423	< Command: AA 00 02 14 01 E9 
+Power on device.
+16:18:33:423	> Event: AA 00 03 01 0F 00 ED 
+16:18:33:423	< Command: AA 00 02 14 01 E9 
+Device under standby mode.
+16:18:33:433	> Event: AA 00 03 01 81 00 7B 
+16:18:33:433	< Command: AA 00 02 14 01 E9 
+16:18:33:443	> Event: AA 00 03 24 1E 01 BA 
+16:18:33:443	< Command: AA 00 02 14 24 C6 
+16:18:33:443	> Event: AA 00 03 2D 05 07 C4 
+16:18:33:443	< Command: AA 00 02 14 2D BD 
+16:18:34:083	> Event: AA 00 03 24 1E 00 BB 
+16:18:34:083	< Command: AA 00 02 14 24 C6 
+
+16:18:34:593	> Event: AA 00 03 2D 06 02 C8 
+16:18:34:593	< Command: AA 00 02 14 2D BD 
+16:18:34:613	> Event: AA 00 03 1B 01 03 DE 
+16:18:34:613	< Command: AA 00 02 14 1B CF 
+Line-in is silence.
+16:18:42:999	> Event: AA 00 03 01 15 00 E7 
+16:18:42:999	< Command: AA 00 02 14 01 E9 
+16:18:43:323	> Event: AA 00 03 01 06 00 F6 
+16:18:43:323	< Command: AA 00 02 14 01 E9 
+16:18:43:323	< Command: AA 00 03 16 00 00 E7 
+16:18:43:323	< Command: AA 00 03 16 00 00 E7 
+Device has an A2DP link.
+16:18:43:325	> Event: AA 00 03 24 1B 01 BD 
+16:18:43:325	< Command: AA 00 02 14 24 C6 
+16:18:43:346	> Event: AA 00 03 00 16 00 E7 
+Command Complete.
+16:18:43:366	> Event: AA 00 11 17 00 00 4D 43 48 50 5F 4D 75 6C 74 69 
+5F 30 31 00 86 
+16:18:43:366	< Command: AA 00 02 14 17 D3 
+Remote device name : MCHP_Multi_01
+16:18:43:691	> Event: AA 00 03 24 1B 00 BE 
+16:18:43:691	< Command: AA 00 02 14 24 C6 
+
+16:18:44:205	> Event: AA 00 03 01 80 00 7C 
+16:18:44:205	< Command: AA 00 02 14 01 E9 
+16:18:44:309	> Event: AA 00 03 01 81 00 7B 
+16:18:44:309	< Command: AA 00 02 14 01 E9 
+16:18:44:339	> Event: AA 00 03 2D 06 02 C8 
+16:18:44:339	< Command: AA 00 02 14 2D BD 
+16:18:44:360	> Event: AA 00 03 1B 01 03 DE 
+16:18:44:360	< Command: AA 00 02 14 1B CF 
+Line-in is silence.
+16:19:09:861	> Event: AA 00 03 1B 01 02 DF 
+16:19:09:861	< Command: AA 00 02 14 1B CF 
+Line-in is not silence.
+16:40:21:509	> Event: AA 00 03 1B 01 03 DE 
+16:40:21:509	< Command: AA 00 02 14 1B CF 
+Line-in is silence.
+16:40:25:908	> Event: AA 00 03 1B 01 02 DF 
+16:40:25:908	< Command: AA 00 02 14 1B CF 
+Line-in is not silence.
+16:44:19:225	> Event: AA 00 03 01 80 00 7C 
+16:44:19:225	< Command: AA 00 02 14 01 E9 
+16:44:19:252	> Event: AA 00 03 01 08 00 F4 
+16:44:19:252	< Command: AA 00 02 14 01 E9 
+Device has no A2DP link.
+16:44:19:356	> Event: AA 00 03 01 11 00 EB 
+16:44:19:356	< Command: AA 00 02 14 01 E9 
+ACL link was disconnected.
+16:44:19:360	> Event: AA 00 03 01 0F 00 ED 
+16:44:19:360	< Command: AA 00 02 14 01 E9 
+Device under standby mode.

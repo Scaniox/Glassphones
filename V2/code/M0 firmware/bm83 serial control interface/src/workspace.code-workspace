@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "bm83 serial control interface",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}

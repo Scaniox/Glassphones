@@ -1,0 +1,916 @@
+[ Sys. Setup1 ]
+
+Power Switch Setting
+   --- Power Switch Type                        | 
+                                                | ( )Power ON Directly
+                                                | (v)MFB Power ON/OFF
+                                                | ( )Power ON by UART Cmd
+
+Uart Setting
+   --- UART Command                             | Disable
+   --- UART Baudrate                            | 0x03: 115200
+   --- CPU Idle Mode                            | Enable
+   --- Wake Up Host MCU Delay Time              | 30
+   --- Disable Waiting for ACK                  | Disable
+
+OTA DFU Setting
+   --- OTA DFU Key                              | 22222222222222222222222222222222
+   --- OTA DFU Service                          | Enable
+
+Vendor Data Setting
+   --- Vendor Data                              | 0000000000000000000000000000000000000000000000000000000000000000
+
+---------------------------------------------------------------------------
+[ Sys. Setup2 ]
+
+Name Frag Segment
+   --- Device Name                              | MCHP BM83 Test
+
+Misc Option
+   --- Enable Inquiry Scan In Standby           | Disable
+   --- Enable Power On Enter Pairing            | Disable
+   --- Suspend Stream When SCO Estabblished     | Disable
+   --- BT Class of Device                       | 0x18:Headphones
+   --- Report Battery Status to Smart Phone     | Enable
+   --- Link Application                         | Multi-Link
+   --- Always Answer Incoming Call              | Disable
+   --- Auto Answer Incoming Call When Link Back | Disable
+   --- Shut Down Power in Off State             | Enable
+   --- Enter Pairing When Power On Link Back Fail| Disable
+   --- Only Accept Paired Device                | Disable
+   --- Disconnect All In Pairing                | Disable
+   --- Keep BLE In Power Off                    | Enable
+   --- Wide Band Speech Enable(mSBC)            | Enable
+   --- AVRCP Version                            | AVRCP v1.6
+   --- Auto Unsniff in Data Transmission        | Disable
+   --- Enable AVRCP Browsing Feature            | Enable
+   --- Allow Users to Enable Device Under Test Mode| Disable
+   --- Auto Role Switch to BT Master            | Enable
+   --- Enable Role Switch in Link Policy        | Disable
+   --- Force as BT Slave role                   | Disable
+   --- Phone Provide NR and EC Function         | Enable
+   --- Disable Link Back When Remote No Link Key| Disable
+
+Factory Default Setting
+   --- Factory Default Timer                    | 128
+
+---------------------------------------------------------------------------
+[ Sys. Setup3 ]
+
+Connection Setting
+   --- Power On Link Back Setting               | Enable
+   --- Seach Paired Device Pattern Setting      | Last Device Only
+   --- Power On Link Back Profile(s) Setting    | Last Device
+   --- Link Loss Reconnect Time                 | 12
+   --- Page HS Time                             | 12
+   --- Page A2DP Time                           | 12
+   --- Pairing Timeout                          | 10
+
+Button Press Duration
+   --- Power On                                 | 30
+   --- Power Off                                | 40
+   --- BT Classic Pairing                       | 50
+
+Warning Time
+   --- No Service Warning Time                  | 30
+   --- Low Battery Warning Time                 | 30
+   --- Microphone Mute Alarm Interval           | 5
+
+Power Save
+   --- Auto Power Off                           | 
+                                                | ( )Pairing Timeout Shut Down Directly Enable
+                                                | ( )Auto Power Off Enable
+                                                | (v)A2DP Link Silence
+   --- Auto Power Off Time                      | 15
+   --- Max Sniff Interval                       | 800
+   --- Min Sniff Interval                       | 800
+
+RF Tx Power Setting
+   --- Inquiry TX Power Level                   | 6
+   --- BT Connected TX Power Level              | 6
+
+---------------------------------------------------------------------------
+[ LED Setup1 ]
+
+LED Brightness Setting
+   --- LED1 Brightness                          | 8
+   --- LED2 Brightness                          | 8
+
+Power On Led Indication Setting
+   --- Type                                     | 8 : LED1, LED2 Flash (Simultaneous)
+   --- On Duration                              | 2
+   --- Off Duration                             | 2
+   --- Count                                    | 3
+
+Power Off Led Indication Setting
+   --- Type                                     | 8 : LED1, LED2 Flash (Simultaneous)
+   --- On Duration                              | 2
+   --- Off Duration                             | 2
+   --- Count                                    | 3
+
+Pairing Led Indication Setting
+   --- Type                                     | 9 : LED1, LED2 Flash (Alternate)
+   --- On Duration                              | 10
+   --- Off Duration                             | 10
+   --- Count                                    | 0
+   --- Interval                                 | 0
+
+Pairing OK Led Indication Setting
+   --- Type                                     | 5 : LED1 Flash, LED2 Off
+   --- On Duration                              | 2
+   --- Off Duration                             | 2
+   --- Count                                    | 10
+
+Linked Led Indication Setting
+   --- Type                                     | 5 : LED1 Flash, LED2 Off
+   --- On Duration                              | 1
+   --- Off Duration                             | 4
+   --- Count                                    | 2
+   --- Interval                                 | 100
+
+Standby Led Indication Setting
+   --- Type                                     | 5 : LED1 Flash, LED2 Off
+   --- On Duration                              | 1
+   --- Off Duration                             | 4
+   --- Count                                    | 1
+   --- Interval                                 | 100
+
+---------------------------------------------------------------------------
+[ LED Setup2 ]
+
+Incoming Call Led Indication Setting
+   --- Type                                     | 5 : LED1 Flash, LED2 Off
+   --- On Duration                              | 1
+   --- Off Duration                             | 3
+   --- Count                                    | 3
+   --- Interval                                 | 100
+
+Talk Led Indication Setting
+   --- Type                                     | 8 : LED1, LED2 Flash (Simultaneous)
+   --- On Duration                              | 1
+   --- Off Duration                             | 4
+   --- Count                                    | 3
+   --- Interval                                 | 60
+
+AV Led Indication Setting
+   --- Type                                     | 8 : LED1, LED2 Flash (Simultaneous)
+   --- On Duration                              | 2
+   --- Off Duration                             | 2
+   --- Count                                    | 1
+   --- Interval                                 | 100
+
+Low Battery Led Indication Setting
+   --- Type                                     | 4 : LED1 Off,  LED2 Flash
+   --- On Duration                              | 2
+   --- Off Duration                             | 2
+   --- Count                                    | 2
+
+Link Back Led Indication Setting
+   --- Type                                     | 5 : LED1 Flash, LED2 Off
+   --- On Duration                              | 1
+   --- Off Duration                             | 3
+   --- Count                                    | 1
+   --- Interval                                 | 10
+
+Multilink Led Indication Setting
+   --- Type                                     | 4 : LED1 Off,  LED2 Flash
+   --- On Duration                              | 1
+   --- Off Duration                             | 4
+   --- Count                                    | 2
+   --- Interval                                 | 100
+
+Mic Mute Led Indication Setting
+   --- Type                                     | 8 : LED1, LED2 Flash (Simultaneous)
+   --- On Duration                              | 1
+   --- Off Duration                             | 4
+   --- Count                                    | 3
+   --- Interval                                 | 60
+
+Line In Led Indication Setting
+   --- Type                                     | FF:No Effect
+   --- On Duration                              | 2
+   --- Off Duration                             | 2
+   --- Count                                    | 1
+   --- Interval                                 | 100
+
+Volume Adjust Led Indication Setting
+   --- Type                                     | FF:No Effect
+   --- On Duration                              | 2
+   --- Off Duration                             | 2
+   --- Count                                    | 2
+
+Charging Led Indication Setting
+   --- Charging Led Indication Setting          | 0x00 Led2 On
+   --- Charging Complete Led Indication Setting | 0x00 Normal
+   --- Charging Error Led Indication Setting    | 0x00 Same as Charge Complete
+   --- Extra Charging Complete Led Indication (LED3)| Disable
+
+---------------------------------------------------------------------------
+[ LED Setup3 ]
+
+Low Battery Shut Down Led Flash Setting
+   --- Type                                     | 8 : LED1, LED2 Flash (Simultaneous)
+   --- On Duration                              | 2
+   --- Off Duration                             | 2
+   --- Count                                    | 3
+
+Multi-SPK Master Connecting Led Flash Setting
+   --- Type                                     | 5 : LED1 Flash, LED2 Off
+   --- On Duration                              | 3
+   --- Off Duration                             | 3
+   --- Count                                    | 3
+   --- Interval                                 | 37
+
+Multi-SPK Slave Connecting Led Flash Setting
+   --- Type                                     | 4 : LED1 Off,  LED2 Flash
+   --- On Duration                              | 3
+   --- Off Duration                             | 3
+   --- Count                                    | 3
+   --- Interval                                 | 37
+
+Multi-SPK Master Connected With BT Link Led Flash Setting
+   --- Type                                     | 2 : LED1 On,   LED2 Off
+   --- On Duration                              | 1
+   --- Off Duration                             | 4
+   --- Count                                    | 2
+   --- Interval                                 | 5
+
+Multi-SPK Master Connected  With BT Pairing Led Flash Setting
+   --- Type                                     | 5 : LED1 Flash, LED2 Off
+   --- On Duration                              | 3
+   --- Off Duration                             | 3
+   --- Count                                    | 0
+   --- Interval                                 | 0
+
+Multi-SPK Master Connected With BT Reconnection Led Flash Setting
+   --- Type                                     | 5 : LED1 Flash, LED2 Off
+   --- On Duration                              | 1
+   --- Off Duration                             | 4
+   --- Count                                    | 2
+   --- Interval                                 | 100
+
+Stereo Master Connected Without BT Link Led Flash Setting
+   --- Type                                     | 5 : LED1 Flash, LED2 Off
+   --- On Duration                              | 16
+   --- Off Duration                             | 16
+   --- Count                                    | 0
+   --- Interval                                 | 0
+
+Concert Slave Connected Led Flash Setting
+   --- Type                                     | 3 : LED1 Off,  LED2 On
+   --- On Duration                              | 16
+   --- Off Duration                             | 16
+   --- Count                                    | 0
+   --- Interval                                 | 0
+
+Broadcast Slave Connected Led Flash Setting
+   --- Type                                     | 3 : LED1 Off,  LED2 On
+   --- On Duration                              | 16
+   --- Off Duration                             | 16
+   --- Count                                    | 0
+   --- Interval                                 | 0
+
+---------------------------------------------------------------------------
+[ Tone Setup ]
+
+Tone Set Mask
+                                                | (v)Tone Set1
+                                                | (v)Tone Set2
+                                                | (v)Tone Set3
+                                                | (v)Tone Set4
+
+Tone Setting
+   --- Use Tone Set                             | Tone Set1
+   --- Power On Tone_1                          | 0x1E
+   --- Power On Tone_2                          | 0x00
+   --- Power On Tone_3                          | 0x00
+   --- Power On Tone_4                          | 0x00
+   --- Power Off Tone_1                         | 0x1F
+   --- Power Off Tone_2                         | 0x00
+   --- Power Off Tone_3                         | 0x00
+   --- Power Off Tone_4                         | 0x00
+   --- Enter Pairing Tone_1                     | 0x1D
+   --- Enter Pairing Tone_2                     | 0x00
+   --- Enter Pairing Tone_3                     | 0x00
+   --- Enter Pairing Tone_4                     | 0x00
+   --- Pairing Complete Tone_1                  | 0x02
+   --- Pairing Complete Tone_2                  | 0x00
+   --- Pairing Complete Tone_3                  | 0x00
+   --- Pairing Complete Tone_4                  | 0x00
+   --- Pairing Not Complete Tone_1              | 0x00
+   --- Pairing Not Complete Tone_2              | 0x00
+   --- Pairing Not Complete Tone_3              | 0x00
+   --- Pairing Not Complete Tone_4              | 0x00
+   --- Incoming Call Tone_1                     | 0x1C
+   --- Incoming Call Tone_2                     | 0x00
+   --- Incoming Call Tone_3                     | 0x00
+   --- Incoming Call Tone_4                     | 0x00
+   --- Reject Call Tone_1                       | 0x00
+   --- Reject Call Tone_2                       | 0x00
+   --- Reject Call Tone_3                       | 0x00
+   --- Reject Call Tone_4                       | 0x00
+   --- Call Active Tone_1                       | 0x1B
+   --- Call Active Tone_2                       | 0x00
+   --- Call Active Tone_3                       | 0x00
+   --- Call Active Tone_4                       | 0x00
+   --- End Call Tone_1                          | 0x1A
+   --- End Call Tone_2                          | 0x00
+   --- End Call Tone_3                          | 0x00
+   --- End Call Tone_4                          | 0x00
+   --- Charging Initiate Tone_1                 | 0x00
+   --- Charging Initiate Tone_2                 | 0x00
+   --- Charging Initiate Tone_3                 | 0x00
+   --- Charging Initiate Tone_4                 | 0x00
+   --- Charging Complete Tone_1                 | 0x00
+   --- Charging Complete Tone_2                 | 0x00
+   --- Charging Complete Tone_3                 | 0x00
+   --- Charging Complete Tone_4                 | 0x00
+   --- Low Battery Tone_1                       | 0x16
+   --- Low Battery Tone_2                       | 0x00
+   --- Low Battery Tone_3                       | 0x00
+   --- Low Battery Tone_4                       | 0x00
+   --- Battery Level 1 Tone!!_1                 | 0x00
+   --- Battery Level 1 Tone!!_2                 | 0x00
+   --- Battery Level 1 Tone!!_3                 | 0x00
+   --- Battery Level 1 Tone!!_4                 | 0x00
+   --- Battery Level 2 Tone!!_1                 | 0x00
+   --- Battery Level 2 Tone!!_2                 | 0x00
+   --- Battery Level 2 Tone!!_3                 | 0x00
+   --- Battery Level 2 Tone!!_4                 | 0x00
+   --- Battery Level 3 Tone!!_1                 | 0x00
+   --- Battery Level 3 Tone!!_2                 | 0x00
+   --- Battery Level 3 Tone!!_3                 | 0x00
+   --- Battery Level 3 Tone!!_4                 | 0x00
+   --- Battery Level 4 Tone!!_1                 | 0x00
+   --- Battery Level 4 Tone!!_2                 | 0x00
+   --- Battery Level 4 Tone!!_3                 | 0x00
+   --- Battery Level 4 Tone!!_4                 | 0x00
+   --- Battery Level 5 Tone!!_1                 | 0x00
+   --- Battery Level 5 Tone!!_2                 | 0x00
+   --- Battery Level 5 Tone!!_3                 | 0x00
+   --- Battery Level 5 Tone!!_4                 | 0x00
+   --- Battery Level 6 Tone!!_1                 | 0x00
+   --- Battery Level 6 Tone!!_2                 | 0x00
+   --- Battery Level 6 Tone!!_3                 | 0x00
+   --- Battery Level 6 Tone!!_4                 | 0x00
+   --- Full Battery Tone_1                      | 0x00
+   --- Full Battery Tone_2                      | 0x00
+   --- Full Battery Tone_3                      | 0x00
+   --- Full Battery Tone_4                      | 0x00
+   --- Max Vol Tone_1                           | 0x0C
+   --- Max Vol Tone_2                           | 0x00
+   --- Max Vol Tone_3                           | 0x00
+   --- Max Vol Tone_4                           | 0x00
+   --- Min Vol Tone_1                           | 0x0C
+   --- Min Vol Tone_2                           | 0x00
+   --- Min Vol Tone_3                           | 0x00
+   --- Min Vol Tone_4                           | 0x00
+   --- HF Connected Tone_1                      | 0x00
+   --- HF Connected Tone_2                      | 0x00
+   --- HF Connected Tone_3                      | 0x00
+   --- HF Connected Tone_4                      | 0x00
+   --- Music Mode Ready Tone_1                  | 0x1B
+   --- Music Mode Ready Tone_2                  | 0x00
+   --- Music Mode Ready Tone_3                  | 0x00
+   --- Music Mode Ready Tone_4                  | 0x00
+   --- Link Loss Tone_1                         | 0x0F
+   --- Link Loss Tone_2                         | 0x00
+   --- Link Loss Tone_3                         | 0x00
+   --- Link Loss Tone_4                         | 0x00
+   --- Link Disconnect Tone_1                   | 0x00
+   --- Link Disconnect Tone_2                   | 0x00
+   --- Link Disconnect Tone_3                   | 0x00
+   --- Link Disconnect Tone_4                   | 0x00
+   --- Tone Set Chnaged Tone_1                  | 0x00
+   --- Tone Set Chnaged Tone_2                  | 0x00
+   --- Tone Set Chnaged Tone_3                  | 0x00
+   --- Tone Set Chnaged Tone_4                  | 0x00
+   --- Volice Dial Tone_1                       | 0x00
+   --- Volice Dial Tone_2                       | 0x00
+   --- Volice Dial Tone_3                       | 0x00
+   --- Volice Dial Tone_4                       | 0x00
+   --- Last Number Redial Tone_1                | 0x00
+   --- Last Number Redial Tone_2                | 0x00
+   --- Last Number Redial Tone_3                | 0x00
+   --- Last Number Redial Tone_4                | 0x00
+   --- Short Press Tone                         | 0x02   Single 500Hz  100ms
+   --- Long Press Tone                          | 0x07   Single 500Hz  1s
+   --- Double Click Tone                        | 0x0D   Dual    1K  Hz  100ms
+   --- No Service Tone_1                        | 0x00
+   --- No Service Tone_2                        | 0x00
+   --- No Service Tone_3                        | 0x00
+   --- No Service Tone_4                        | 0x00
+   --- Mute Tone_1                              | 0x01
+   --- Mute Tone_2                              | 0x00
+   --- Mute Tone_3                              | 0x00
+   --- Mute Tone_4                              | 0x00
+   --- Button Lock Tone_1                       | 0x06
+   --- Button Lock Tone_2                       | 0x00
+   --- Button Lock Tone_3                       | 0x00
+   --- Button Lock Tone_4                       | 0x00
+   --- Master Reset Tone                        | 0x02   Single 500Hz  100ms
+   --- Link Quality Warning Tone                | 0x00   No Tone
+   --- Connected Second Profile Tone            | 0x1B   200/300/400/500Hz 50ms
+   --- CSB Enter Pairing Tone                   | 0x0F   Dual    2K  Hz  100ms
+   --- CSB Connection Tone                      | 0x02   Single 500Hz  100ms
+   --- CSB Disconnection Tone                   | 0x0F   Dual    2K  Hz  100ms
+   --- Fixed Ring Tone Volume                   | Disable
+   --- Ring Tone Volume                         | 0x09
+   --- Button Press Alarm                       | No
+   --- MFB Long Press Force Alarm               | Yes
+   --- Use 2nd Profile Connected Tone           | Enable
+   --- Battery Status Prompt When Button Triggered| Disable
+   --- Battery Status Prompt When Power On      | Disable
+
+---------------------------------------------------------------------------
+[ Button Setup ]
+
+IO Setting Table
+
+IO Setting Table
+	Button Register: [MFB]
+		Type: Short & Long Press; Unit: 13; Count: 4
+		Standby (No talk) Mode: [0x0a:Initial Voice Dial], [0x5d:Pairing Mode], [0x00:None]
+		Voice Dial Mode: [0x0b:Cancel Voice Dial], [0x0b:Cancel Voice Dial], [0x00:None]
+		Incoming Call Mode: [0x04:Call Active Mode], [0x05:Single-Link Multi-Call(1 Active && 1 Incoming)], [0x00:None]
+		Outgoing Call Mode: [0x06:End Call; 0x07  Toggle Mic Mute; 0x08  Mic Mute], [0x06:End Call; 0x07  Toggle Mic Mute; 0x08  Mic Mute], [0x00:None]
+		Call Active Mode: [0x06:End Call; 0x07  Toggle Mic Mute; 0x08  Mic Mute], [0x0d:Call Waiting(Switch to Second Phone)], [0x00:None]
+		Single-Link Multi-Call(1 Active && 1 Incoming): [0x06:End Call; 0x07  Toggle Mic Mute; 0x08  Mic Mute], [0x0d:Call Waiting(Switch to Second Phone)], [0x00:None]
+		Single-Link Multi-Call(1 Active && 1 Hold): [0x06:End Call; 0x07  Toggle Mic Mute; 0x08  Mic Mute], [0x0d:Call Waiting(Switch to Second Phone)], [0x00:None]
+		Hold Call Mode: [0x06:End Call; 0x07  Toggle Mic Mute; 0x08  Mic Mute], [0x0d:Call Waiting(Switch to Second Phone)], [0x00:None]
+		Multi-Link Multi-Call(1 Active && 1 Incoming): [0x06:End Call; 0x07  Toggle Mic Mute; 0x08  Mic Mute], [0x0d:Call Waiting(Switch to Second Phone)], [0x00:None]
+		Multi-Link Multi-Call(1 Active && 1 Hold): [0x06:End Call; 0x07  Toggle Mic Mute; 0x08  Mic Mute], [0x0d:Call Waiting(Switch to Second Phone)], [0x00:None]
+	Button Register: [P0_2]
+		Type: Short & Long Press; Unit: 25; Count: 4
+		Standby (No talk) Mode: [0x32:Play], [0x33:Stop], [0x00:None]
+		Voice Dial Mode: [0x00:None], [0x00:None], [0x00:None]
+		Incoming Call Mode: [0x00:None], [0x00:None], [0x00:None]
+		Outgoing Call Mode: [0x00:None], [0x00:None], [0x00:None]
+		Call Active Mode: [0x00:None], [0x00:None], [0x00:None]
+		Single-Link Multi-Call(1 Active && 1 Incoming): [0x00:None], [0x00:None], [0x00:None]
+		Single-Link Multi-Call(1 Active && 1 Hold): [0x00:None], [0x00:None], [0x00:None]
+		Hold Call Mode: [0x00:None], [0x00:None], [0x00:None]
+		Multi-Link Multi-Call(1 Active && 1 Incoming): [0x00:None], [0x00:None], [0x00:None]
+		Multi-Link Multi-Call(1 Active && 1 Hold): [0x00:None], [0x00:None], [0x00:None]
+	Button Register: [P0_3]
+		Type: Short & Long Press; Unit: 25; Count: 4
+		Standby (No talk) Mode: [0x35:Backward], [0x37:Rewind], [0x00:None]
+		Voice Dial Mode: [0x00:None], [0x00:None], [0x00:None]
+		Incoming Call Mode: [0x00:None], [0x00:None], [0x00:None]
+		Outgoing Call Mode: [0x00:None], [0x00:None], [0x00:None]
+		Call Active Mode: [0x00:None], [0x12:Release Active Call and Accept Waiting Call], [0x00:None]
+		Single-Link Multi-Call(1 Active && 1 Incoming): [0x00:None], [0x12:Release Active Call and Accept Waiting Call], [0x00:None]
+		Single-Link Multi-Call(1 Active && 1 Hold): [0x00:None], [0x12:Release Active Call and Accept Waiting Call], [0x00:None]
+		Hold Call Mode: [0x00:None], [0x12:Release Active Call and Accept Waiting Call], [0x00:None]
+		Multi-Link Multi-Call(1 Active && 1 Incoming): [0x0e:Transfer to Phone; 0x10  Join Two Calls], [0x12:Release Active Call and Accept Waiting Call], [0x00:None]
+		Multi-Link Multi-Call(1 Active && 1 Hold): [0x0e:Transfer to Phone; 0x10  Join Two Calls], [0x12:Release Active Call and Accept Waiting Call], [0x00:None]
+	Button Register: [P0_1]
+		Type: Short & Long Press; Unit: 25; Count: 4
+		Standby (No talk) Mode: [0x34:Forward], [0x36:Fast - Forward], [0x00:None]
+		Voice Dial Mode: [0x00:None], [0x00:None], [0x00:None]
+		Incoming Call Mode: [0x00:None], [0x00:None], [0x00:None]
+		Outgoing Call Mode: [0x00:None], [0x00:None], [0x00:None]
+		Call Active Mode: [0x00:None], [0x11:Release Waiting Call], [0x00:None]
+		Single-Link Multi-Call(1 Active && 1 Incoming): [0x00:None], [0x11:Release Waiting Call], [0x00:None]
+		Single-Link Multi-Call(1 Active && 1 Hold): [0x00:None], [0x11:Release Waiting Call], [0x00:None]
+		Hold Call Mode: [0x00:None], [0x11:Release Waiting Call], [0x00:None]
+		Multi-Link Multi-Call(1 Active && 1 Incoming): [0x00:None], [0x11:Release Waiting Call], [0x00:None]
+		Multi-Link Multi-Call(1 Active && 1 Hold): [0x00:None], [0x11:Release Waiting Call], [0x00:None]
+	Button Register: [P0_5]
+		Type: Short & Long Press; Unit: 25; Count: 4
+		Standby (No talk) Mode: [0x31:Volume Down], [0xfb:One Key Operation Stereo mode], [0x00:None]
+		Voice Dial Mode: [0x31:Volume Down], [0x00:None], [0x00:None]
+		Incoming Call Mode: [0x31:Volume Down], [0x00:None], [0x00:None]
+		Outgoing Call Mode: [0x31:Volume Down], [0x00:None], [0x00:None]
+		Call Active Mode: [0x31:Volume Down], [0x08:], [0x00:None]
+		Single-Link Multi-Call(1 Active && 1 Incoming): [0x31:Volume Down], [0x08:], [0x00:None]
+		Single-Link Multi-Call(1 Active && 1 Hold): [0x31:Volume Down], [0x08:], [0x00:None]
+		Hold Call Mode: [0x31:Volume Down], [0x08:], [0x00:None]
+		Multi-Link Multi-Call(1 Active && 1 Incoming): [0x31:Volume Down], [0x08:], [0x00:None]
+		Multi-Link Multi-Call(1 Active && 1 Hold): [0x31:Volume Down], [0x08:], [0x00:None]
+	Button Register: [P2_7]
+		Type: Short & Long Press; Unit: 25; Count: 4
+		Standby (No talk) Mode: [0x30:Volume Up], [0xfc:One Key Operation Concert Mode], [0x00:None]
+		Voice Dial Mode: [0x30:Volume Up], [0x00:None], [0x00:None]
+		Incoming Call Mode: [0x30:Volume Up], [0x00:None], [0x00:None]
+		Outgoing Call Mode: [0x30:Volume Up], [0x00:None], [0x00:None]
+		Call Active Mode: [0x30:Volume Up], [0x09:Mic Unmute; 0x0d  Call Waiting(Switch to Second Phone)], [0x00:None]
+		Single-Link Multi-Call(1 Active && 1 Incoming): [0x30:Volume Up], [0x09:Mic Unmute; 0x0d  Call Waiting(Switch to Second Phone)], [0x00:None]
+		Single-Link Multi-Call(1 Active && 1 Hold): [0x30:Volume Up], [0x09:Mic Unmute; 0x0d  Call Waiting(Switch to Second Phone)], [0x00:None]
+		Hold Call Mode: [0x30:Volume Up], [0x09:Mic Unmute; 0x0d  Call Waiting(Switch to Second Phone)], [0x00:None]
+		Multi-Link Multi-Call(1 Active && 1 Incoming): [0x30:Volume Up], [0x09:Mic Unmute; 0x0d  Call Waiting(Switch to Second Phone)], [0x00:None]
+		Multi-Link Multi-Call(1 Active && 1 Hold): [0x30:Volume Up], [0x09:Mic Unmute; 0x0d  Call Waiting(Switch to Second Phone)], [0x00:None]
+	Button Register: [P0_5][P2_7]
+		Type: Short & Long Press; Unit: 25; Count: 4
+		Standby (No talk) Mode: [0x00:None], [0xf6:nSPK Add 3rd SPK], [0x00:None]
+		Voice Dial Mode: [0x00:None], [0x00:None], [0x00:None]
+		Incoming Call Mode: [0x00:None], [0x00:None], [0x00:None]
+		Outgoing Call Mode: [0x00:None], [0x00:None], [0x00:None]
+		Call Active Mode: [0x00:None], [0x00:None], [0x00:None]
+		Single-Link Multi-Call(1 Active && 1 Incoming): [0x00:None], [0x00:None], [0x00:None]
+		Single-Link Multi-Call(1 Active && 1 Hold): [0x00:None], [0x00:None], [0x00:None]
+		Hold Call Mode: [0x00:None], [0x00:None], [0x00:None]
+		Multi-Link Multi-Call(1 Active && 1 Incoming): [0x00:None], [0x00:None], [0x00:None]
+		Multi-Link Multi-Call(1 Active && 1 Hold): [0x00:None], [0x00:None], [0x00:None]
+
+---------------------------------------------------------------------------
+[ PMU Setup ]
+
+Battery Detection
+   --- Battery Detection Enable                 | Disable
+   --- Low Battery Warning Level                | 0x0CE4: 3.3V
+   --- Battery Shut Down Level                  | 0x0BB8: 3.0V
+   --- Low Battery Debounce                     | Disable
+
+Charging Setting
+   --- Charging Detect Enable                   | Disable
+   --- Maximum Charging Voltage                 | 2.5V
+   --- Maximum Charging Time                    | 20
+   --- Charging Current Setting                 | 30
+   --- Maximum Charging Voltage                 | 3.2V
+   --- Maximum Charging Time                    | 20
+   --- Charging Current Setting                 | 30
+   --- Maximum Charging Voltage                 | 3.7V
+   --- Maximum Charging Time                    | 180
+   --- Charging Current Setting                 | 300
+   --- Maximum Charging Voltage                 | 4.2V
+   --- Maximum Charging Time                    | 180
+   --- Charging Current Setting                 | 300
+   --- Maximum Charging Time                    | 120
+   --- Maximum CV Charging Current              | 250
+   --- Stop Charging Current                    | 25
+   --- First Half Battery Voltage Monitor Counter| 4
+   --- Second Half Battery Voltage Monitor Counter| 4
+   --- Maximum CV Re-charging Current           | 250
+   --- Recharging as Charge Complete            | Disable
+   --- Working Temperature                      | Disable
+   --- Stop Working SAR Min                     | 0092
+   --- Stop Working SAR Max                     | 0331
+   --- Ambient Temperature Charging Detection   | Disable
+   --- Stop Charging SAR Min                    | 00A7
+   --- Restart Charging SAR Min                 | 00C3
+   --- Stop Charging SAR Max                    | 0331
+   --- Restart Charging SAR Max                 | 02B0
+
+---------------------------------------------------------------------------
+[ CODEC Setup ]
+
+CODEC Function
+   --- Speaker Output                           | Capless Speaker Output
+   --- Enable LR Sound Channel Swap             | L/R Normal
+   --- Enable LR Sound Mix                      | Disable
+   --- DSP CODEC Always On Enable               | Disable
+   --- Close CODEC Time                         | 8
+   --- CODEC Type                               | Internal
+   --- Audio SRC                                | Disable
+   --- Voice SRC                                | Disable
+   --- Voice Stereo                             | Enable
+   --- Tone Stereo                              | Enable
+   --- Output Volume Scaling Method             | 0x00: Codec DAC gain
+
+Line-In Setting
+   --- Line In / SBC Priority                   | Line In > SBC
+   --- Line In Mute/Unmute                      | Disable
+   --- Line In Silence Detect                   | Enable
+   --- Line In Indicate Led                     | Disable
+   --- Line In CSB                              | Enable
+   --- Line In Latency                          | 240
+   --- Initial Line In SPK Gain                 | 0x0A
+   --- Enable MIC Loopback As Line In           | Disable
+   --- A2DP Mix Line-In Option                  | 0x00: Disable
+   --- Line In ADC Input Gain Level             | 0x03: 0 dB
+   --- Line-in Simpling Rate                    | 0x03: 48KHz
+
+Amplifier Control Settings
+   --- Cut Off Amplifier When Mute              | Disable
+   --- Off Amplifier Time T0                    | 0
+   --- Off Amplifier Time T1                    | 0
+   --- Off Amplifier Time T2                    | 0
+
+CODEC Type Setting
+                                                | (v)SBC
+                                                | (v)AAC
+
+Audio Equalizer Setting
+   --- Equalizer Function Enable                | Enable
+   --- Initial Equalizer Mode                   | OFF
+                                                | (v)Off
+                                                | (v)SOFT
+                                                | (v)BASS
+                                                | (v)TREBLE
+                                                | (v)CLASSICAL
+                                                | (v)ROCK
+                                                | (v)JAZZ
+                                                | (v)POP
+                                                | (v)DANCE
+                                                | (v)R&&B
+                                                | (v)Custom EQ
+
+Voice Equalizer Setting
+   --- CVSD Speaker EQ                          | Disable
+   --- CVSD MIC EQ                              | Disable
+   --- mSBC Speaker EQ                          | Disable
+   --- mSBC MIC EQ                              | Disable
+
+Microphone Setting
+   --- ADC Path                                 | 0x05: MIC1 to L
+   --- Digital Mic                              | Enable
+   --- Digital Mic Mode                         | Mono Rising
+   --- Analog Microphone Gain Level             | 0x04: 11.9 dB
+   --- Digital Microphone Gain Level            | 0x0C: 0 dB
+
+---------------------------------------------------------------------------
+[ iAP2 Setup ]
+
+MFi Transmission Setting
+   --- Enable Auto Launch APP                   | Disable
+
+MFi Description Settng
+   --- iAP Feature                              | Disable
+   --- Bundle Seed ID Pref Token                | M8BZ28GSX7
+   --- SDK Protocol Token                       | com.issc.datapath
+   --- APP Bundle ID                            | com.microchip.BtChat-DualMode
+   --- Accessory Name                           | Chatboard
+   --- Accessory Firmware Version               | 1.0.0
+   --- Accessory Hardware Version               | 1.0.0
+   --- Accessory Manufacturer                   | MCHP
+   --- Accessory Model Number                   | BM83
+   --- Accessory Serial Number                  | V2
+   --- SDK Protocol Token2                      | com.issc.datapath2
+   --- Product Plan UID                         | 00000000000000000000
+
+---------------------------------------------------------------------------
+[ BLE Setup ]
+
+Specific Transparent Service Setting
+   --- Transparent Service UUID                 | 49535343FE7D4AE58FA99FAFD205E455
+   --- Transparent TX UUID                      | 495353431E4D4BD9BA6123C647249616
+   --- Transparent RX UUID                      | 49535343884143F4A8D4ECBE34729BB3
+   --- Authentication Request                   | Disable
+
+BLE Application Setting
+   --- BLE Application in Embedded Mode         | Enable
+
+RF Tx Power Setting
+   --- Connected TX Power Level                 | 6
+   --- Advertising TX Power Level               | 6
+
+GFPS Setting
+   --- Google Fast Pair                         | Disable
+   --- Model ID                                 | 53909A
+   --- Private Key                              | 806FD6427E50B889C35514C43303F8C7CB6CF1AB4755E7B35361BCD3E7862387
+   --- TX Power                                 | 27
+   --- Battery Notification                     | Disable
+
+Advertising Data Setting
+   --- Advertising Data                         | 000000000000000000000000000000000000000000
+   --- Audio Beacon                             | Enable
+
+Scan Response Data Setting
+   --- Scan Response Data                       | 020A060F094D43485020424D38332054657374
+   --- Audio Beacon                             | Disable
+
+LE Connection Setting
+   --- LE Reconnection Timeout                  | 0
+   --- Min. LE Connection Interval              | 0048
+   --- Max. LE Connection Interval              | 0050
+   --- LE Slave Latency                         | 0000
+   --- LE Supervision Timeout                   | 01F4
+
+LE DIS Setting
+   --- Manufacture Name                         | MCHP
+   --- Model Name                               | BM83
+   --- Serial Number                            | 
+   --- Software Revision                        | 
+
+LE Advertising Setting
+   --- LE Fast Advertising Timeout              | 3
+   --- LE Reduced Power Advertising Timeout     | 0
+   --- LE Reduced Power Advertising Interval    | 1022.5 ms
+
+---------------------------------------------------------------------------
+[ MSPK Setup ]
+
+Power On Enter MSPK Mode Pairing Setting
+                                                | ( )Factory Paired
+                                                | (v)Back To Last Mode
+                                                | ( )--- Not Enter MSPK Mode
+                                                | ( )Master Role
+                                                | ( )Slave Role
+
+Multi Speaker Setting
+   --- Twin Pairing Duration                    | 30
+   --- Twin Aux. Pairing Duration               | 3
+   --- General Twin Mode Group Code             | 7B36
+   --- Stereo Model ID                          | 0000
+   --- Recover MSPK Link As Twin Speaker Link Loss| Recovery
+   --- Default MSPK Mode                        | Concert Mode
+   --- Concert Mode Resync                      | Enable
+   --- Concert Mode Link Status Record          | Enable
+   --- ADV Policy in Concert Mode Slave         | 0x03: Connectable Advertising
+   --- ADV Policy in Stereo Slave               | 0x03: Connectable Advertising
+   --- A2DP Latency                             | 240
+   --- Enable AAC Codec in CSB                  | Enable
+   --- Save MSPK Role When Connected            | Disable
+   --- MSPK Power Saving Grouping Interval      | 2048
+   --- Enable Audio Seamless Resync             | Enable
+   --- Allow Voice Prompt in MSPK Slave         | Disable
+   --- Endless Grouping GAC Interval            | 0
+   --- Endless Grouping DAC Interval            | 0
+   --- Enable Concert Mode Master SPK Endless Grouping| Disable
+   --- Enable Slave Concert Mode Endless Grouping| Disable
+   --- Enable Link back BT in MSPK Aux-in mode  | Disable
+
+MSPK Link Sound Setting
+   --- MSPK Audio Channel                       | Master(R+R)+Slave(L+L)
+
+MSPK Pairing Success for Twin Master (Button Event Used)
+   --- At Bluetooth Standby State               | BT Standby
+   --- At Bluetooth Connected State             | BT Connected
+   --- At Bluetooth Link Back State             | BT Link Back
+   --- At Bluetooth Pairing State               | BT Pairing Mode
+
+MSPK Pairing Failed for Twin Master (Button Event Used)
+   --- At Bluetooth Standby State               | BT Standby
+   --- At Bluetooth Connected State             | BT Connected
+   --- At Bluetooth Link Back State             | BT Link Back
+   --- At Bluetooth Pairing State               | BT Pairing Mode
+
+---------------------------------------------------------------------------
+[ User Define ]
+
+User Define Data:
+   User Define Data:                            | 
+
+---------------------------------------------------------------------------
+[ DSP Feature Setup ]
+
+Audio Effect Setting
+   --- Sound Effect                             | Enable
+   --- Audio Effect Mask Selection              | 
+                                                | (v)All Off
+                                                | (v)MB-DRC
+                                                | (v)AW
+                                                | (v)All On
+   --- Default Audio Effect                     | 
+                                                | ( )--- All Off
+                                                | ( )--- MB-DRC
+                                                | ( )--- AW
+                                                | (v)--- All On
+
+DSP Option
+                                                | ( )Disable All Voice Function(NR/AEC)
+   --- AEC On/Off                               | Disable
+   --- NR Mode                                  | Disable
+
+Audio Speaker Gain Setting
+   --- Speaker Gain Level                       | 12
+   --- Default Gain Level                       | 0x01
+   Audio Speaker Gain Table                     | 
+                                                | 0x00:  Mute
+                                                | 0xA2: -38dB
+                                                | 0xA5: -35dB
+                                                | 0xC2: -32dB
+                                                | 0xC5: -29dB
+                                                | 0xE2: -26dB
+                                                | 0xE5: -23dB
+                                                | 0xE8: -20dB
+                                                | 0xEB: -17dB
+                                                | 0xEE: -14dB
+                                                | 0xF1: -11dB
+                                                | 0xFC:   0dB
+                                                | 0xFC:   0dB
+                                                | 0xFC:   0dB
+                                                | 0xFC:   0dB
+                                                | 0xFC:   0dB
+
+Voice Speaker Gain Setting
+   --- Speaker Gain Level                       | 16
+   --- Default Gain Level                       | 0x09
+   Voice Speaker Gain Table                     | 
+                                                | 0x00:  Mute
+                                                | 0xA2: -38dB
+                                                | 0xA5: -35dB
+                                                | 0xC2: -32dB
+                                                | 0xC5: -29dB
+                                                | 0xE2: -26dB
+                                                | 0xE5: -23dB
+                                                | 0xE8: -20dB
+                                                | 0xEB: -17dB
+                                                | 0xEE: -14dB
+                                                | 0xF1: -11dB
+                                                | 0xF4:  -8dB
+                                                | 0xF7:  -5dB
+                                                | 0xFA:  -2dB
+                                                | 0xFB:  -1dB
+                                                | 0xFC:   0dB
+   I2S Gain Table                               | 
+                                                | 0x000000: Mute
+                                                | 0x32F500: -8 dB
+                                                | 0x392D00: -7 dB
+                                                | 0x402700: -6 dB
+                                                | 0x47FB00: -5 dB
+                                                | 0x50C300: -4 dB
+                                                | 0x5A9E00: -3 dB
+                                                | 0x65AD00: -2 dB
+                                                | 0x721500: -1 dB
+                                                | 0x7FFF00: 0 dB
+                                                | 0x47CF01: 1 dB
+                                                | 0x509201: 2 dB
+                                                | 0x5A6701: 3 dB
+                                                | 0x656F01: 4 dB
+                                                | 0x71CF01: 5 dB
+                                                | 0x7FB201: 6 dB
+                                                | 
+
+---------------------------------------------------------------------------
+
+[== Audio Function ==]
+
+[ LineIn ]
+   --- Silence Detection Threshold                  | 0x14:-66dBOv
+
+[ Sound Effect ]
+   --- Multi-Band Dynamic Range Compression(MB-DRC) | (v) 
+   --- Audio Widening(AW)                           | (v) 
+   --- Virtual Bass(VB)                             | ( ) 
+   --- Audio Effect Mask                            | (v)All Off | (v)MB-DRC on | (v)All On | (v)AW On 
+   --- Default Audio Effect                         | All On
+   --- Knee Th                                      | -6dBov |-6dBov |-12dBov
+   --- Compression Ratio                            | 1/2 |1/3 |1/3
+   --- Make-Up Gain                                 | 5dB |3dB |2dB
+   --- Attack Time                                  | 20ms |20ms |20ms
+   --- Release Time                                 | 50ms |50ms |50ms
+   --- Bass Enhancement                             | 0x03
+   --- Cutoff-Freq (Bass Enhancement)               | 200Hz
+   --- Audio Widening Level                         | 0x0F: Highest level
+
+[ EQ ]
+   --- Equalizer                                    | (v) 
+   --- Initial Value                                | Off
+   --- EQ Mask Selection                            |  
+                                                    | (v)Off
+                                                    | (v)SOFT
+                                                    | (v)BASS
+                                                    | (v)TREBLE
+                                                    | (v)CLASSICAL
+                                                    | (v)ROCK
+                                                    | (v)JAZZ
+                                                    | (v)POP
+                                                    | (v)DANCE
+                                                    | (v)Rhythm and Blues
+                                                    | (v)Custom EQ
+
+[ Audio Line-In Silence Suppression ]
+   --- Silence data reversion and Fade-out of data  | 3
+   --- Silence supp threshold                       | 31
+   --- Silence supp MeanVariance thrd               | 255
+   --- Silence supp fadeout step                    | 64
+   --- Silence supp tuning counter                  | 240
+   --- Line-in supp minimum gain                    | 0
+   --- Silence supp fadein base step                | 64
+---------------------------------------------------------------------------
+
+[== Voice Function ==]
+
+[ Filter ]
+   --- Speaker -- HighPass Filter                   | Cutoff Freq: 300Hz
+   --- MIC -- HighPass Filter                       | Cutoff Freq: 210Hz
+
+[ NR ]
+   --- Speaker -- Noise Reduction                   | 15dB Noise Suppression -- Default
+   --- MIC -- Noise Reduction                       | 18dB Noise Suppression
+
+[ EQ ]
+   --- Speaker -- EQ                                | EQ Off
+   --- MIC -- EQ                                    | EQ Off
+
+[ MIC Gain/ComfortNoise ]
+   --- NE MIC Digital Gain                          | ( ) 
+   --- MIC Gain(Digital)                            | 0x1D:  10dB
+   --- WNG Enable/Disable                           | ( ) 
+   --- Comfort Noise                                | 0x0D:-78dB -- Default Level
+   --- FE Digital Gain                              | ( ) 
+   --- Gain SPKOut                                  | 0x0D:  -6dB
+
+[ AEC/AES ]
+   --- AEC On/Off                                   | ( ) 
+   --- AES On/Off                                   | ( ) 
+   --- Stepsize                                     | 0x02: 
+   --- Tap Length                                   | 0x05: 40msec Echo Tail
+   --- Linear AEC Thrd                              | 0x7F: Worst Linearity | 0x7F: Worst Linearity-mSBC
+   --- AES Suppression                              | 0x04:  | 0x04:-mSBC 
+   --- Double-Talk Threshold                        | 0x50:  | 0x50:-mSBC 
+---------------------------------------------------------------------------
+
+[== I2S/PCM ==]
+   --- 24Bit To 16Bit Truncate                      | ( ) 
+   --- MCLK                                         | ( ) 
+   --- MCLK selection:                              | 128 fs
+   --- I2S Mode                                     | Master mode
+   --- Data Bitwidth                                | 16bit
+   --- Loopback ADC Selection                       | Embedded ADC
+   --- Mic ADC Selection                            | Embedded ADC
+   --- DAC Selection                                | Embedded DAC
+   --- RFS Setting                                  | RFS high level -> Left channel
+---------------------------------------------------------------------------

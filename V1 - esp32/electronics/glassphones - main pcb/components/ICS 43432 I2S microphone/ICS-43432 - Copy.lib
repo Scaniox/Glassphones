@@ -1,0 +1,32 @@
+ESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# ICS-43432
+#
+DEF ICS-43432 MK 0 40 Y Y 1 L N
+F0 "MK" -402 622 50 H V L BNN
+F1 "ICS-43432" -402 -603 50 H V L BNN
+F2 "MIC_ICS-43432" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "https://pricing.snapeda.com/search/part/ICS-43432/?ref=eda" 0 0 50 H I L BNN "PURCHASE-URL"
+F5 "ICS-43432" 0 0 50 H I L BNN "MP"
+F6 "QFN-16 TDK InvenSense" 0 0 50 H I L BNN "PACKAGE"
+F7 "50Hz ~ 20kHz Digital, I²S Microphone MEMS (Silicon) 1.62V ~ 3.63V Omnidirectional (-26dB ±1dB @ 94dB SPL) Solder Pads" 0 0 50 H I L BNN "DESCRIPTION"
+F8 "TDK InvenSense" 0 0 50 H I L BNN "MF"
+F9 "Good" 0 0 50 H I L BNN "AVAILABILITY"
+F10 "None" 0 0 50 H I L BNN "PRICE"
+DRAW
+S -400 -500 400 600 0 0 10 f
+X LR 1 -600 300 200 R 40 40 0 0 I 
+X CONFIG 2 -600 200 200 R 40 40 0 0 I 
+X VDD 3 600 500 200 L 40 40 0 0 W 
+X GND 4 600 -400 200 L 40 40 0 0 W 
+X WS 5 -600 -200 200 R 40 40 0 0 I 
+X SCK 6 -600 0 200 R 40 40 0 0 I C
+X SD 7 -600 -100 200 R 40 40 0 0 O 
+ENDDRAW
+ENDDEF
+#
+# End Library
