@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "Adafruit Feather M0 Basic rev C-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/Adafruit Feather M0 Basic rev C-eagle-import.kicad_sym")(options "")(descr ""))
+)
