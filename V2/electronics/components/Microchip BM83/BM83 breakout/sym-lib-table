@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name Microchip_BM83)(type Legacy)(uri "${KIPRJMOD}/Microchip BM83.lib")(options "")(descr ""))
+  (lib (name "Microchip_BM83")(type "Legacy")(uri "${KIPRJMOD}/Microchip BM83.lib")(options "")(descr ""))
+  (lib (name "BM83-breakout-rescue")(type "Legacy")(uri "${KIPRJMOD}/BM83 breakout-rescue.lib")(options "")(descr ""))
 )
