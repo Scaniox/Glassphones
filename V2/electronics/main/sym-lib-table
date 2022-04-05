@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "SamacSys_Parts")(type "Legacy")(uri "C:/Users/alexl/projects/Glassphones/V2/electronics/components/samacSys_parts/SamacSys_Parts.lib")(options "")(descr ""))
+  (lib (name "PAM2804")(type "KiCad")(uri "C:/Users/alexl/projects/Glassphones/V2/electronics/components/PAM2804 LED driver/PAM2804.kicad_sym")(options "")(descr ""))
+)
