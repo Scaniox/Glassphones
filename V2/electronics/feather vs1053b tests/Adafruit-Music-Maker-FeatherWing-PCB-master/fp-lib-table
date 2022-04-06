@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "VS1053 footprint")(type "KiCad")(uri "${KIPRJMOD}/VS1053 footprint.pretty")(options "")(descr ""))
+  (lib (name "other footprints")(type "KiCad")(uri "C:/Users/alexl/projects/Glassphones/V2/electronics/components/other footprints.pretty")(options "")(descr ""))
+)

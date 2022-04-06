@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "other footprints")(type "KiCad")(uri "C:/Users/alexl/projects/Glassphones/V2/electronics/components/other footprints.pretty")(options "")(descr ""))
+  (lib (name "BM83")(type "KiCad")(uri "C:/Users/alexl/projects/Glassphones/V2/electronics/components/Microchip BM83/BM83 breakout/BM83.pretty")(options "")(descr ""))
+)

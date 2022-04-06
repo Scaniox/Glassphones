@@ -1,4 +1,4 @@
-20159276612076493
+20159276626619727
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -13,13 +13,6 @@ audio belton reverb
 0
 7
 7
-BM83
-BM83
-
-
-0
-52
-50
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -85658,3 +85651,10 @@ varistor SIOV
 0
 2
 2
+other footprints
+CRYSTAL_3.2X2.5
+3.2mm x 2.5mm Thin SMT Crystal
+
+0
+4
+4

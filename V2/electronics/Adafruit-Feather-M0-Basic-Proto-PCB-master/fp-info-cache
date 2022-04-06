@@ -1,4 +1,4 @@
-20159276612076493
+20160925881895782
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -13,13 +13,6 @@ audio belton reverb
 0
 7
 7
-BM83
-BM83
-
-
-0
-52
-50
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -85655,6 +85648,20 @@ Varistor
 RV_Disc_D21.5mm_W11.4mm_P10mm
 Varistor, diameter 21.5mm, width 11.4mm, pitch 10mm
 varistor SIOV
+0
+2
+2
+other footprints
+CRYSTAL_3.2X2.5
+3.2mm x 2.5mm Thin SMT Crystal
+
+0
+4
+4
+other footprints
+XTAL3215
+
+
 0
 2
 2
