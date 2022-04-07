@@ -1,4 +1,4 @@
-20159276626619727
+20160925881897181
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -85658,3 +85658,10 @@ CRYSTAL_3.2X2.5
 0
 4
 4
+other footprints
+XTAL3215
+
+
+0
+2
+2
