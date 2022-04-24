@@ -1,4 +1,5 @@
 (sym_lib_table
-  (lib (name "SamacSys_Parts")(type "Legacy")(uri "C:/Users/alexl/projects/Glassphones/V2/electronics/components/samacSys_parts/SamacSys_Parts.lib")(options "")(descr ""))
   (lib (name "PAM2804")(type "KiCad")(uri "C:/Users/alexl/projects/Glassphones/V2/electronics/components/PAM2804 LED driver/PAM2804.kicad_sym")(options "")(descr ""))
+  (lib (name "2022-04-11_15-45-50")(type "Legacy")(uri "C:/Users/alexl/projects/Glassphones/V2/electronics/components/ul_max9725aetc-/KiCAD/2022-04-11_15-45-50/2022-04-11_15-45-50.lib")(options "")(descr ""))
+  (lib (name "2022-04-17_20-44-18")(type "Legacy")(uri "C:/Users/alexl/projects/Glassphones/V2/electronics/components/MP34DT01TR-M PDM microphone/2022-04-17_20-44-18.lib")(options "")(descr ""))
 )

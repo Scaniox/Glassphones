@@ -1,4 +1,6 @@
 (fp_lib_table
   (lib (name "other footprints")(type "KiCad")(uri "C:/Users/alexl/projects/Glassphones/V2/electronics/components/other footprints.pretty")(options "")(descr ""))
   (lib (name "BM83")(type "KiCad")(uri "C:/Users/alexl/projects/Glassphones/V2/electronics/components/Microchip BM83/BM83 breakout/BM83.pretty")(options "")(descr ""))
+  (lib (name "max9725 footprints")(type "KiCad")(uri "C:/Users/alexl/projects/Glassphones/V2/electronics/components/ul_max9725aetc-/KiCAD/2022-04-11_15-45-50/footprints.pretty")(options "")(descr ""))
+  (lib (name "PDM footprints")(type "KiCad")(uri "C:/Users/alexl/projects/Glassphones/V2/electronics/components/MP34DT01TR-M PDM microphone/footprints.pretty")(options "")(descr ""))
 )

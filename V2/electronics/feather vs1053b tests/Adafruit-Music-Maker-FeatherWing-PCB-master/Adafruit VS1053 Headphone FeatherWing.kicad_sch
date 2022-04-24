@@ -15632,7 +15632,7 @@
     (pin "1" (uuid 41a21862-965c-43a6-a37c-e7f05eddb9f6))
   )
 
-  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:RESISTOR_4PACK") (at 378.46 58.42 0)
+  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:RESISTOR_4PACK") (at 378.46 58.42 0) (unit 4)
     (in_bom yes) (on_board yes)
     (uuid 11fa1ba0-1297-4741-aba2-d35e2a6d4461)
     (property "Reference" "R16" (id 0) (at 378.46 55.88 0))
@@ -15667,7 +15667,7 @@
     (pin "1" (uuid 78ea4a60-299e-4705-a1ab-9491cb789283))
   )
 
-  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:RESISTOR_0603_NOOUT") (at 66.04 91.44 90) (mirror x)
+  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:RESISTOR_0603_NOOUT") (at 66.04 91.44 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 19cbda20-8968-4c35-923e-40ce69eb2c34)
     (property "Reference" "R3" (id 0) (at 63.5 91.44 0))
@@ -15720,7 +15720,7 @@
     (pin "1" (uuid 27d32b49-50f6-45d8-908d-8d0c3a0dd20f))
   )
 
-  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:SWITCH_TACT_SMT4.6X2.8") (at 203.2 193.04 0)
+  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:SWITCH_TACT_SMT4.6X2.8") (at 203.2 193.04 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 2265274a-1cf0-4b44-bf85-d1544e62bb85)
     (property "Reference" "SW1" (id 0) (at 200.66 186.69 0)
@@ -15759,7 +15759,7 @@
     (pin "1" (uuid 5adcc529-5723-4cd5-ab40-31266024c46e))
   )
 
-  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:CAP_CERAMIC0603_NO") (at 200.66 63.5 0)
+  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:CAP_CERAMIC0603_NO") (at 200.66 63.5 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 27acf950-55ca-4b81-991e-92a2c3d8c86d)
     (property "Reference" "C26" (id 0) (at 198.37 62.25 90))
@@ -15774,7 +15774,7 @@
     (pin "2" (uuid 9dbd9825-4c52-47bb-b433-31e205a6bc47))
   )
 
-  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:HEADER-1X1ROUND") (at 330.2 111.76 180)
+  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:HEADER-1X1ROUND") (at 330.2 111.76 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 27b045ab-4046-4475-8827-ade72b2fdb31)
     (property "Reference" "JP5" (id 0) (at 336.55 114.935 0)
@@ -15828,7 +15828,7 @@
     (pin "1" (uuid 17fe9a82-91cd-4d31-bcf1-380120dee3f3))
   )
 
-  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:HEADER-1X13") (at 256.54 251.46 270)
+  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:HEADER-1X13") (at 256.54 251.46 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 31e90529-b7be-4a7e-8f42-5207b689e31f)
     (property "Reference" "JP3" (id 0) (at 274.955 245.11 0)
@@ -15876,7 +15876,7 @@
     (pin "1" (uuid 8152e6f5-b60f-4c0c-ac89-7de02362ab60))
   )
 
-  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:HEADER-1X2ROUND") (at 81.28 147.32 0)
+  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:HEADER-1X2ROUND") (at 81.28 147.32 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 38c37953-dbaf-4ba7-94d6-40559fad5c67)
     (property "Reference" "JP2" (id 0) (at 74.93 141.605 0)
@@ -15895,7 +15895,7 @@
     (pin "2" (uuid 8b4bbfe7-6990-443b-b0a8-e1a1f39a1f48))
   )
 
-  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:SOLDERJUMPER") (at 358.14 63.5 0)
+  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:SOLDERJUMPER") (at 358.14 63.5 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 3a71e4f8-929c-487e-bcb7-5543a8ce30cd)
     (property "Reference" "MIDI" (id 0) (at 355.6 60.96 0)
@@ -15950,7 +15950,7 @@
     (pin "1" (uuid fdb61b3f-be50-4154-9c6e-015949e5994b))
   )
 
-  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:RESISTOR_0603_NOOUT") (at 193.04 55.88 0)
+  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:RESISTOR_0603_NOOUT") (at 193.04 55.88 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 3efd24e3-5dd8-470e-a10b-b9225a3efe88)
     (property "Reference" "R2" (id 0) (at 193.04 53.34 0))
@@ -16002,7 +16002,7 @@
     (pin "1" (uuid e8a20df5-93b6-41a2-9efe-d8d02cd6e3e7))
   )
 
-  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:RESISTOR_4PACK") (at 358.14 86.36 90)
+  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:RESISTOR_4PACK") (at 358.14 86.36 90) (unit 2)
     (in_bom yes) (on_board yes)
     (uuid 508580d5-aa8e-4b89-8081-d687e1ee2adb)
     (property "Reference" "R16" (id 0) (at 355.6 86.36 0))
@@ -16019,7 +16019,7 @@
     (pin "7" (uuid 40101aa4-b797-46a5-aa9f-0bc748343854))
   )
 
-  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:VREG_SOT23-6_DUALAP7312") (at 93.98 238.76 0)
+  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:VREG_SOT23-6_DUALAP7312") (at 93.98 238.76 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 53f0f51d-9f76-4e9e-9918-88b799543560)
     (property "Reference" "U2" (id 0) (at 83.82 232.664 0)
@@ -16042,7 +16042,7 @@
     (pin "6" (uuid 25d3cd0f-f325-419c-9ef4-204678472b08))
   )
 
-  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:FERRITE-0805NO") (at 106.68 185.42 0)
+  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:FERRITE-0805NO") (at 106.68 185.42 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 57e53847-005e-4a84-8e68-bc4e4b785dee)
     (property "Reference" "FB2" (id 0) (at 105.41 183.515 0)
@@ -16061,7 +16061,7 @@
     (pin "2" (uuid 6f5e15d3-8889-4380-8ba4-82af742cd899))
   )
 
-  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:RESISTOR_0603_NOOUT") (at 73.66 81.28 0) (mirror y)
+  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:RESISTOR_0603_NOOUT") (at 73.66 81.28 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 5aeb7728-dcd5-42cd-a023-c396f19ad74c)
     (property "Reference" "R7" (id 0) (at 73.66 78.74 0))
@@ -16114,7 +16114,7 @@
     (pin "1" (uuid 1356d170-968b-4fc1-8f7d-15abadb14d85))
   )
 
-  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:CAP_CERAMIC0603_NO") (at 177.8 116.84 0)
+  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:CAP_CERAMIC0603_NO") (at 177.8 116.84 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 673bfed3-8ea2-4c4e-90cb-43c157577acc)
     (property "Reference" "C5" (id 0) (at 175.51 115.59 90))
@@ -16129,11 +16129,11 @@
     (pin "2" (uuid abe5fdbc-19b9-4b49-af2e-b681d888e7d1))
   )
 
-  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:CAP_CERAMIC_0805MP") (at 129.54 246.38 0)
+  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:CAP_CERAMIC_0805MP") (at 129.54 246.38 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6b8368e6-e2d6-4a93-96a2-0152e2cea5aa)
-    (property "Reference" "C6" (id 0) (at 127.25 245.13 90))
-    (property "Value" "10µF" (id 1) (at 131.84 245.13 90))
+    (property "Reference" "C6" (id 0) (at 131.83 245.13 90))
+    (property "Value" "10µF" (id 1) (at 127.24 245.13 90))
     (property "Footprint" "_0805MP" (id 2) (at 129.54 246.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -16144,7 +16144,7 @@
     (pin "2" (uuid 212ffa59-0f7e-4179-94df-7703afce87e0))
   )
 
-  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:RESISTOR_0603_NOOUT") (at 73.66 71.12 0) (mirror y)
+  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:RESISTOR_0603_NOOUT") (at 73.66 71.12 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6f6f7511-965d-4386-a5ab-d254c2a9cece)
     (property "Reference" "R6" (id 0) (at 73.66 68.58 0))
@@ -16179,7 +16179,7 @@
     (pin "1" (uuid 3fbf5118-f97a-4411-ae08-dab66d57a89e))
   )
 
-  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:CAP_CERAMIC0603_NO") (at 337.82 218.44 0)
+  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:CAP_CERAMIC0603_NO") (at 337.82 218.44 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 836aa7f5-ce01-4f10-a876-590770e0c112)
     (property "Reference" "C19" (id 0) (at 335.53 217.19 90))
@@ -16247,7 +16247,7 @@
     )
   )
 
-  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:RESISTOR_4PACK") (at 378.46 63.5 0)
+  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:RESISTOR_4PACK") (at 378.46 63.5 0) (unit 3)
     (in_bom yes) (on_board yes)
     (uuid 86b8a7cf-f1c2-4d95-b0bb-8e11f7db7f9e)
     (property "Reference" "R16" (id 0) (at 378.46 60.96 0))
@@ -16282,7 +16282,7 @@
     (pin "1" (uuid 683869c3-2652-4a1a-8cb4-4298fc933778))
   )
 
-  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:RESISTOR_0603_NOOUT") (at 58.42 91.44 90) (mirror x)
+  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:RESISTOR_0603_NOOUT") (at 58.42 91.44 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 889c04f7-ab14-429c-99d2-ed773c17e58f)
     (property "Reference" "R4" (id 0) (at 55.88 91.44 0))
@@ -16353,7 +16353,7 @@
     (pin "1" (uuid e65300a0-fc18-4db7-b27f-2d7614c69ac0))
   )
 
-  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:HEADER-1X12") (at 259.08 187.96 90)
+  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:HEADER-1X12") (at 259.08 187.96 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 8fe1dca6-ec83-48f7-91ee-f2260a7b356e)
     (property "Reference" "JP1" (id 0) (at 240.665 194.31 0)
@@ -16400,7 +16400,7 @@
     (pin "1" (uuid af1a8a2e-2e2c-459b-a26b-804c95f2a9fa))
   )
 
-  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:CAP_CERAMIC0603_NO") (at 66.04 104.14 0)
+  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:CAP_CERAMIC0603_NO") (at 66.04 104.14 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9c4f96de-278a-489e-96c5-2a70702afb61)
     (property "Reference" "C21" (id 0) (at 63.75 102.89 90))
@@ -16451,7 +16451,7 @@
     (pin "1" (uuid dec7721f-253a-41eb-9287-d0b7bc694215))
   )
 
-  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:CPOL-USC") (at 86.36 71.12 90)
+  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:CPOL-USC") (at 86.36 71.12 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid a1ff99f3-4674-4b77-aaee-8bfef9eeac71)
     (property "Reference" "C1" (id 0) (at 85.725 70.104 0)
@@ -16470,7 +16470,7 @@
     (pin "-" (uuid 87579f95-2c32-4bae-a1c8-4e64d4b74077))
   )
 
-  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:VS1053B") (at 256.54 81.28 0)
+  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:VS1053B") (at 256.54 81.28 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid a4133adf-5db9-4c94-a95f-39d20e886a3e)
     (property "Reference" "U1" (id 0) (at 231.14 38.1 0)
@@ -16535,7 +16535,7 @@
     (pin "9" (uuid c39f9536-e31c-4b63-91f7-dce7a3df64d0))
   )
 
-  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:CAP_CERAMIC0805-NOOUTLINE") (at 76.2 248.92 0)
+  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:CAP_CERAMIC0805-NOOUTLINE") (at 76.2 248.92 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid a836105e-a8c6-45e1-950d-57c3d18b1931)
     (property "Reference" "C20" (id 0) (at 73.91 247.67 90))
@@ -16550,7 +16550,7 @@
     (pin "2" (uuid 8aca3dcb-f5fe-439e-b916-a46f8b7ca962))
   )
 
-  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:MICROSD") (at 368.3 200.66 0)
+  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:MICROSD") (at 368.3 200.66 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid a8c93a1f-3054-4cd4-9c39-9c311c33b7fb)
     (property "Reference" "CN1" (id 0) (at 355.6 178.054 0)
@@ -16615,7 +16615,7 @@
     (pin "1" (uuid 71b55704-230a-41ef-8ef5-b191d4da46a8))
   )
 
-  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:CAP_CERAMIC0603_NO") (at 187.96 116.84 0)
+  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:CAP_CERAMIC0603_NO") (at 187.96 116.84 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid b12d5ac5-39e0-4cd1-8907-7559e1cb009d)
     (property "Reference" "C4" (id 0) (at 185.67 115.59 90))
@@ -16648,7 +16648,7 @@
     (pin "1" (uuid b9451353-e7bc-437a-bab4-b926c2329139))
   )
 
-  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:HEADER-1X2ROUND") (at 60.96 147.32 0)
+  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:HEADER-1X2ROUND") (at 60.96 147.32 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid b6d63d46-fbaa-4410-9096-2ca4d8a5c23f)
     (property "Reference" "JP4" (id 0) (at 54.61 141.605 0)
@@ -16721,7 +16721,7 @@
     (pin "1" (uuid 9a609661-5895-4db4-a600-14bffdacc16e))
   )
 
-  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:AUDIO_3.5MMJACK_4POL") (at 101.6 121.92 90)
+  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:AUDIO_3.5MMJACK_4POL") (at 101.6 121.92 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid bd6c0f9b-6564-422c-8ab5-17d2d1d3257f)
     (property "Reference" "X1" (id 0) (at 95.25 119.38 0)
@@ -16831,7 +16831,7 @@
     (pin "1" (uuid 4c39be59-b093-468c-a984-4485a8a90f0b))
   )
 
-  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:RESISTOR_4PACK") (at 383.54 91.44 90)
+  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:RESISTOR_4PACK") (at 383.54 91.44 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid d5b18c15-3550-412c-a600-92f0f408372e)
     (property "Reference" "R16" (id 0) (at 381 91.44 0))
@@ -16866,7 +16866,7 @@
     (pin "1" (uuid fe69c541-b817-46c3-b3ca-ef121552e606))
   )
 
-  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:FEATHERWING_NODIM") (at 228.6 236.22 0)
+  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:FEATHERWING_NODIM") (at 228.6 236.22 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid dbb70a15-b598-4a56-968a-fd2790b3ef10)
     (property "Reference" "MS1" (id 0) (at 228.6 236.22 0)
@@ -16911,7 +16911,7 @@
     (pin "9" (uuid 0f4b4dc8-feb1-4d06-a73d-076ace7fd8e2))
   )
 
-  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:CAP_CERAMIC0603_NO") (at 58.42 104.14 0) (mirror y)
+  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:CAP_CERAMIC0603_NO") (at 58.42 104.14 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid de20bc4f-8d0e-4b74-8efd-836396ba239b)
     (property "Reference" "C22" (id 0) (at 60.71 102.89 90))
@@ -16962,7 +16962,7 @@
     (pin "1" (uuid 324c3291-4777-4770-89f9-65fd88fe5547))
   )
 
-  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:RESISTOR_0603_NOOUT") (at 182.88 99.06 0)
+  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:RESISTOR_0603_NOOUT") (at 182.88 99.06 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e0e84c15-8c9e-4c0c-bfb6-3911eede2fb7)
     (property "Reference" "R1" (id 0) (at 182.88 96.52 0))
@@ -17015,7 +17015,7 @@
     (pin "1" (uuid 391d6784-f6e9-4bbe-806b-b62d3331d359))
   )
 
-  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:FERRITE-0805NO") (at 83.82 190.5 0)
+  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:FERRITE-0805NO") (at 83.82 190.5 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e6b2cc6a-89a9-4005-82f7-65741cef7903)
     (property "Reference" "FB1" (id 0) (at 82.55 188.595 0)
@@ -17034,7 +17034,7 @@
     (pin "2" (uuid 5ecab3a5-2aa9-4ac2-adb3-5cfbb3769f36))
   )
 
-  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:CAP_CERAMIC0603_NO") (at 302.26 60.96 90)
+  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:CAP_CERAMIC0603_NO") (at 302.26 60.96 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e6c82ad4-5cf4-43ca-a7bb-9ff08ef84d94)
     (property "Reference" "C3" (id 0) (at 301.01 63.25 90))
@@ -17067,7 +17067,7 @@
     (pin "1" (uuid c05c976b-1ed4-430c-aa71-ee5c6fb1a5ed))
   )
 
-  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:SOLDERJUMPERCLOSED") (at 360.68 111.76 0)
+  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:SOLDERJUMPERCLOSED") (at 360.68 111.76 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ebeeec6e-78d4-4657-a845-c0d00b5092fb)
     (property "Reference" "RST" (id 0) (at 358.14 109.22 0)
@@ -17104,7 +17104,7 @@
     (pin "1" (uuid a61d1da9-c03f-4c59-8984-8195b47f336b))
   )
 
-  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:CPOL-USC") (at 86.36 81.28 90)
+  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:CPOL-USC") (at 86.36 81.28 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid f16bf9bf-4ce0-4970-8712-6166b2de195b)
     (property "Reference" "C2" (id 0) (at 85.725 80.264 0)
@@ -17141,7 +17141,7 @@
     (pin "1" (uuid 841e5065-99c9-4676-989a-90c5b324b4d4))
   )
 
-  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:CRYSTAL3.2X2.5") (at 182.88 106.68 0)
+  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:CRYSTAL3.2X2.5") (at 182.88 106.68 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid f6c777f1-b4a6-4529-9b29-67dfedcb1744)
     (property "Reference" "Y1" (id 0) (at 180.34 104.14 0)
@@ -17160,7 +17160,7 @@
     (pin "2" (uuid 30a06f66-9fee-4536-b302-01811e2778bb))
   )
 
-  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:CAP_CERAMIC0603_NO") (at 121.92 193.04 0)
+  (symbol (lib_id "Adafruit VS1053 Headphone FeatherWing-eagle-import:CAP_CERAMIC0603_NO") (at 121.92 193.04 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid fbfbda5b-3f1a-4559-9c00-adeb4e1f53ab)
     (property "Reference" "C8" (id 0) (at 119.63 191.79 90))

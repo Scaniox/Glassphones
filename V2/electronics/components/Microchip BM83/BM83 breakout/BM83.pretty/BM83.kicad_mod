@@ -1,6 +1,6 @@
 (footprint "BM83" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61BF38B1)
+  (tedit 625E87CB)
   (attr through_hole)
   (fp_text reference "REF**" (at 7.8 1.7) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
@@ -72,4 +72,9 @@
   (pad "50" smd rect (at 15 -20.9 180) (size 1.5 0.6) (drill (offset 0.25 0)) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 85350319-8ae0-4928-abe3-2ebd069ba920))
   (pad "50" smd rect (at 12.27 -10.47 180) (size 1.78 1.78) (drill (offset 0.25 0)) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 9e938e54-31a1-43bc-b557-ea36ee9df41a))
   (pad "50" smd rect (at 4.21 -20.58 180) (size 2.79 0.76) (drill (offset 0.25 0)) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f6a9392b-9123-48ce-b3dd-762db4241c4e))
+  (model "C:/Users/alexl/projects/Glassphones/V2/electronics/components/Microchip BM83/BM83SM1-00AA--3DModel-STEP-1.step"
+    (offset (xyz 7.5 16 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
