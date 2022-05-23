@@ -15,26 +15,28 @@ void setup()
   {
     Serial.println("innit error");
   }
+  slider1.dump_cal();
+  slider1.dump_raw();
+
 }
 
 void loop()
 {
   delay(50);
-  slider1.dump_cal();
-  // float points[3];
-  // int point_count = slider1.get_touch_points(points); 
-  // for(int i=0; i<3; i++)
-  // {
-  //   if(i < point_count)
-  //   {
-  //     Serial.print(points[i], 2);
-  //   }
-  //   else{
-  //     Serial.print("0");
-  //   }
-  //   Serial.print(",");
-  // }
-  // Serial.println();
+  float points[3];
+  int point_count = slider1.get_touch_points(points); 
+  for(int i=0; i<3; i++)
+  {
+    if(i < point_count)
+    {
+      Serial.print(points[i], 2);
+    }
+    else{
+      Serial.print("0");
+    }
+    Serial.print(",");
+  }
+  Serial.println();
 }
 
 

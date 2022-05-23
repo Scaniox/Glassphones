@@ -3,7 +3,7 @@
 #include <slider.h>
 
 #define NUM_LEDS 12
-#define DATA_PIN 5
+#define DATA_PIN 2
 
 
 CRGB leds[NUM_LEDS];
@@ -23,6 +23,12 @@ void setup()
   Serial.println("innit");
   //slider1.calibrate(10);
 
+  //power leds
+  pinMode(11, OUTPUT);
+  pinMode(13, OUTPUT);
+  pinMode(DATA_PIN, OUTPUT);
+  digitalWrite(11, LOW);
+
   FastLED.addLeds<NEOPIXEL, DATA_PIN>(leds, NUM_LEDS);
 }
 
@@ -34,6 +40,8 @@ void loop()
   if(count == NUM_LEDS)
   {
     count = 0;
+
+    digitalWrite(13, colour_index % 2);
     
     colour_index++;
     switch (colour_index)
