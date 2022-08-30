@@ -2,7 +2,7 @@
 #include <IS2020.h>
 //#include <SoftwareSerial.h>
 
-#define RESET 3 // PA1//stm32
+#define RESET -1 // PA1//stm32
 //#define BTSerial Serial3 //stm32, Serial2 => TX = PA2, RX = PA3
 // do not forget to uncoment USE_SW_SERIAL in IS2020.h
 //SoftwareSerial BTSerial(7, 6); // rxPin, txPin, inverse_logic

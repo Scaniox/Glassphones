@@ -64,10 +64,12 @@ bool Adafruit_MPR121::begin(uint8_t i2caddr, TwoWire *theWire,
   // soft reset
   writeRegister(MPR121_SOFTRESET, 0x63);
   delay(10);
-  for (uint8_t i = 0; i < 0x7F; i++) {
-     Serial.print("$"); Serial.print(i, HEX);
-     Serial.print(": 0x"); Serial.println(readRegister8(i));
-  }
+  // pre startup reg dump
+  // for (uint8_t i = 0; i < 0x7F; i++){
+  //    Serial.print("$"); Serial.print(i, HEX);
+  //    int v = readRegister8(i);
+  //    Serial.printf(": 0x%x : %i\n", v, v);
+  // }
 
   writeRegister(MPR121_ECR, 0x0);
 
@@ -92,8 +94,9 @@ bool Adafruit_MPR121::begin(uint8_t i2caddr, TwoWire *theWire,
   writeRegister(MPR121_FDLT, 0x00);
 
   writeRegister(MPR121_DEBOUNCE, 0);
-  writeRegister(MPR121_CONFIG1, 0x10); // default, 16uA charge current
-  writeRegister(MPR121_CONFIG2, 0x20); // 0.5uS encoding, 1ms period
+  writeRegister(MPR121_CONFIG1, 0x20); // default, 16uA charge current
+  writeRegister(MPR121_CONFIG2, 0x23); // default(0.5uS encoding, 1ms period)
+                                       // doesn't work, using 0.5us, 8ms
 
 #ifdef AUTOCONFIG
   writeRegister(MPR121_AUTOCONFIG0, 0x0B);
@@ -110,13 +113,13 @@ bool Adafruit_MPR121::begin(uint8_t i2caddr, TwoWire *theWire,
                       // amount of electrodes running (12)
   writeRegister(MPR121_ECR, ECR_SETTING); // start with above ECR setting
 
-  for (uint8_t i = 0; i < 0x7F; i++)
-  {
-    Serial.print("$");
-    Serial.print(i, HEX);
-    Serial.print(": 0x");
-    Serial.println(readRegister8(i));
-  }
+  // post startup reg dump
+  // for (uint8_t i = 0; i < 0x7F; i++){
+  //   Serial.print("$");
+  //   Serial.print(i, HEX);
+  //   int v = readRegister8(i);
+  //   Serial.printf(": 0x%x : %i\n", v, v);
+  // }
 
   return true;
 }
