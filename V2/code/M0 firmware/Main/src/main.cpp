@@ -45,7 +45,7 @@ void ser_update(){
         c.toCharArray(cbuf, 100);
 
         Serial.printf("\nunrecognised command: '%s'\n", cbuf);
-        Serial.printf("options: | exit | RGB | Cap Touch | Slider | Slider RGB | vs1053 | PWR LED\n");
+        Serial.printf("options: | exit | RGB | Cap Touch | Slider | Slider RGB | vs1053 |a PWR LED\n");
       }
     }
 
