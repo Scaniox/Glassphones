@@ -2,8 +2,12 @@
 
 bool Slider::calibrate(int cal_samples)
 {
+
+    pinMode(P_CAP_IRQ, INPUT_PULLUP);
     if (!cap.begin())
+    {
         return false;
+    }
 
     delay(50);
     for (int sensor_no = 0; sensor_no < elements; sensor_no++)
