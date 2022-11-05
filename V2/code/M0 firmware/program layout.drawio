@@ -1,1 +1,101 @@
-<mxfile host="app.diagrams.net" modified="2022-11-04T00:06:19.937Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="aajf260wMRUHVQZI9IBM" version="20.5.1" type="device"><diagram id="_nHkvcjzQuOdWMBOt9MY" name="Page-1">7Vtbb+I4FP41PM4qF66Phel0pWk1u2V3RvuETGISaxwbOU6B/vo9Ds4NU5ooVAUUqVLj4+PbOd85n22SnjuLtg8CrcMn7mPacyx/23O/9hzHdocW/FOS3V4ydvp7QSCIr5UKwZy8Yi3U7YKE+DiuKErOqSTrqtDjjGFPVmRICL6pqq04rY66RgE2BHMPUVP6i/gyzFYxKuR/YhKE2cj2cLKviVCmrFcSh8jnm5LIve+5M8G53D9F2xmmyniZXfbtvr1Rm09MYCbrNPj+89VZLf7dDX/88yu8/04mfz+gL7bu5gXRRK94+jR29YzlLjNDvCERRQxK0xVncq5rLCh7IaH+I9rxRE0jlsj7nZWmIRfkFfQRhSobBFAtpPaya1U05qql7lPgGHT+ytZmH4ie0Lai+Ihimc2GU4rWMVmm81MNIyQCwqZcSh5lrXjCfOxnc9Jr+0YonXHKBch9vEIJVUswzZyZDAuJtyWRNvsD5hGWYgcqunbgagjoGHDGurwpEGX3tSwsockZaCHSKA7yvvPhngH1iAWw3GK8fnU8e2SONzgynHswGqISC4Yknip7xWV0wUNppYUoxVwT/DkG/gAiEqfoE4kK6LueM0w9sRTwFKgnzJIo1Ug1D6BaOFe5ehMSiedr5KnaDeQohTkZZXhElAQMnileqY5jUCQseExLX/um708H0fuI2FUt/R4ARif8X3FFY7u7ht0JIxIM3HNcWxlOEojGorhGSYzLZYp25aLAL6Uiw9tyXzGWixdODVdJpaaSguC/sRl6q6MBeeAyZXQC+fpOiyPi+6p/w5e55FnbV4k4NF/RNC2H0BAztRZOmEwNPpjCH7hgZv0x6A1gxjMo20UZ/pS6kDPOYBGIpDDBkI02WGUkSDQAUbTMc+VB4skYwTqaZ86ENduqCTb7VLZph7b+8SiPj0a3lUqthClEEnB3DBYztOy9Vpx4Ho7jVUKpWvPJJs6+yQYJ6Dow6919vSdIiqh2meUMvDGqpnH3GG04xxzpfJgjB4Yj5//Nu93CWXcLVa9P6kbv+Ob3CsNb2CsMauPhYvYKo4Z7hQDofonkguIXdRqsyL1QBAvtjMr+wF8G0MDv9ghn2CM0xljtPcKpJNMOZGMDZDQdtuOWM3KLO+rI5Q38TW6BXMa1AXEp5JJtVWuTi+KKpVAzY7DvP2SdUkXHI615pDGcPp9HHPOo+RLb1qC70jwrkQwn1czeXWkWCDTPyNfHJHkYXRGTmMfDOleaM6d3Z7W+2CwkKhssYp7eL2XCjozak1FzRF7AxadjHp2fH0w4dFR0Riqqy0T25OaZyDxTXyETjWoD4mKYyDxLnmYizNJUWeGV1DZSYeTgjJNLO05pzSmNsVWbU04ll1bgytBdAlcEIWseeDtSaUEq+ftH3UXZIf7MN4Yak8obtV4ilMsWCs8XwDx5pF0P87hOPebpqKMtdTQHx+ffjbnmSz8xJT4WHXd85Ot+HXfkAHzjPaCrOpDkUXRFtGBeSb7/C77kiRcudBLuGKM9YzTGzQUwxpFXbrAgKG3IIF+sVKh17PGBP9HXv8+6ffowb1PPdvTYfz5CuHmv8gkMM6wNmothGPOq8b2f8ZkP+hGOY/UFTscv7fmlMWo+kl+gWHzatE8AxQdi7v3/</diagram></mxfile>
+<mxfile host="65bd71144e">
+    <diagram id="_nHkvcjzQuOdWMBOt9MY" name="Page-1">
+        <mxGraphModel dx="1210" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="KVz2f_Uy6OTWhEKi9QGa-11" value="BM83" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;swimlaneFillColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="530" y="280" width="140" height="250" as="geometry">
+                        <mxRectangle x="540" y="170" width="50" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="KVz2f_Uy6OTWhEKi9QGa-12" value="state struct:&lt;br&gt;enum state" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=4" parent="KVz2f_Uy6OTWhEKi9QGa-11" vertex="1">
+                    <mxGeometry y="30" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="KVz2f_Uy6OTWhEKi9QGa-13" value="init&#10;tick&#10;pause&#10;play&#10;prev&#10;next&#10;set_vol" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;shadow=0;" parent="KVz2f_Uy6OTWhEKi9QGa-11" vertex="1">
+                    <mxGeometry y="100" width="140" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="KVz2f_Uy6OTWhEKi9QGa-14" value="enum states:&lt;br&gt;0: uninitialised&lt;br&gt;1: successfully initialised&lt;br&gt;2: warning&lt;br&gt;3: critical" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="380" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="KVz2f_Uy6OTWhEKi9QGa-15" value="SYS" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;swimlaneFillColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="90" width="140" height="180" as="geometry">
+                        <mxRectangle x="540" y="170" width="50" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="KVz2f_Uy6OTWhEKi9QGa-16" value="state struct:&lt;br&gt;enum state" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=4" parent="KVz2f_Uy6OTWhEKi9QGa-15" vertex="1">
+                    <mxGeometry y="30" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="KVz2f_Uy6OTWhEKi9QGa-17" value="init&#10;tick&#10;get_bat_level&#10;get_chrg_state&#10;set_dbg_led" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;shadow=0;" parent="KVz2f_Uy6OTWhEKi9QGa-15" vertex="1">
+                    <mxGeometry y="100" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="KVz2f_Uy6OTWhEKi9QGa-18" value="light" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;swimlaneFillColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="370" y="90" width="140" height="180" as="geometry">
+                        <mxRectangle x="540" y="170" width="50" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="KVz2f_Uy6OTWhEKi9QGa-19" value="state struct:&lt;br&gt;enum state" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=4" parent="KVz2f_Uy6OTWhEKi9QGa-18" vertex="1">
+                    <mxGeometry y="30" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="KVz2f_Uy6OTWhEKi9QGa-20" value="init&#10;tick&#10;set_brightness&#10;get_brightness" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;shadow=0;" parent="KVz2f_Uy6OTWhEKi9QGa-18" vertex="1">
+                    <mxGeometry y="100" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="KVz2f_Uy6OTWhEKi9QGa-24" value="vs1053" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;swimlaneFillColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="690" y="280" width="140" height="250" as="geometry">
+                        <mxRectangle x="540" y="170" width="50" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="KVz2f_Uy6OTWhEKi9QGa-25" value="state struct:&lt;br&gt;enum state" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=4" parent="KVz2f_Uy6OTWhEKi9QGa-24" vertex="1">
+                    <mxGeometry y="30" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="KVz2f_Uy6OTWhEKi9QGa-26" value="init&#10;tick&#10;pause &#10;play&#10;prev&#10;next&#10;set_vol&#10;start_song&#10;" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;shadow=0;" parent="KVz2f_Uy6OTWhEKi9QGa-24" vertex="1">
+                    <mxGeometry y="100" width="140" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="KVz2f_Uy6OTWhEKi9QGa-27" value="RGB" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;swimlaneFillColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="690" y="80" width="140" height="190" as="geometry">
+                        <mxRectangle x="540" y="170" width="50" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="KVz2f_Uy6OTWhEKi9QGa-28" value="state struct:&lt;br&gt;enum state" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=4" parent="KVz2f_Uy6OTWhEKi9QGa-27" vertex="1">
+                    <mxGeometry y="30" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="KVz2f_Uy6OTWhEKi9QGa-29" value="init&#10;tick&#10;enable&#10;set pattern&#10;get_pattern" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;shadow=0;" parent="KVz2f_Uy6OTWhEKi9QGa-27" vertex="1">
+                    <mxGeometry y="100" width="140" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="KVz2f_Uy6OTWhEKi9QGa-30" value="menus" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;swimlaneFillColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="970" y="80" width="340" height="320" as="geometry">
+                        <mxRectangle x="540" y="170" width="50" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="KVz2f_Uy6OTWhEKi9QGa-31" value="state struct:&lt;br&gt;enum state&lt;br&gt;enum current_menu&lt;br&gt;&lt;br&gt;tap struct:&lt;br&gt;int start_pos&lt;br&gt;int start_time&lt;br&gt;int end_time&lt;br&gt;int current_pos" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=4" parent="KVz2f_Uy6OTWhEKi9QGa-30" vertex="1">
+                    <mxGeometry y="30" width="340" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="KVz2f_Uy6OTWhEKi9QGa-32" value="init&#10;tick" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;shadow=0;" parent="KVz2f_Uy6OTWhEKi9QGa-30" vertex="1">
+                    <mxGeometry y="240" width="340" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="KVz2f_Uy6OTWhEKi9QGa-33" value="slider" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;swimlaneFillColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="530" y="90" width="140" height="180" as="geometry">
+                        <mxRectangle x="540" y="170" width="50" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="KVz2f_Uy6OTWhEKi9QGa-34" value="state struct:&lt;br&gt;enum state" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=4" parent="KVz2f_Uy6OTWhEKi9QGa-33" vertex="1">
+                    <mxGeometry y="30" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="KVz2f_Uy6OTWhEKi9QGa-35" value="init&#10;tick&#10;get_touch_points" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;shadow=0;" parent="KVz2f_Uy6OTWhEKi9QGa-33" vertex="1">
+                    <mxGeometry y="100" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="KVz2f_Uy6OTWhEKi9QGa-36" value="serial interface" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;swimlaneFillColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="370" y="280" width="140" height="180" as="geometry">
+                        <mxRectangle x="540" y="170" width="50" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="KVz2f_Uy6OTWhEKi9QGa-37" value="state struct:&lt;br&gt;enum state&lt;br&gt;enum connection" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=4" parent="KVz2f_Uy6OTWhEKi9QGa-36" vertex="1">
+                    <mxGeometry y="30" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="KVz2f_Uy6OTWhEKi9QGa-38" value="init&#10;tick&#10;send message" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;shadow=0;" parent="KVz2f_Uy6OTWhEKi9QGa-36" vertex="1">
+                    <mxGeometry y="100" width="140" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
