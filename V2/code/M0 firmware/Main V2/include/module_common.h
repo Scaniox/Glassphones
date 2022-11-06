@@ -5,11 +5,18 @@
  *         Date: 05/11/22
  *  Description: bottom level header common between all of the system modules
  ******************************************************************************/
+/* headers */
+#include <Arduino.h>
 
-
-enum Module_States {
+/* types */
+enum Mod_State {/* current state of a module */
     UNINITIALISED,
     INITIALISED,
-    INIT_WARNING,
-    INIT_CRITICAL
+    WARNING,
+    CRITICAL /* system restart */
 };
+
+enum Act_rply{/* action replys - given by a function that performs an action */
+    DONE,
+    FAILED
+}

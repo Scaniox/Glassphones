@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="_nHkvcjzQuOdWMBOt9MY" name="Page-1">
-        <mxGraphModel dx="745" dy="559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="748" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -15,7 +15,7 @@
                 <mxCell id="KVz2f_Uy6OTWhEKi9QGa-13" value="init&#10;tick&#10;pause&#10;play&#10;prev&#10;next&#10;set_vol" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;shadow=0;" parent="KVz2f_Uy6OTWhEKi9QGa-11" vertex="1">
                     <mxGeometry y="100" width="140" height="150" as="geometry"/>
                 </mxCell>
-                <mxCell id="KVz2f_Uy6OTWhEKi9QGa-14" value="enum states:&lt;br&gt;0: uninitialised&lt;br&gt;1: successfully initialised&lt;br&gt;2: warning&lt;br&gt;3: critical" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="KVz2f_Uy6OTWhEKi9QGa-14" value="enum Mod_states:&lt;br&gt;0: uninitialised&lt;br&gt;1: successfully initialised&lt;br&gt;2: warning&lt;br&gt;3: critical" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="70" y="380" width="120" height="120" as="geometry"/>
                 </mxCell>
                 <mxCell id="KVz2f_Uy6OTWhEKi9QGa-15" value="sys" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;swimlaneFillColor=default;" parent="1" vertex="1">
@@ -94,6 +94,9 @@
                 </mxCell>
                 <mxCell id="KVz2f_Uy6OTWhEKi9QGa-38" value="init&#10;tick&#10;send message" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;shadow=0;" parent="KVz2f_Uy6OTWhEKi9QGa-36" vertex="1">
                     <mxGeometry y="100" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="enum&amp;nbsp; Act_rply:&lt;br&gt;0: DONE&lt;br&gt;1: FAILED" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="520" width="120" height="120" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
