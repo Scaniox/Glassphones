@@ -67,7 +67,7 @@
                         <mxRectangle x="540" y="170" width="50" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="KVz2f_Uy6OTWhEKi9QGa-31" value="enum state&lt;br&gt;enum current_menu&lt;br&gt;tap current_tap_array&lt;br&gt;tap finised_tap_array" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=4" parent="KVz2f_Uy6OTWhEKi9QGa-30" vertex="1">
+                <mxCell id="KVz2f_Uy6OTWhEKi9QGa-31" value="enum state&lt;br&gt;enum current_menu&lt;br&gt;tap tap_array&lt;br&gt;&lt;br&gt;tap struct:&lt;br&gt;int start_pos&lt;br&gt;int start_time&lt;br&gt;int end_time&lt;br&gt;int current_pos" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=4" parent="KVz2f_Uy6OTWhEKi9QGa-30" vertex="1">
                     <mxGeometry y="30" width="180" height="210" as="geometry"/>
                 </mxCell>
                 <mxCell id="KVz2f_Uy6OTWhEKi9QGa-32" value="init&#10;tick" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;shadow=0;" parent="KVz2f_Uy6OTWhEKi9QGa-30" vertex="1">
@@ -97,9 +97,6 @@
                 </mxCell>
                 <mxCell id="2" value="enum&amp;nbsp; Act_rply:&lt;br&gt;0: DONE&lt;br&gt;1: FAILED" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="70" y="520" width="120" height="120" as="geometry"/>
-                </mxCell>
-                <mxCell id="3" value="&lt;span style=&quot;text-align: left&quot;&gt;tap struct:&lt;/span&gt;&lt;br style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;text-align: left&quot;&gt;int start_pos&lt;/span&gt;&lt;br style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;text-align: left&quot;&gt;int start_time&lt;/span&gt;&lt;br style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;text-align: left&quot;&gt;int end_time&lt;/span&gt;&lt;br style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;text-align: left&quot;&gt;int current_pos&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="890" y="430" width="120" height="120" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
