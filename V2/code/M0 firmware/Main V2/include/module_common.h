@@ -7,6 +7,7 @@
  ******************************************************************************/
 /* headers */
 #include <Arduino.h>
+#include <stdint.h>
 
 /* types */
 enum Mod_State {/* current state of a module */
