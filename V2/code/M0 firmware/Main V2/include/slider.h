@@ -15,16 +15,16 @@
 /* types */
 class Slider{
     public:
-    Mod_State state = UNINITIALISED;
+    Mod_State state = Mod_State::UNINITIALISED;
     Adafruit_MPR121 cap = Adafruit_MPR121();
     int samples = 4;
     uint16_t cal_values[ELEMENTS];
 
     Act_rply init();
-    Act_rply tick();
-    Act_rply calibrate(int cal_samples);
-    uint16_t read_sensor(int sensor_no);
+    void tick();
+    Act_rply calibrate(uint8_t cal_samples);
+    uint16_t read_sensor(uint8_t sensor_no);
     void dump_raw();
     void dump_cal();
-    int get_touch_points(float *points);
+    int get_touch_points(uint8_t *points);
 };

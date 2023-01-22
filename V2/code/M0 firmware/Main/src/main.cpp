@@ -26,8 +26,7 @@ void ser_update()
     Serial.printf("system uptime: %ims\n", millis());
   }
 
-  if (Serial.available() > 0)
-  {
+  if (Serial.available() > 0){
     String c = Serial.readStringUntil('\n');
     if(dbg)
     {

@@ -13,7 +13,8 @@ class Sys{
     public:
     Mod_State state = UNINITIALISED;
 
-    int get_bat_level(); /* 0-255 */
+    
+    uint8_t get_bat_level(); /* 0-255 */
     bool get_charge_state();
     Act_rply set_dbg_led(bool on);
-}
+};

@@ -16,10 +16,12 @@
 /* types */
 class RGB {
     public:
-    Mod_State state = UNINITIALISED;
+    Mod_State state = Mod_State::UNINITIALISED;
     bool enabled = false;
 
+    RGB();
+    void tick();
     Act_rply enable(bool en); // power on or off
     Act_rply set_pattern(int *pattern);
     Act_rply get_pattern(int *pattern);
-}
+};
