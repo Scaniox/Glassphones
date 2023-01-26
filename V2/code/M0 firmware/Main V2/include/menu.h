@@ -35,7 +35,7 @@ class Menu_sys {
     Menu_Screen menu_stack[3];
     bool in_call;
 
-    Menu_sys();
+    void init(Modules* m);
     void tick();
 };
 

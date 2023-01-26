@@ -19,7 +19,7 @@ class RGB {
     Mod_State state = Mod_State::UNINITIALISED;
     bool enabled = false;
 
-    RGB();
+    void init(Modules *m);
     void tick();
     Act_rply enable(bool en); // power on or off
     Act_rply set_pattern(int *pattern);

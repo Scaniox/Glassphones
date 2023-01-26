@@ -14,7 +14,7 @@ class Pwr_led {
     public:
     Mod_State state = Mod_State::UNINITIALISED;
 
-    Pwr_led();
+    void init(Modules *m);
     void tick();
     Act_rply set_brightness(int b); // b: 0-255
     Act_rply get_brightness(int b); // b: 0-255

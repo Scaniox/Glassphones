@@ -5,24 +5,28 @@
  *         Date: 
  *  Description: 
  ******************************************************************************/
-
 #include "main.h"
+using namespace std;
+
+typedef struct {
+    Sys sys;
+    Pwr_led pwr_led;
+    RGB rgb;
+    Serial_IO ser_io;
+    IS2020 is2020;
+    VS1053 vs1053;
+    Menu_sys menu_sys;
+} Modules;
 
 Modules modules;
 
 void setup() {
-    modules.menu_sys    = Menu_sys(&modules);
-    modules.sys         = Sys(&modules);
-    modules.ser_io      = Serial_IO(&modules);
-    modules.pwr_led     = Pwr_led(&modules);
-    modules.rgb         = RGB(&modules);
-
     
 }
 
 void loop() {
-    ser_io.tick();
-    menu_sys.tick();
-    pwr_led.tick();
+    modules.ser_io.tick();
+    modules.menu_sys.tick();
+    modules.pwr_led.tick();
 }
 

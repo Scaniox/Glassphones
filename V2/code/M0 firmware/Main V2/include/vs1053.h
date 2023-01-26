@@ -11,7 +11,7 @@ class VS1053 {
     public:
     Mod_State state = Mod_State::UNINITIALISED;
 
-    VS1053();
+    void init(Modules* m);
     Act_rply tick();
     Act_rply pause();
     Act_rply play();

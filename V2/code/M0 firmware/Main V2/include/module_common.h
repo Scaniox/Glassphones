@@ -6,6 +6,7 @@
  *  Description: bottom level header common between all of the system modules
  ******************************************************************************/
 /* headers */
+#pragma once
 #include <Arduino.h>
 #include <stdint.h>
 
@@ -20,4 +21,6 @@ enum Mod_State {/* current state of a module */
 enum Act_rply{/* action replys - given by a function that performs an action */
     DONE,
     FAILED
-}
+};
+
+

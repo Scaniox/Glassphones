@@ -14,7 +14,7 @@ class Serial_IO {
     bool connected = false;
     bool debug = false;
 
-    Serial_IO();
+    void init(Modules *m);
     void tick();
     Act_rply send_msg(String msg);
     void read_msg();
