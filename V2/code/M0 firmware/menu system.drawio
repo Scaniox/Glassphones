@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="FoX--cYbKHHP8zqdf9up" name="Page-1">
-        <mxGraphModel dx="2037" dy="1954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="2454" dy="1868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -34,7 +34,7 @@
                 <mxCell id="1FZqoJuko9ULhmWFs1YC-44" value="light" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1FZqoJuko9ULhmWFs1YC-37" vertex="1">
                     <mxGeometry x="450" y="40" width="80" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="1FZqoJuko9ULhmWFs1YC-92" value="cycle controls through sources" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1FZqoJuko9ULhmWFs1YC-37" vertex="1">
+                <mxCell id="1FZqoJuko9ULhmWFs1YC-92" value="cycle menus" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1FZqoJuko9ULhmWFs1YC-37" vertex="1">
                     <mxGeometry x="235" y="40" width="80" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="1FZqoJuko9ULhmWFs1YC-88" value="audio playback" style="swimlane;startSize=23;" parent="1" vertex="1">
@@ -90,6 +90,12 @@
                 </mxCell>
                 <mxCell id="QuFRmykcbeeEf-0QBZY7-22" value="battery status" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
                     <mxGeometry x="310" y="290" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Hold rearmost button for back" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="-10" y="100" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="output volume" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="420" y="670" width="80" height="80" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

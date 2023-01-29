@@ -12,7 +12,8 @@ class VS1053 {
     Mod_State state = Mod_State::UNINITIALISED;
 
     void init(Modules* m);
-    Act_rply tick();
+    void tick();
+    Mod_State get_state();
     Act_rply pause();
     Act_rply play();
     Act_rply prev();

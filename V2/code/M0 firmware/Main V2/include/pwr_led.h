@@ -11,11 +11,12 @@
 
 /* data types */
 class Pwr_led {
-    public:
     Mod_State state = Mod_State::UNINITIALISED;
 
+    public:
     void init(Modules *m);
     void tick();
+    Mod_State get_state();
     Act_rply set_brightness(int b); // b: 0-255
     Act_rply get_brightness(int b); // b: 0-255
     int get_temp();

@@ -21,12 +21,22 @@ typedef struct {
 Modules modules;
 
 void setup() {
+    modules.sys.init(&modules);
+    modules.ser_io.init(&modules);
+    modules.pwr_led.init(&modules);
+    modules.rgb.init(&modules);
+    modules.is2020 = IS2020(&Serial1);
+    modules.vs1053.init(&modules);
+    modules.menu_sys.init(&modules);
     
 }
 
 void loop() {
-    modules.ser_io.tick();
-    modules.menu_sys.tick();
+    modules.sys.tick();
     modules.pwr_led.tick();
+    modules.rgb.tick();
+    modules.ser_io.tick();
+    modules.vs1053.tick();
+    modules.menu_sys.tick();
 }
 

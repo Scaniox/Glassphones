@@ -9,13 +9,14 @@
 
 
 class Serial_IO {
-    public:
     Mod_State state = Mod_State::UNINITIALISED;
     bool connected = false;
     bool debug = false;
 
+    public:
     void init(Modules *m);
     void tick();
+    Mod_State get_state();
     Act_rply send_msg(String msg);
     void read_msg();
 };

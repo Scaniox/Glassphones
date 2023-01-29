@@ -10,10 +10,12 @@
 
 /* types */
 class Sys{
-    public:
     Mod_State state = UNINITIALISED;
 
+    public:
     void init(Modules* m);
+    void tick();
+    Mod_State get_state();
     uint8_t get_bat_level(); /* 0-255 */
     bool get_charge_state();
     Act_rply set_dbg_led(bool on);
