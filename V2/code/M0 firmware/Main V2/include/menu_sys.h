@@ -30,12 +30,13 @@ enum Menu_Screen {
 
 
 class Menu_sys {
-    public:
     Mod_State state;
     Menu_Screen menu_stack[3];
     bool in_call;
 
-    void init(Modules* m);
-    void tick();
+    public:
+        Menu_sys();
+        void setup();
+        void loop();
 };
 

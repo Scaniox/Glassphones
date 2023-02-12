@@ -9,7 +9,7 @@
 #include <Arduino.h>
 
 #include "sys.h"
-#include "menu.h"
+#include "menu_sys.h"
 #include "serial_io.h"
 
 #include "IS2020.h"

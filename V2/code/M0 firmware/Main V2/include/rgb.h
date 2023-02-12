@@ -19,10 +19,11 @@ class RGB {
     bool enabled = false;
 
     public:
-    void init(Modules *m);
-    void tick();
-    Mod_State get_state();
-    Act_rply enable(bool en); // power on or off
-    Act_rply set_pattern(int *pattern);
-    Act_rply get_pattern(int *pattern);
+        RGB();
+        void setup();
+        void loop();
+        Mod_State get_state();
+        Act_rply enable(bool en); // power on or off
+        Act_rply set_pattern(int *pattern);
+        Act_rply get_pattern(int *pattern);
 };

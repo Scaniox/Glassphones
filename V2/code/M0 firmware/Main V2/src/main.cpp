@@ -8,35 +8,33 @@
 #include "main.h"
 using namespace std;
 
-typedef struct {
-    Sys sys;
-    Pwr_led pwr_led;
-    RGB rgb;
-    Serial_IO ser_io;
-    IS2020 is2020;
-    VS1053 vs1053;
-    Menu_sys menu_sys;
-} Modules;
 
-Modules modules;
+Sys sys;
+Pwr_led pwr_led;
+RGB rgb;
+Serial_IO ser_io;
+//IS2020 is2020(&Serial1);
+VS1053 vs1053;
+Menu_sys menu_sys;
 
 void setup() {
-    modules.sys.init(&modules);
-    modules.ser_io.init(&modules);
-    modules.pwr_led.init(&modules);
-    modules.rgb.init(&modules);
-    modules.is2020 = IS2020(&Serial1);
-    modules.vs1053.init(&modules);
-    modules.menu_sys.init(&modules);
-    
+    Serial1.begin(115200);
+
+    sys.setup();
+    ser_io.setup();
+    pwr_led.setup();
+    rgb.setup();
+    //modules.is2020 = IS2020(&Serial1);
+    vs1053.setup();
+    menu_sys.setup();
 }
 
 void loop() {
-    modules.sys.tick();
-    modules.pwr_led.tick();
-    modules.rgb.tick();
-    modules.ser_io.tick();
-    modules.vs1053.tick();
-    modules.menu_sys.tick();
+    sys.loop();
+    pwr_led.loop();
+    rgb.loop();
+    ser_io.loop();
+    vs1053.loop();
+    menu_sys.loop();
 }
 

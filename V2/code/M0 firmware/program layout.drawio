@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="_nHkvcjzQuOdWMBOt9MY" name="Page-1">
-        <mxGraphModel dx="2210" dy="1763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1729" dy="1956" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -26,7 +26,7 @@
                 <mxCell id="KVz2f_Uy6OTWhEKi9QGa-16" value="sys_struct&lt;br&gt;enum state&lt;br&gt;enum power_state" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=4" parent="KVz2f_Uy6OTWhEKi9QGa-15" vertex="1">
                     <mxGeometry y="30" width="240" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="KVz2f_Uy6OTWhEKi9QGa-17" value="init:&#10;    * power off if battery too low&#10;    * if powered off, check for &#10;        power on gesture&#10;tick&#10;    * check battery level&#10;        * power off if too low&#10;    * check if charging&#10;get_bat_level&#10;    * return battery level&#10;get_chrg_state&#10;    * return charging state&#10;set_dbg_led&#10;    * set state of debug LED&#10;enter_sleep&#10;    * set the system to go to sleep&#10;power_off&#10;    * set the system to power off&#10;        * power off all modules other than &#10;           touch interrupt and serial interrupt&#10;" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;shadow=0;" parent="KVz2f_Uy6OTWhEKi9QGa-15" vertex="1">
+                <mxCell id="KVz2f_Uy6OTWhEKi9QGa-17" value="setup:&#10;    * power off if battery too low&#10;    * if powered off, check for &#10;        power on gesture&#10;loop:&#10;    * check battery level&#10;        * power off if too low&#10;    * check if charging&#10;get_bat_level&#10;    * return battery level&#10;get_chrg_state&#10;    * return charging state&#10;set_dbg_led&#10;    * set state of debug LED&#10;enter_sleep&#10;    * set the system to go to sleep&#10;power_off&#10;    * set the system to power off&#10;        * power off all modules other than &#10;           touch interrupt and serial interrupt&#10;" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;shadow=0;" parent="KVz2f_Uy6OTWhEKi9QGa-15" vertex="1">
                     <mxGeometry y="100" width="240" height="320" as="geometry"/>
                 </mxCell>
                 <mxCell id="KVz2f_Uy6OTWhEKi9QGa-18" value="pwr_led" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;swimlaneFillColor=default;" parent="1" vertex="1">
@@ -37,7 +37,7 @@
                 <mxCell id="KVz2f_Uy6OTWhEKi9QGa-19" value="sys_struct&lt;br&gt;enum state" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=4" parent="KVz2f_Uy6OTWhEKi9QGa-18" vertex="1">
                     <mxGeometry y="30" width="230" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="KVz2f_Uy6OTWhEKi9QGa-20" value="init:&#10;    * verify and calibrate thermistor&#10;tick&#10;    * set output brightness based on target&#10;        brightness&#10;    * check thermistor&#10;        * if temp too high, reduce output &#10;        brightness accordingly (PID)&#10;set_target_brightness&#10;    * sets target brightness&#10;get_target_brightness&#10;    * returns target brightness&#10;get_output_brightness&#10;    * returns output brightness&#10;get_temp&#10;    * returns temperature " style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;shadow=0;" parent="KVz2f_Uy6OTWhEKi9QGa-18" vertex="1">
+                <mxCell id="KVz2f_Uy6OTWhEKi9QGa-20" value="setup:&#10;    * verify and calibrate thermistor&#10;loop&#10;    * set output brightness based on target&#10;        brightness&#10;    * check thermistor&#10;        * if temp too high, reduce output &#10;        brightness accordingly (PID)&#10;set_target_brightness&#10;    * sets target brightness&#10;get_target_brightness&#10;    * returns target brightness&#10;get_output_brightness&#10;    * returns output brightness&#10;get_temp&#10;    * returns temperature " style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;shadow=0;" parent="KVz2f_Uy6OTWhEKi9QGa-18" vertex="1">
                     <mxGeometry y="100" width="230" height="300" as="geometry"/>
                 </mxCell>
                 <mxCell id="KVz2f_Uy6OTWhEKi9QGa-24" value="vs1053" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;swimlaneFillColor=default;" parent="1" vertex="1">
@@ -48,7 +48,7 @@
                 <mxCell id="KVz2f_Uy6OTWhEKi9QGa-25" value="sys_struct&lt;br&gt;enum state" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=4" parent="KVz2f_Uy6OTWhEKi9QGa-24" vertex="1">
                     <mxGeometry y="30" width="210" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="KVz2f_Uy6OTWhEKi9QGa-26" value="init&#10;    * initialise player&#10;    * set up data feed interrupt&#10;tick&#10;set_play_state&#10;    * makes music play or pause&#10;set_vol&#10;    * sets output volume of vs1053&#10;get_vol&#10;    * returns current volume&#10;start_song&#10;    * starts a song given a file handle&#10;get_song&#10;    * get file handle of current song&#10;" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;shadow=0;" parent="KVz2f_Uy6OTWhEKi9QGa-24" vertex="1">
+                <mxCell id="KVz2f_Uy6OTWhEKi9QGa-26" value="setup&#10;    * initialise player&#10;    * set up data feed interrupt&#10;tick&#10;set_play_state&#10;    * makes music play or pause&#10;set_vol&#10;    * sets output volume of vs1053&#10;get_vol&#10;    * returns current volume&#10;start_song&#10;    * starts a song given a file handle&#10;get_song&#10;    * get file handle of current song&#10;" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;shadow=0;" parent="KVz2f_Uy6OTWhEKi9QGa-24" vertex="1">
                     <mxGeometry y="100" width="210" height="230" as="geometry"/>
                 </mxCell>
                 <mxCell id="KVz2f_Uy6OTWhEKi9QGa-27" value="rgb" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;swimlaneFillColor=default;" parent="1" vertex="1">
@@ -59,19 +59,19 @@
                 <mxCell id="KVz2f_Uy6OTWhEKi9QGa-28" value="sys_struct&lt;br&gt;enum state" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=4" parent="KVz2f_Uy6OTWhEKi9QGa-27" vertex="1">
                     <mxGeometry y="30" width="220" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="KVz2f_Uy6OTWhEKi9QGa-29" value="init&#10;    * set up pins&#10;tick&#10;power&#10;    * powers on or off the LEDs&#10;set_pattern&#10;    * outputs a pattern to the rgbleds&#10;get_pattern&#10;    * returns currently written pattern" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;shadow=0;" parent="KVz2f_Uy6OTWhEKi9QGa-27" vertex="1">
+                <mxCell id="KVz2f_Uy6OTWhEKi9QGa-29" value="setup&#10;    * set up pins&#10;loop&#10;power&#10;    * powers on or off the LEDs&#10;set_pattern&#10;    * outputs a pattern to the rgbleds&#10;get_pattern&#10;    * returns currently written pattern" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;shadow=0;" parent="KVz2f_Uy6OTWhEKi9QGa-27" vertex="1">
                     <mxGeometry y="100" width="220" height="200" as="geometry"/>
                 </mxCell>
-                <mxCell id="KVz2f_Uy6OTWhEKi9QGa-30" value="menus" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;swimlaneFillColor=default;" parent="1" vertex="1">
-                    <mxGeometry x="860" y="70" width="240" height="340" as="geometry">
+                <mxCell id="KVz2f_Uy6OTWhEKi9QGa-30" value="menus_sys" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;swimlaneFillColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="870" y="-50" width="240" height="250" as="geometry">
                         <mxRectangle x="540" y="170" width="50" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="KVz2f_Uy6OTWhEKi9QGa-31" value="enum state&lt;br&gt;enum current_menu&lt;br&gt;tap current_tap_array&lt;br&gt;tap finised_tap_array" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=4" parent="KVz2f_Uy6OTWhEKi9QGa-30" vertex="1">
                     <mxGeometry y="30" width="240" height="90" as="geometry"/>
                 </mxCell>
-                <mxCell id="KVz2f_Uy6OTWhEKi9QGa-32" value="init&#10;    * set default menu state&#10;tick&#10;    * update tap array&#10;        * filter out noise&#10;    * post finished taps&#10;    * call menu function for current menu" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;shadow=0;" parent="KVz2f_Uy6OTWhEKi9QGa-30" vertex="1">
-                    <mxGeometry y="120" width="240" height="220" as="geometry"/>
+                <mxCell id="KVz2f_Uy6OTWhEKi9QGa-32" value="setup&#10;    * set default menu state&#10;loop    * update tap array&#10;        * filter out noise&#10;    * post finished taps&#10;    * call menu function for current menu&#10;" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;shadow=0;" parent="KVz2f_Uy6OTWhEKi9QGa-30" vertex="1">
+                    <mxGeometry y="120" width="240" height="130" as="geometry"/>
                 </mxCell>
                 <mxCell id="KVz2f_Uy6OTWhEKi9QGa-33" value="slider" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;swimlaneFillColor=default;" parent="1" vertex="1">
                     <mxGeometry x="320" y="-50" width="250" height="290" as="geometry">
@@ -81,18 +81,18 @@
                 <mxCell id="KVz2f_Uy6OTWhEKi9QGa-34" value="sys_struct&lt;br&gt;enum state" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=4" parent="KVz2f_Uy6OTWhEKi9QGa-33" vertex="1">
                     <mxGeometry y="30" width="250" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="KVz2f_Uy6OTWhEKi9QGa-35" value="init&#10;    * init bus&#10;    * calibrate&#10;    * setup sampling interrupt&#10;tick&#10;get_touch_points&#10;    * returns number of pressed locations, &#10;        and callback of locations&#10;read_sensor&#10;    * returns current value of specificed pad&#10;read_cal&#10;    * returns calibration value of specified pad&#10;" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;shadow=0;" parent="KVz2f_Uy6OTWhEKi9QGa-33" vertex="1">
+                <mxCell id="KVz2f_Uy6OTWhEKi9QGa-35" value="setup&#10;    * init bus&#10;    * calibrate&#10;    * setup sampling interrupt&#10;loop&#10;get_touch_points&#10;    * returns number of pressed locations, &#10;        and callback of locations&#10;read_sensor&#10;    * returns current value of specificed pad&#10;read_cal&#10;    * returns calibration value of specified pad&#10;" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;shadow=0;" parent="KVz2f_Uy6OTWhEKi9QGa-33" vertex="1">
                     <mxGeometry y="100" width="250" height="190" as="geometry"/>
                 </mxCell>
                 <mxCell id="KVz2f_Uy6OTWhEKi9QGa-36" value="serial interface" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;swimlaneFillColor=default;" parent="1" vertex="1">
-                    <mxGeometry x="100" y="400" width="230" height="300" as="geometry">
+                    <mxGeometry x="60" y="390" width="230" height="300" as="geometry">
                         <mxRectangle x="540" y="170" width="50" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="KVz2f_Uy6OTWhEKi9QGa-37" value="sys_struct&lt;br&gt;enum state&lt;br&gt;bool connected" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=4" parent="KVz2f_Uy6OTWhEKi9QGa-36" vertex="1">
                     <mxGeometry y="30" width="230" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="KVz2f_Uy6OTWhEKi9QGa-38" value="init&#10;    * initialises serial interface&#10;    * check if there is a connection&#10;tick&#10;    * reads serial input&#10;    * enters test mode&#10;        * runs tests&#10;    * passes through bm83 programming&#10;send_msg" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;shadow=0;" parent="KVz2f_Uy6OTWhEKi9QGa-36" vertex="1">
+                <mxCell id="KVz2f_Uy6OTWhEKi9QGa-38" value="setup&#10;    * initialises serial interface&#10;    * check if there is a connection&#10;loop&#10;    * reads serial input&#10;    * enters test mode&#10;        * runs tests&#10;    * passes through bm83 programming&#10;send_msg&#10;    * sends a message through the &#10;        serial interface" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;shadow=0;" parent="KVz2f_Uy6OTWhEKi9QGa-36" vertex="1">
                     <mxGeometry y="100" width="230" height="200" as="geometry"/>
                 </mxCell>
                 <mxCell id="2" value="enum&amp;nbsp; Act_rply:&lt;br&gt;0: DONE&lt;br&gt;1: FAILED" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -100,6 +100,20 @@
                 </mxCell>
                 <mxCell id="3" value="&lt;span style=&quot;text-align: left&quot;&gt;tap struct:&lt;/span&gt;&lt;br style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;text-align: left&quot;&gt;int start_pos&lt;/span&gt;&lt;br style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;text-align: left&quot;&gt;int start_time&lt;/span&gt;&lt;br style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;text-align: left&quot;&gt;int last_time&lt;/span&gt;&lt;br style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;text-align: left&quot;&gt;int last_pos&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="890" y="430" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="menus" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1200" y="-40" width="550" height="510" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="Home menu" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;swimlaneFillColor=default;" parent="27" vertex="1">
+                    <mxGeometry x="30" y="55" width="240" height="250" as="geometry">
+                        <mxRectangle x="540" y="170" width="50" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" value="enum state&lt;br&gt;enum current_menu&lt;br&gt;tap current_tap_array&lt;br&gt;tap finised_tap_array" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=4" parent="28" vertex="1">
+                    <mxGeometry y="30" width="240" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="menu_function&#10;    * " style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;shadow=0;" parent="28" vertex="1">
+                    <mxGeometry y="120" width="240" height="130" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

@@ -8,17 +8,18 @@
 #include "module_common.h"
 
 class VS1053 {
-    public:
     Mod_State state = Mod_State::UNINITIALISED;
 
-    void init(Modules* m);
-    void tick();
-    Mod_State get_state();
-    Act_rply pause();
-    Act_rply play();
-    Act_rply prev();
-    Act_rply next();
-    Act_rply set_vol();
-    Act_rply start_song();
+    public:
+        VS1053();
+        void setup();
+        void loop();
+        Mod_State get_state();
+        Act_rply pause();
+        Act_rply play();
+        Act_rply prev();
+        Act_rply next();
+        Act_rply set_vol();
+        Act_rply start_song();
 
 };

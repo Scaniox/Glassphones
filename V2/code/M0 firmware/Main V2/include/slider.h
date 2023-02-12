@@ -20,12 +20,13 @@ class Slider{
     uint16_t cal_values[ELEMENTS];
 
     public:
-    void init();
-    void tick();
-    Mod_State get_state();
-    Act_rply calibrate(uint8_t cal_samples);
-    uint16_t read_sensor(uint8_t sensor_no);
-    void dump_raw();
-    void dump_cal();
-    int get_touch_points(uint8_t *points);
+        Slider();
+        void setup();
+        void loop();
+        Mod_State get_state();
+        Act_rply calibrate(uint8_t cal_samples);
+        uint16_t read_sensor(uint8_t sensor_no);
+        void dump_raw();
+        void dump_cal();
+        int get_touch_points(uint8_t *points);
 };
