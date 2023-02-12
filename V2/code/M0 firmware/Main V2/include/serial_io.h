@@ -8,15 +8,17 @@
 #include "module_common.h"
 
 class Serial_IO {
+    Serial_ serial;
     Mod_State state = Mod_State::UNINITIALISED;
     bool connected = false;
     bool debug = false;
 
     public:
-        Serial_IO();
+        Serial_IO(Serial_ serial);
         void setup();
         void loop();
         Mod_State get_state();
         Act_rply send_msg(String msg);
         void read_msg();
 };
+

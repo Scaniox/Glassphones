@@ -9,6 +9,10 @@
 #include "rgb.h"
 
 /* member function definitions */
-RGB::RGB() {};
-void RGB::setup() {};
-void RGB::loop() {};
+RGB::RGB(int n_leds, int p_rgb_dat, int p_rgb_en):
+    n_leds(n_leds),
+    p_rgb_dat(p_rgb_dat),
+    p_rgb_en(p_rgb_en) {}
+    
+void RGB::setup() {}
+void RGB::loop() {}

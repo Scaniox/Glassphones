@@ -11,10 +11,12 @@
 
 /* data types */
 class Pwr_led {
+    int p_led_pwm_out;
+    int p_temp_sense;
     Mod_State state = Mod_State::UNINITIALISED;
 
     public:
-        Pwr_led();
+        Pwr_led(int p_led_pwm_out, int p_temp_sense);
         void setup();
         void loop();
         Mod_State get_state();

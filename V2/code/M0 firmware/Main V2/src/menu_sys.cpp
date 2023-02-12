@@ -9,6 +9,6 @@
 #include "menu_sys.h"
 
 /* member function definitions */
-Menu_sys::Menu_sys() {};
-void Menu_sys::setup() {};
-void Menu_sys::loop() {};
+Menu_sys::Menu_sys() {}
+void Menu_sys::setup() {}
+void Menu_sys::loop() {}

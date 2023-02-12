@@ -10,12 +10,11 @@
 
 
 /* member function definitions */
-Serial_IO::Serial_IO() {
-    Serial.begin(115200);
-}
+Serial_IO::Serial_IO(Serial_ serial) : 
+    serial(serial) {}
 
-void Serial_IO::setup() {};
-void Serial_IO::loop() {};
+void Serial_IO::setup() {}
+void Serial_IO::loop() {}
 
 void Serial_IO::read_msg() {
     if (connected) {

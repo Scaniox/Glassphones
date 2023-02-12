@@ -9,6 +9,9 @@
 #include "slider.h"
 
 /* member function definitions */
-Slider::Slider() {};
+Slider::Slider(int n_element, int p_irq) :
+    n_element(n_element),
+    p_irq(p_irq) {}
+    
 void Slider::setup() {};
 void Slider::loop() {};

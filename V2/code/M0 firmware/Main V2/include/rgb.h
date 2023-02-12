@@ -8,18 +8,16 @@
 /* headers */
 #include "module_common.h"
 
-/* macros */
-#define NUM_LEDS 12
-#define P_RGB_DAT 2
-#define P_RGB_EN 11
-
 /* types */
 class RGB {
+    int n_leds;
+    int p_rgb_dat;
+    int p_rgb_en;
     Mod_State state = Mod_State::UNINITIALISED;
     bool enabled = false;
 
     public:
-        RGB();
+        RGB(int n_leds, int p_rgb_dat, int p_rgb_en);
         void setup();
         void loop();
         Mod_State get_state();

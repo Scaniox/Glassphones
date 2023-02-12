@@ -8,12 +8,12 @@
 #include "main.h"
 
 Sys sys;
-Pwr_led pwr_led;
-RGB rgb;
-Serial_IO ser_io;
+Pwr_led     pwr_led (P_PWR_LED_OUT, P_PWR_LED_TEMP);
+RGB         rgb(N_RGB_LEDS, P_RGB_DAT, P_RGB_EN);
+Serial_IO   ser_io(Serial);
 //IS2020 is2020(&Serial1);
-VS1053 vs1053;
-Menu_sys menu_sys;
+VS1053      vs1053;
+Menu_sys    menu_sys;
 
 void setup() {
     Serial1.begin(115200);

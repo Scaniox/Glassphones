@@ -5,8 +5,7 @@
  *         Date: 06/11/22
  *  Description: mpr121 1d capacitive touch slider HAL header
  ******************************************************************************/
-#define ELEMENTS 12
-#define MPR121_IRQ 3
+
 
 /* headers */
 #include "module_common.h"
@@ -14,13 +13,16 @@
 
 /* types */
 class Slider{
+    int n_element;
+    int p_irq;
+
     Mod_State state = Mod_State::UNINITIALISED;
     Adafruit_MPR121 cap = Adafruit_MPR121();
     int samples = 4;
-    uint16_t cal_values[ELEMENTS];
+    uint16_t cal_values[N_SLIDER_ELEMENTS];
 
     public:
-        Slider();
+        Slider(int n_element, int p_irq);
         void setup();
         void loop();
         Mod_State get_state();

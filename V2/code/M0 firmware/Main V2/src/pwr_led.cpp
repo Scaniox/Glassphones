@@ -9,6 +9,9 @@
 #include "pwr_led.h"
 
 /* member function definitions */
-Pwr_led::Pwr_led() {};
-void Pwr_led::setup() {};
-void Pwr_led::loop() {};
+Pwr_led::Pwr_led(int p_led_pwm_out, int p_temp_sense) :
+    p_led_pwm_out(p_led_pwm_out),
+    p_temp_sense(p_temp_sense) {}
+    
+void Pwr_led::setup() {}
+void Pwr_led::loop() {}
