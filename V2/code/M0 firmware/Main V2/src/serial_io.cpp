@@ -5,11 +5,17 @@
  *         Date: 22/01/23
  *  Description:
  ******************************************************************************/
+/* headers */
 #include "serial_io.h"
 
+
+/* member function definitions */
 Serial_IO::Serial_IO() {
     Serial.begin(115200);
 }
+
+void Serial_IO::setup() {};
+void Serial_IO::loop() {};
 
 void Serial_IO::read_msg() {
     if (connected) {

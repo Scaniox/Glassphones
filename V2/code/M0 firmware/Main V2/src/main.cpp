@@ -6,8 +6,6 @@
  *  Description: 
  ******************************************************************************/
 #include "main.h"
-using namespace std;
-
 
 Sys sys;
 Pwr_led pwr_led;

@@ -9,6 +9,8 @@
 #pragma once
 #include <Arduino.h>
 #include <stdint.h>
+using namespace std;
+
 
 /* types */
 enum Mod_State {/* current state of a module */
