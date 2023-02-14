@@ -7,11 +7,16 @@
  ******************************************************************************/
 #include "module_common.h"
 
+
+
 class Serial_IO {
     Serial_ serial;
     Mod_State state = Mod_State::UNINITIALISED;
     bool connected = false;
-    bool debug = false;
+    enum {DISSABLED, RGB, CAP, MPR_WRITE, SLIDER, SLIDER_RGB,
+          VS1053, PWR_LED, BM83_SER_BRIDGE, MENU
+    } debug = DISSABLED;
+    
 
     public:
         Serial_IO(Serial_ serial);
@@ -19,6 +24,6 @@ class Serial_IO {
         void loop();
         Mod_State get_state();
         Act_rply send_msg(String msg);
-        void read_msg();
+        void parse_RX();
 };
 
